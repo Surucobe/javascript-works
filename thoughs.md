@@ -1,4 +1,4 @@
-#What's next?#
+# What's next? #
 many though fly into my mind about what should i next and how, my knowledge in javascript grows more and more as my hunger for them does
 
 It's been a while since i decided to make a big change in my life and i actually put some work into it
