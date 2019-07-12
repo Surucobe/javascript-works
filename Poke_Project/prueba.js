@@ -28,7 +28,7 @@ async function whoIsPoke(i) {
 
  $poke.addEventListener('click', () =>{
   if (usuario.length < 5) {
-    swal('',`Tu equipo Pokemon debe contener 6 pokemones \n\ Tienes: ${usuario.length}`, 'error')
+    swal('',`Tu equipo Pokemon debe contener 6 pokemones \n\ Actualmente tienes: ${usuario.length} \n\ Restantes: ${6 - usuario.length}`, 'error')
   }else{
     let a = usuario.slice(0,5)
     swal('' ,`${a}`, 'success')
