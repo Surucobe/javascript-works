@@ -3,9 +3,6 @@ const POKE_URL_REAL = 'https:pokeapi.co/api/v2/pokemon/'
 let usuario = []
 let intel
 
-let x = 'armando'
-x.toUpperCase()
-
  const go = document.getElementById('pokedex')
  const $poke = document.getElementById('poke_all')
 
@@ -31,7 +28,7 @@ async function whoIsPoke(i) {
 
  $poke.addEventListener('click', () =>{
   if (usuario.length < 5) {
-    swal('','Tu equipo Pokemon debe contener 6 pokemones', 'error')
+    swal('',`Tu equipo Pokemon debe contener 6 pokemones \n\ Tienes: ${usuario.length}`, 'error')
   }else{
     let a = usuario.slice(0,5)
     swal('' ,`${a}`, 'success')
