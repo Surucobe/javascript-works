@@ -1,6 +1,6 @@
 *{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 45px;
+  margin: 0;
 }
 
 .swal-footer {
@@ -20,15 +20,56 @@
 }
 
 body{
-  margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   height: 100vh;
 }
 
+.pad{
+  /* height: 100vh; */
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows:  repeat(4, 90px);
+  /* grid-row-gap: 10px; */
+}
+
 .btn {
   border-radius: 4px;
   background: #4962B3;
+  font-size: 45px;
+}
+.title {
+  font-size: 45px;
+}
+.poke_team{
+  /* height: calc(100vh - 20px); */
+  height: 100vh;
+  width: 30vw;
+  /* border: 1px solid #0000ff; */
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 250px;
+  grid-template-rows: 6, 100px;
+  grid-row-gap: 10px;
+}
+
+.pokemon_elegido{
+  display: flex;
+  width: 100%;
+}
+
+.info_pokemon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-size: 20px;
+}
+
+.poke_img{
+  object-fit: contain;
 }
