@@ -7,6 +7,10 @@ const go = document.getElementById('pokedex')
 const $poke = document.getElementById('poke_all')
 const $box = document.getElementById('poke_box')
 const $bye = document.getElementById('poke_bye')
+const $agree = document.getElementById('agree')
+const $overlay = document.getElementById('overlay')
+const $modal = document.getElementById('modal')
+const $info = document.getElementById('info')
 
 async function whoIsPoke(i) {
   const brook = await fetch(`${POKE_URL_REAL}${i}`)
@@ -23,7 +27,7 @@ function registrarEquipo(poke) {
         <img src="${poke.sprites.front_default}" class="poke_img"></img>
         <div class="info_pokemon">
           <p>Name: ${poke.name}</p>
-          <p><span>Type: ${poke.types[0].type.name}</span></p>
+          <p><span><strong>Type: ${poke.types[0].type.name}</strong></span></p>
         </div>`
     )
   } else {
@@ -32,17 +36,22 @@ function registrarEquipo(poke) {
         <img src="${poke.sprites.front_default}" class="poke_img"></img>
         <div class="info_pokemon">
           <p>Name: ${poke.name}</p>
-          <p><span>Type: ${poke.types[0].type.name}</span> <br> <span>Type: ${poke.types[1].type.name}</span></p>
+          <p><span><strong>Type: ${poke.types[0].type.name}</span> <br> <span>Type: ${poke.types[1].type.name}</strong></span></p>
         </div>`
     )
   }
+}
+
+function registroPokemon() {
+  $overlay.classList.add('active')
 }
 
 go.addEventListener('click', () => {
   async function misty() {
     intel = prompt('Elige a tu compañero')
     const a = await whoIsPoke(intel)
-    swal(`Pokemon: ${a.name} \n\ ${a.abilities[0].ability.name}`)
+    alert(`Pokemon: ${a.name} \n\ ${a.abilities[0].ability.name}`)
+    registroPokemon()
   }
   misty()
 })
@@ -62,4 +71,9 @@ $poke.addEventListener('click', () => {
 
 $bye.addEventListener('click', () => {
   $box.innerHTML = ''
+})
+
+$agree.addEventListener('click', () =>{
+  $overlay.classList.remove('active')
+
 })
