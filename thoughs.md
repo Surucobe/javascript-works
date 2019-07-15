@@ -28,6 +28,15 @@ today i worked really hard i must say, i worked with dinamic content generated b
 how did it went?
 it went really well, at first i struggle generating the html that would held my dinamic content as it was suppose to bring an image an some text but it only bring the image, after fixing the html i manage to bring both images and text with no problem all that is left is for me to learn how to make it go away or refresh
 
-do i know how to do it? not yet, do i have an idea? a minor one, is it a good idea? hell no! but you know what? i get to have fun while doing so i feel closer to my goal 
+do i know how to do it? not yet, do i have an idea? a minor one, is it a good idea? hell no! but you know what? i get to have fun while doing so i feel closer to my goal
+
+## 14/07/2019 ##
+funny story, as i was working on the javscript file today i forgot that in order to work with an external api once the app is deployed i need to work on the cross origin for my app to work, i forgot to do that and i'm not sure how to do it just yet, so after a succesfull deploy of the web site with a fail app i went back to the code and seem that i delete something by mistake so my idea was, let me just go to my previous commit where everything is awesome! yeah....
+
+What Happened?
+well i was in a detached head of the commit and i forgot to see and keep working and ended up saving all the progress in there, yeah i know there is a way to move that commit but... i just remember that, in any case i had to add some of the changes i did to the master branch manually
+
+Did i learn something?
+yeah... the implementation of a hotfix branch is key for me to not loose my mind and keep workin, on a side note i learn how to remove the implemented html from javascript with more javascript! my app is starting to take shape
 
 ## I'm done studying, it's time to learn ##
