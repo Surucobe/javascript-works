@@ -47,14 +47,12 @@ body{
   font-size: 45px;
 }
 .poke_team{
-  /* height: calc(100vh - 20px); */
   height: 100vh;
-  width: 30vw;
-  /* border: 1px solid #0000ff; */
+  width: 500px;
   display: grid;
   justify-content: center;
   grid-template-columns: 250px;
-  grid-template-rows: 6, 100px;
+  grid-template-rows: repeat(6, 100px);
   grid-row-gap: 10px;
   overflow: hidden;
 }
@@ -74,4 +72,10 @@ body{
 
 .poke_img{
   object-fit: contain;
+}
+
+.main-button{
+  justify-self: normal;
+  display: flex;
+  justify-content: space-evenly;
 }
