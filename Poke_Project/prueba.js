@@ -12,10 +12,15 @@ const $overlay = document.getElementById('overlay')
 const $modal = document.getElementById('modal')
 const $info = document.getElementById('info')
 
+function createTemplate(string, elm){
+  const html = document.implementation.createHTMLDocument()
+  html.body.innerHTML = string
+  return elm.append(html.body.children[0])
+}
+
 async function whoIsPoke(i) {
   const brook = await fetch(`${POKE_URL_REAL}${i}`)
   const cook = await brook.json()
-  // let name = cook.name
   usuario.push(cook)
   return cook
 }
@@ -26,8 +31,8 @@ function registrarEquipo(poke) {
       `<div class="pokemon_elegido">
         <img src="${poke.sprites.front_default}" class="poke_img"></img>
         <div class="info_pokemon">
-          <p>Name: ${poke.name}</p>
-          <p><span><strong>Type: ${poke.types[0].type.name}</strong></span></p>
+          <p><strong>Name:</strong> ${poke.name}</p>
+          <p><span><strong>Type:</strong> ${poke.types[0].type.name}</span></p>
         </div>`
     )
   } else {
@@ -35,9 +40,29 @@ function registrarEquipo(poke) {
       `<div class="pokemon_elegido">
         <img src="${poke.sprites.front_default}" class="poke_img"></img>
         <div class="info_pokemon">
-          <p>Name: ${poke.name}</p>
-          <p><span><strong>Type: ${poke.types[0].type.name}</span> <br> <span>Type: ${poke.types[1].type.name}</strong></span></p>
+          <p><strong>Name:</strong> ${poke.name}</p>
+          <p><span><strong>Type:</strong> ${poke.types[0].type.name}</span> <br> <span><strong>Type</strong>: ${poke.types[1].type.name}</span></p>
         </div>`
+    )
+  }
+}
+
+function catchPoke(obj) {
+  debugger
+  if(obj.types.length < 2){
+    return(
+     `<img src="${obj.sprites.front_default}"></img>
+      <div>
+       <p><span><strong>Type</strong>:${obj.types[0].type.name}<span></p>
+      </div>`
+    )
+  }else{
+    return (
+      `<img src="${obj.sprites.front_default}">
+      <div>
+        <p><strong>Type</strong>:${obj.types[0].type.name}</p>
+        <p><strong>Type</strong>:${obj.types[1].type.name}</p>
+      </div>`
     )
   }
 }
@@ -50,7 +75,8 @@ go.addEventListener('click', () => {
   async function misty() {
     intel = prompt('Elige a tu compañero')
     const a = await whoIsPoke(intel)
-    alert(`Pokemon: ${a.name} \n\ ${a.abilities[0].ability.name}`)
+    const string = catchPoke(a)
+    createTemplate(string, $info)
     registroPokemon()
   }
   misty()
@@ -62,9 +88,7 @@ $poke.addEventListener('click', () => {
   } else {
     usuario.forEach((item) => {
       const pokeSTRING = registrarEquipo(item)
-      const html = document.implementation.createHTMLDocument()
-      html.body.innerHTML = pokeSTRING
-      $box.append(html.body.children[0])
+      createTemplate(pokeSTRING, $box)
     })
   }
 })
@@ -75,5 +99,5 @@ $bye.addEventListener('click', () => {
 
 $agree.addEventListener('click', () =>{
   $overlay.classList.remove('active')
-
+  $info.innerHTML = ''
 })
