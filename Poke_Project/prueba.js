@@ -1,7 +1,7 @@
 const POKE_URL_REAL = 'https:pokeapi.co/api/v2/pokemon/'
-
+const mensaje = ['¡Felicidades!', 'Busca a tu pokemon <br> por nombre o ID', 'Tu eqipo debe contener 6 pokemones Tienes:']
 const usuario = []
-let intel
+let intel 
 
 const go = document.getElementById('pokedex')
 const $poke = document.getElementById('poke_all')
@@ -11,6 +11,7 @@ const $agree = document.getElementById('agree')
 const $overlay = document.getElementById('overlay')
 const $modal = document.getElementById('modal')
 const $info = document.getElementById('info')
+const $titulo = document.getElementById('titulo')
 
 function createTemplate(string, elm){
   const html = document.implementation.createHTMLDocument()
@@ -21,6 +22,7 @@ function createTemplate(string, elm){
 function clean() {
   setTimeout(() => {
     $info.innerHTML = ''
+    $titulo.innerHTML = ''
   }, 1000);
 }
 
@@ -29,6 +31,12 @@ async function whoIsPoke(i) {
   const cook = await brook.json()
   usuario.push(cook)
   return cook
+}
+
+function titulo(n){
+  return(
+    `<h1 class="titulo-modal">${mensaje[n]}</h1>`
+  )
 }
 
 function registrarEquipo(poke) {
@@ -54,7 +62,6 @@ function registrarEquipo(poke) {
 }
 
 function catchPoke(obj) {
-  // debugger
   if(obj.types.length < 2){
     return(
       `<div class="modal-info-card">
@@ -81,20 +88,25 @@ function registroPokemon() {
   $overlay.classList.add('active')
 }
 
+async function misty() {
+  intel = prompt('Elige a tu compañero')
+  const a = await whoIsPoke(intel)
+  const string = catchPoke(a)
+  const stringTitle = titulo(0)
+  createTemplate(stringTitle, $titulo)
+  createTemplate(string, $info)
+  registroPokemon()
+}
+
 go.addEventListener('click', () => {
-  async function misty() {
-    intel = prompt('Elige a tu compañero')
-    const a = await whoIsPoke(intel)
-    const string = catchPoke(a)
-    createTemplate(string, $info)
-    registroPokemon()
-  }
   misty()
 })
 
 $poke.addEventListener('click', () => {
-  if (usuario.length < 1) {
-    swal('', `Para este reto debes tener un equipo de 6 pokemon \n\ \n\ Tu equipo contiene: ${usuario.length} pokemones`, 'error')
+  if (usuario.length < 2) {
+    let u = titulo(2)
+    createTemplate(u, $titulo)
+    registroPokemon()
   } else {
     usuario.forEach((item) => {
       const pokeSTRING = registrarEquipo(item)
@@ -107,7 +119,7 @@ $bye.addEventListener('click', () => {
   $box.innerHTML = ''
 })
 
-$agree.addEventListener('click', () =>{
+$agree.addEventListener('click', () => {
   $overlay.classList.remove('active')
   clean()
 })
