@@ -18,6 +18,12 @@ function createTemplate(string, elm){
   return elm.append(html.body.children[0])
 }
 
+function clean() {
+  setTimeout(() => {
+    $info.innerHTML = ''
+  }, 1000);
+}
+
 async function whoIsPoke(i) {
   const brook = await fetch(`${POKE_URL_REAL}${i}`)
   const cook = await brook.json()
@@ -99,5 +105,5 @@ $bye.addEventListener('click', () => {
 
 $agree.addEventListener('click', () =>{
   $overlay.classList.remove('active')
-  $info.innerHTML = ''
+  clean()
 })
