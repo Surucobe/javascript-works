@@ -58,6 +58,10 @@ body{
   object-fit: contain;
 }
 
+.modal-info-img{
+  width: 96px;
+}
+
 .main-button{
   justify-self: normal;
   display: flex;
@@ -66,18 +70,18 @@ body{
 
 
 .overlay{
-position: fixed;
-background-color: rgba(00, 00, 00, .8);
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-display: flex;
-align-items: center;
-justify-content: center;
-transition: .9s ease-in;
-opacity: 0;
-visibility: hidden;
+  position: fixed;
+  background-color: rgba(00, 00, 00, .8);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .9s ease-in;
+  opacity: 0;
+  visibility: hidden;
 }
 .overlay.active{
   opacity: 1;
@@ -89,6 +93,10 @@ visibility: hidden;
   position: relative;
   background: #fff;
   border-radius: 5px;
+  background-image: url('./img/pokeball.png'), url('./img/pokeball.png');
+  background-repeat: no-repeat;
+  background-size: 96px;
+  background-position-x: left, right;
   opacity: 1;
   display: grid;
   grid-template-columns: 1fr;
@@ -106,7 +114,13 @@ visibility: hidden;
   grid-area: info;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+.modal-info-card{
+  display: flex;
+}
+.single-type{
+  align-self: center;
 }
 .modal-info div p{
   margin: 15px;

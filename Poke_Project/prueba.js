@@ -54,21 +54,25 @@ function registrarEquipo(poke) {
 }
 
 function catchPoke(obj) {
-  debugger
+  // debugger
   if(obj.types.length < 2){
     return(
-     `<img src="${obj.sprites.front_default}"></img>
-      <div>
-       <p><span><strong>Type</strong>:${obj.types[0].type.name}<span></p>
-      </div>`
+      `<div class="modal-info-card">
+      <img src="${obj.sprites.front_default}" class="modal-info-img"></img>
+      <div class="single-type">
+        <p><strong>Type</strong>:${obj.types[0].type.name}</p>
+      </div>
+     </div>`
     )
   }else{
     return (
-      `<img src="${obj.sprites.front_default}">
+    `<div class="modal-info-card">
+      <img src="${obj.sprites.front_default}" class="modal-info-img"></img>
       <div>
         <p><strong>Type</strong>:${obj.types[0].type.name}</p>
         <p><strong>Type</strong>:${obj.types[1].type.name}</p>
-      </div>`
+      </div>
+     </div>`
     )
   }
 }
