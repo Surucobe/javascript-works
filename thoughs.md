@@ -39,4 +39,10 @@ well i was in a detached head of the commit and i forgot to see and keep working
 Did i learn something?
 yeah... the implementation of a hotfix branch is key for me to not loose my mind and keep workin, on a side note i learn how to remove the implemented html from javascript with more javascript! my app is starting to take shape
 
-## I'm done studying, it's time to learn ##
+## 15/07/2019 ##
+i'm writing the 15/07/2019 log on the day after, 16/07, due to a internet problem from yesterday that basically leave me with no internet till 12:35 from today 16, lucky me i manage to work on my projects before this happened
+
+What did i do?
+i working on a replacement for the sweet alert library i was using on my app, creating my own modal which will make everything sweet alert was doing AND more as i'm planning on replacing the propmt i'm using to catch the user request , this part should be easy the, ironically, hard part is the visual part i wish to add, right now the modal remain with some static elements but son enough it will be completely independant of these
+
+## is not how much time you have, is how you use it ##
