@@ -45,4 +45,10 @@ i'm writing the 15/07/2019 log on the day after, 16/07, due to a internet proble
 What did i do?
 i working on a replacement for the sweet alert library i was using on my app, creating my own modal which will make everything sweet alert was doing AND more as i'm planning on replacing the propmt i'm using to catch the user request , this part should be easy the, ironically, hard part is the visual part i wish to add, right now the modal remain with some static elements but son enough it will be completely independant of these
 
+## 16/07/2019 ##
+so.... the part i said was easy? yeah i don't wanna talk about that, let's just say i have a new respect on how prompt works, as i'm stil working on this new subject i learn that storing multiples answer in a single array to replace what's gonna be shown is a very comfortable practice, unlike what it looks like
+
+what did i do?
+not the propmt that what.... i keep making progress into a more dinamic app by aming to make a completely dinamic modal which will be basically empty, except for a button, till you hit a button i also learn you can work with multiple background, i've been thinking about storing all the string i have for javascript to build into a big array but i don't think is a good idea, at least not inside an array
+
 ## is not how much time you have, is how you use it ##
