@@ -62,11 +62,15 @@ function registrarEquipo(poke) {
 }
 
 function equipoIncompleto(poke){
-  debugger
   return(
     `<div class="modal-error">
       <h4>Debes tener 6 pokemones en tu equipo</h4>
-      <figure id="works">
+      <figure>
+      <img src="./img/pokeball.png" alt="" width="25px"></img>
+      <img src="./img/pokeball.png" alt="" width="25px"></img>
+      <img src="./img/pokeball.png" alt="" width="25px"></img>
+      <img src="./img/pokeball.png" alt="" width="25px"></img>
+      <img src="./img/pokeball.png" alt="" width="25px"></img>
       <img src="./img/pokeball.png" alt="" width="25px"></img>
       </figure>
       <h4>Tienes: ${poke.length}</h4>
@@ -119,7 +123,6 @@ $poke.addEventListener('click', () => {
   if (usuario.length < 2) {
     const u = titulo(2)
     createTemplate(u, $titulo)
-    // debugger
     const equipoString = equipoIncompleto(usuario)
     createTemplate(equipoString, $info)
     registroPokemon()
