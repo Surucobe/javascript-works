@@ -80,8 +80,8 @@ body{
   align-items: center;
   justify-content: center;
   transition: .9s ease-in;
-  /* opacity: 0;
-  visibility: hidden; */
+  opacity: 0;
+  visibility: hidden;
 }
 .overlay.active{
   opacity: 1;
