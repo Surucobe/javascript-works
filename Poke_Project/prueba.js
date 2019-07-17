@@ -1,5 +1,5 @@
 const POKE_URL_REAL = 'https:pokeapi.co/api/v2/pokemon/'
-const mensaje = ['¡Felicidades!', 'Busca a tu pokemon <br> por nombre o ID', 'Tu eqipo debe contener 6 pokemones Tienes:']
+const mensaje = ['¡Felicidades!', 'Busca a tu pokemon <br> por nombre o ID', 'Error']
 const usuario = []
 let intel 
 
@@ -35,7 +35,7 @@ async function whoIsPoke(i) {
 
 function titulo(n){
   return(
-    `<h1 class="titulo-modal">${mensaje[n]}</h1>`
+    `<h1>${mensaje[n]}</h1>`
   )
 }
 
