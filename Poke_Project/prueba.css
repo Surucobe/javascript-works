@@ -80,8 +80,8 @@ body{
   align-items: center;
   justify-content: center;
   transition: .9s ease-in;
-  opacity: 0;
-  visibility: hidden;
+  /* opacity: 0;
+  visibility: hidden; */
 }
 .overlay.active{
   opacity: 1;
@@ -116,10 +116,19 @@ body{
   align-items: center;
   justify-content: center;
 }
+.modal-error{
+  text-align: left;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+}
 .modal-info-card{
   display: flex;
 }
 .single-type{
+  align-self: center;
+}
+.double-type{
   align-self: center;
 }
 .modal-info div p{

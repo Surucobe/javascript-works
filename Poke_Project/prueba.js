@@ -61,6 +61,21 @@ function registrarEquipo(poke) {
   }
 }
 
+function equipoIncompleto(poke){
+  `<div class="modal-error">
+      <h4>Debes tener 6 pokemones en tu equipo</h4>
+      <figure>
+        <img src="./img/pokeball.png" alt="" width="25px">
+        <img src="./img/pokeball.png" alt="" width="25px">
+        <img src="./img/pokeball.png" alt="" width="25px">
+        <img src="./img/pokeball.png" alt="" width="25px">
+        <img src="./img/pokeball.png" alt="" width="25px">
+        <img src="./img/pokeball.png" alt="" width="25px">
+      </figure>
+      <h4>Tienes: </h4>
+    </div>`
+}
+
 function catchPoke(obj) {
   if(obj.types.length < 2){
     return(
@@ -75,7 +90,7 @@ function catchPoke(obj) {
     return (
     `<div class="modal-info-card">
       <img src="${obj.sprites.front_default}" class="modal-info-img"></img>
-      <div>
+      <div class="double-type">
         <p><strong>Type</strong>:${obj.types[0].type.name}</p>
         <p><strong>Type</strong>:${obj.types[1].type.name}</p>
       </div>
