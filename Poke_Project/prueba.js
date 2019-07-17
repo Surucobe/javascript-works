@@ -16,7 +16,7 @@ const $titulo = document.getElementById('titulo')
 function createTemplate(string, elm){
   const html = document.implementation.createHTMLDocument()
   html.body.innerHTML = string
-  return elm.append(html.body.children[0])
+  return elm.appendChild(html.body.children[0])
 }
 
 function clean() {
