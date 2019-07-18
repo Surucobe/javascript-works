@@ -51,4 +51,13 @@ so.... the part i said was easy? yeah i don't wanna talk about that, let's just 
 what did i do?
 not the propmt that what.... i keep making progress into a more dinamic app by aming to make a completely dinamic modal which will be basically empty, except for a button, till you hit a button i also learn you can work with multiple background, i've been thinking about storing all the string i have for javascript to build into a big array but i don't think is a good idea, at least not inside an array
 
+## 17/07/2019 ##
+Today i'm making this early, i usually write my progress at the end of the day before i go to sleep but today is different, i'm planning on going to sleep early as i'm currently sick and i need to take care of myself and my brilliant ideas, i believe is the first time i say that with no irony nor any sarcasm.... at least not too much
+
+am i feeling ok?
+not quite, beyond my sickness i'm worried about my laptop, it's not on it's best shape and i have no currency, money, tradeble chickens, or any kind of money i can use to buy a new one all i got is a goal of having a very good job that allows me to buy one some day
+
+was there any progress today?
+uhm.... yeah i made the error message of the modal completely dinamic, there is something else i wanna to implement still but idk how to do it just yet, give me some time and i did learn that you cannot get a dinamic id from an element but then again i'm still learning, idk how to explain this but i recently feel like a whole new world just open it's gates for me...
+
 ## is not how much time you have, is how you use it ##
