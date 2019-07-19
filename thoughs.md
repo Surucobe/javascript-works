@@ -60,4 +60,13 @@ not quite, beyond my sickness i'm worried about my laptop, it's not on it's best
 was there any progress today?
 uhm.... yeah i made the error message of the modal completely dinamic, there is something else i wanna to implement still but idk how to do it just yet, give me some time and i did learn that you cannot get a dinamic id from an element but then again i'm still learning, idk how to explain this but i recently feel like a whole new world just open it's gates for me...
 
+## 18/07/2019 ##
+
+today i started to see dinamic forms which is interesting and changes the way i'm looking at how to keep building my app, it seems easier in a way, yeah i'm trying to avoid creating the popmt i know BUT i also need to practice this sort of things so....
+
+today was short....
+yeah i got unexpected company so i need to finish early today but i have no excuse for tomorrow
+
+i'm feeling better by tthe wway!
+
 ## is not how much time you have, is how you use it ##
