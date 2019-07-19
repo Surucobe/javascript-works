@@ -129,7 +129,8 @@ $poke.addEventListener('click', () => {
     $info.innerHTML = equipoString
     registroPokemon()
   } else {
-    usuario.forEach((item) => {
+    let equipo = usuario.slice(0,5)
+    equipo.forEach((item) => {
       const pokeSTRING = registrarEquipo(item)
       createTemplate(pokeSTRING, $box)
     })

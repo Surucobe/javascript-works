@@ -36,7 +36,7 @@ body{
   display: grid;
   justify-content: center;
   grid-template-columns: 300px;
-  grid-template-rows: repeat(3, 100px);
+  grid-template-rows: repeat(6, 100px);
   grid-row-gap: 10px;
   overflow: hidden;
 }
