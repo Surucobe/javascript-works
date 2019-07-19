@@ -131,8 +131,7 @@ $poke.addEventListener('click', () => {
   } else {
     usuario.forEach((item) => {
       const pokeSTRING = registrarEquipo(item)
-      // createTemplate(pokeSTRING, $box)
-      $box.innerHTML = pokeSTRING
+      createTemplate(pokeSTRING, $box)
     })
   }
 })
