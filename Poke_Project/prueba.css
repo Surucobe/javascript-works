@@ -127,9 +127,11 @@ body{
 }
 .single-type{
   align-self: center;
+  font-size: 1.3em;
 }
 .double-type{
   align-self: center;
+  font-size: 1.3em;
 }
 .modal-info div p{
   margin: 15px;
@@ -154,4 +156,10 @@ body{
 }
 .agree:active{
   transform: scale(.7);
+}
+
+@media screen and (max-width: 768px){
+  .title{
+    font-size: 5px;
+  }
 }

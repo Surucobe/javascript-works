@@ -110,8 +110,10 @@ async function misty() {
   const a = await whoIsPoke(intel)
   const string = catchPoke(a)
   const stringTitle = titulo(0)
-  createTemplate(stringTitle, $titulo)
-  createTemplate(string, $info)
+  // createTemplate(stringTitle, $titulo)
+  // createTemplate(string, $info)
+  $info.innerHTML = string
+  $titulo.innerHTML = stringTitle
   registroPokemon()
 }
 
@@ -138,5 +140,5 @@ $bye.addEventListener('click', () => {
 
 $agree.addEventListener('click', () => {
   $overlay.classList.remove('active')
-  clean()
+  // clean()
 })
