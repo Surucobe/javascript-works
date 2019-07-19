@@ -19,12 +19,12 @@ function createTemplate(string, elm){
   return elm.appendChild(html.body.children[0])
 }
 
-function clean() {
-  setTimeout(() => {
-    $info.innerHTML = ''
-    $titulo.innerHTML = ''
-  }, 1000);
-}
+// function clean() {
+//   setTimeout(() => {
+//     $info.innerHTML = ''
+//     $titulo.innerHTML = ''
+//   }, 1000);
+// }
 
 async function whoIsPoke(i) {
   const brook = await fetch(`${POKE_URL_REAL}${i}`)
@@ -122,14 +122,17 @@ go.addEventListener('click', misty)
 $poke.addEventListener('click', () => {
   if (usuario.length < 2) {
     const u = titulo(2)
-    createTemplate(u, $titulo)
+    // createTemplate(u, $titulo)
+    $titulo.innerHTML = u
     const equipoString = equipoIncompleto(usuario)
-    createTemplate(equipoString, $info)
+    // createTemplate(equipoString, $info)
+    $info.innerHTML = equipoString
     registroPokemon()
   } else {
     usuario.forEach((item) => {
       const pokeSTRING = registrarEquipo(item)
-      createTemplate(pokeSTRING, $box)
+      // createTemplate(pokeSTRING, $box)
+      $box.innerHTML = pokeSTRING
     })
   }
 })
