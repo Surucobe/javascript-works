@@ -12,19 +12,13 @@ const $overlay = document.getElementById('overlay')
 const $modal = document.getElementById('modal')
 const $info = document.getElementById('info')
 const $titulo = document.getElementById('titulo')
+const $intel = document.querySelector('form')
 
 function createTemplate(string, elm){
   const html = document.implementation.createHTMLDocument()
   html.body.innerHTML = string
   return elm.appendChild(html.body.children[0])
 }
-
-// function clean() {
-//   setTimeout(() => {
-//     $info.innerHTML = ''
-//     $titulo.innerHTML = ''
-//   }, 1000);
-// }
 
 async function whoIsPoke(i) {
   const brook = await fetch(`${POKE_URL_REAL}${i}`)
@@ -106,12 +100,11 @@ function registroPokemon() {
 }
 
 async function misty() {
+  go.blur()
   intel = prompt('Elige a tu compañero')
   const a = await whoIsPoke(intel)
   const string = catchPoke(a)
   const stringTitle = titulo(0)
-  // createTemplate(stringTitle, $titulo)
-  // createTemplate(string, $info)
   $info.innerHTML = string
   $titulo.innerHTML = stringTitle
   registroPokemon()
@@ -143,5 +136,11 @@ $bye.addEventListener('click', () => {
 
 $agree.addEventListener('click', () => {
   $overlay.classList.remove('active')
-  // clean()
+})
+
+$intel.addEventListener('submit', (event) => {
+  event.preventDefault()
+  $overlay.classList.add('active')
+  
+  const dato = new FormData($intel)
 })
