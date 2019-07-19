@@ -115,9 +115,7 @@ async function misty() {
   registroPokemon()
 }
 
-go.addEventListener('click', () => {
-  misty()
-})
+go.addEventListener('click', misty)
 
 $poke.addEventListener('click', () => {
   if (usuario.length < 2) {
