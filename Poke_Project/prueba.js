@@ -138,9 +138,11 @@ $agree.addEventListener('click', () => {
   $overlay.classList.remove('active')
 })
 
-$intel.addEventListener('submit', (event) => {
+$intel.addEventListener('submit', async (event) => {
   event.preventDefault()
   $overlay.classList.add('active')
   
   const dato = new FormData($intel)
+  const subaru = await whoIsPoke(dato.get('name'))
+  debugger
 })
