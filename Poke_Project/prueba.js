@@ -1,7 +1,6 @@
 const POKE_URL_REAL = 'https:pokeapi.co/api/v2/pokemon/'
 const mensaje = ['¡Felicidades!', 'Busca a tu pokemon <br> por nombre o ID', 'Error']
 const usuario = []
-let intel 
 
 const go = document.getElementById('pokedex')
 const $poke = document.getElementById('poke_all')
@@ -99,10 +98,9 @@ function registroPokemon() {
   $overlay.classList.add('active')
 }
 
-async function misty() {
-  go.blur()
-  intel = prompt('Elige a tu compañero')
-  const a = await whoIsPoke(intel)
+async function misty(tag) {
+  $intel.blur()
+  const a = await whoIsPoke(tag)
   const string = catchPoke(a)
   const stringTitle = titulo(0)
   $info.innerHTML = string
@@ -110,7 +108,17 @@ async function misty() {
   registroPokemon()
 }
 
-go.addEventListener('click', misty)
+$intel.addEventListener('submit', async (event) => {
+  event.preventDefault()
+
+  const dato = new FormData($intel)
+  const subaru = dato.get('name')
+  misty(subaru)
+
+  $overlay.classList.add('active')
+})
+
+// go.addEventListener('click', misty) // cambiar para quitar pokemon de la lista
 
 $poke.addEventListener('click', () => {
   if (usuario.length < 2) {
@@ -136,13 +144,4 @@ $bye.addEventListener('click', () => {
 
 $agree.addEventListener('click', () => {
   $overlay.classList.remove('active')
-})
-
-$intel.addEventListener('submit', async (event) => {
-  event.preventDefault()
-  $overlay.classList.add('active')
-  
-  const dato = new FormData($intel)
-  const subaru = await whoIsPoke(dato.get('name'))
-  debugger
 })
