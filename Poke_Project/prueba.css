@@ -68,6 +68,16 @@ body{
   justify-content: space-evenly;
 }
 
+.search{
+  display: flex;
+  align-items: center;
+}
+.search input{
+  border-radius: 5px;
+  height: 1.5em;
+  width: 200px;
+}
+
 
 .overlay{
   position: fixed;

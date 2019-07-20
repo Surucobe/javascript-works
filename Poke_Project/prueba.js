@@ -1,7 +1,6 @@
 const POKE_URL_REAL = 'https:pokeapi.co/api/v2/pokemon/'
 const mensaje = ['¡Felicidades!', 'Busca a tu pokemon <br> por nombre o ID', 'Error']
 const usuario = []
-let intel 
 
 const go = document.getElementById('pokedex')
 const $poke = document.getElementById('poke_all')
@@ -12,19 +11,13 @@ const $overlay = document.getElementById('overlay')
 const $modal = document.getElementById('modal')
 const $info = document.getElementById('info')
 const $titulo = document.getElementById('titulo')
+const $intel = document.querySelector('form')
 
 function createTemplate(string, elm){
   const html = document.implementation.createHTMLDocument()
   html.body.innerHTML = string
   return elm.appendChild(html.body.children[0])
 }
-
-// function clean() {
-//   setTimeout(() => {
-//     $info.innerHTML = ''
-//     $titulo.innerHTML = ''
-//   }, 1000);
-// }
 
 async function whoIsPoke(i) {
   const brook = await fetch(`${POKE_URL_REAL}${i}`)
@@ -105,19 +98,27 @@ function registroPokemon() {
   $overlay.classList.add('active')
 }
 
-async function misty() {
-  intel = prompt('Elige a tu compañero')
-  const a = await whoIsPoke(intel)
+async function misty(tag) {
+  $intel.blur()
+  const a = await whoIsPoke(tag)
   const string = catchPoke(a)
   const stringTitle = titulo(0)
-  // createTemplate(stringTitle, $titulo)
-  // createTemplate(string, $info)
   $info.innerHTML = string
   $titulo.innerHTML = stringTitle
   registroPokemon()
 }
 
-go.addEventListener('click', misty)
+$intel.addEventListener('submit', async (event) => {
+  event.preventDefault()
+
+  const dato = new FormData($intel)
+  const subaru = dato.get('name')
+  misty(subaru)
+
+  $overlay.classList.add('active')
+})
+
+// go.addEventListener('click', misty) // cambiar para quitar pokemon de la lista
 
 $poke.addEventListener('click', () => {
   if (usuario.length < 2) {
@@ -143,5 +144,4 @@ $bye.addEventListener('click', () => {
 
 $agree.addEventListener('click', () => {
   $overlay.classList.remove('active')
-  // clean()
 })
