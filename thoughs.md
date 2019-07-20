@@ -69,4 +69,13 @@ yeah i got unexpected company so i need to finish early today but i have no excu
 
 i'm feeling better by tthe wway!
 
-## is not how much time you have, is how you use it ##
+## 20/07/2019 ##
+
+today i start working with a new idea, instead of summoning a propmt into my app to take the users' input, work with an actual input printed in my html in order to well firstly try something new, working with a form in javascript, and making my app visual part on the website better by being able to work with an element i can customize.... NO i'm not avoiding the propmt!
+
+how did that go?
+terrible i know squat about making form from jsvascript, i barely manage to get the input data in a const at the end of the day AND i can't help to feel fucking amazing for it! it was challenging it was new and at the end i manage to get my object in answer to my input and even tho i don't have this new branch incorporated and working on the master branch is exciting to try something new, i don't understand this new methods YET, but i will soon, give me an actual day to sit, read and practice i still need to improve some minor and some other major things, but my future projects will be gratefull i took my time learning
+
+P.S Future me, if you are reading this and you are being an ass, remember that people is just scared of being judge they are scared of being nice to people and people not being nice to them, give them time
+
+## everybody wants to be famous but no body wants to de the work ##
