@@ -113,7 +113,7 @@ $intel.addEventListener('submit', async (event) => {
 
   const dato = new FormData($intel)
   const subaru = dato.get('name')
-  misty(subaru)
+  await misty(subaru)
 
   $overlay.classList.add('active')
 })
