@@ -61,7 +61,6 @@ was there any progress today?
 uhm.... yeah i made the error message of the modal completely dinamic, there is something else i wanna to implement still but idk how to do it just yet, give me some time and i did learn that you cannot get a dinamic id from an element but then again i'm still learning, idk how to explain this but i recently feel like a whole new world just open it's gates for me...
 
 ## 18/07/2019 ##
-
 today i started to see dinamic forms which is interesting and changes the way i'm looking at how to keep building my app, it seems easier in a way, yeah i'm trying to avoid creating the popmt i know BUT i also need to practice this sort of things so....
 
 today was short....
@@ -69,13 +68,18 @@ yeah i got unexpected company so i need to finish early today but i have no excu
 
 i'm feeling better by tthe wway!
 
-## 20/07/2019 ##
-
-today i start working with a new idea, instead of summoning a propmt into my app to take the users' input, work with an actual input printed in my html in order to well firstly try something new, working with a form in javascript, and making my app visual part on the website better by being able to work with an element i can customize.... NO i'm not avoiding the propmt!
+## 19/07/2019 ##
+today i start working with a new idea, instead of summoning a propmt into my app to take the users' input, work with an actual input printed in my html in order to well firstly try something new, working with a form in javascript, and making my app visual part on the website better by being able to work with an element i can customize.... NO, i'm not avoiding the propmt!
 
 how did that go?
 terrible i know squat about making form from jsvascript, i barely manage to get the input data in a const at the end of the day AND i can't help to feel fucking amazing for it! it was challenging it was new and at the end i manage to get my object in answer to my input and even tho i don't have this new branch incorporated and working on the master branch is exciting to try something new, i don't understand this new methods YET, but i will soon, give me an actual day to sit, read and practice i still need to improve some minor and some other major things, but my future projects will be gratefull i took my time learning
 
 P.S Future me, if you are reading this and you are being an ass, remember that people is just scared of being judge they are scared of being nice to people and people not being nice to them, give them time
+
+## 20/07/2019 ##
+so today i kept working on the form and made it work! end of today's log!
+
+what's that really all?
+ok no but it's really all that i did, well i did learn that using a propmt in different from the input when it comes to getting the users input, you see, it seems that the propmt stores the value while the input just hold it as it is submit, is quite different giving me the awkward result of the modal showing up empty white while my code gets the information, javascript asynchronism, so in order to manage that a little better i decided to just tell the code to wait and it does work on the most part, i need to make the code to wait for the image to load before showing the modal but i think is time to move into the styles and maybe another project
 
 ## everybody wants to be famous but no body wants to de the work ##
