@@ -22,6 +22,7 @@ function createTemplate(string, elm){
 async function whoIsPoke(i) {
   const brook = await fetch(`${POKE_URL_REAL}${i}`)
   const cook = await brook.json()
+  //evaluar si el elemento existe dentro del array
   usuario.push(cook)
   return cook
 }
@@ -105,7 +106,7 @@ async function misty(tag) {
   const stringTitle = titulo(0)
   $info.innerHTML = string
   $titulo.innerHTML = stringTitle
-  registroPokemon()
+  registroPokemon
 }
 
 $intel.addEventListener('submit', async (event) => {
@@ -118,7 +119,7 @@ $intel.addEventListener('submit', async (event) => {
   $overlay.classList.add('active')
 })
 
-// go.addEventListener('click', misty) // cambiar para quitar pokemon de la lista
+//go.addEventListener('click') // cambiar para quitar pokemon de la lista
 
 $poke.addEventListener('click', () => {
   if (usuario.length < 2) {
