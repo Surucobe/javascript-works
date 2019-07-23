@@ -82,4 +82,18 @@ so today i kept working on the form and made it work! end of today's log!
 what's that really all?
 ok no but it's really all that i did, well i did learn that using a propmt in different from the input when it comes to getting the users input, you see, it seems that the propmt stores the value while the input just hold it as it is submit, is quite different giving me the awkward result of the modal showing up empty white while my code gets the information, javascript asynchronism, so in order to manage that a little better i decided to just tell the code to wait and it does work on the most part, i need to make the code to wait for the image to load before showing the modal but i think is time to move into the styles and maybe another project
 
+## 22/07/2019
+today i started working on my portfolio, i decided to put a pause on my poke app and start moving on with my protfolio whit a cool picture of a couple of hardworking stormtrooper
+
+what happened?
+there was a massive blackout in my country.... no energy till around 1 or 2 am maybe and then around 4 am light was off again, internet hasn't come back ever since and all i did was the side bar and the main page so yeah there is that
+
+##23/07/2019
+energy finally came back like 1 or two hours ago, it's 14:17pm at the time i write this down and while i work on my portfolio
+
+why so early?
+i don't know if there will be energy later... there's no warranty i won't spend another 12 hours with no energy so i wanted to be a little proactive and work on my projects... nope internet is still gone so i haven't been able to update my github, it only hurts the fact that my cute activity summary on github is gonna have a few gray squares but that's actually the least of my problems right? if you wonder how it feels like to be in the pitch dark for so long, it's like boxing blindfolded you are not even sure who are you fighting, how many are you fighting or if you are even fighting time even pass slower, huh!
+
+i won't give up, it takes more than this to make me quit, actually there's nothing that can make me quit now!
+
 ## everybody wants to be famous but no body wants to de the work ##
