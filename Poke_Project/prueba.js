@@ -36,7 +36,7 @@ function titulo(n){
 function registrarEquipo(poke) {
   if (poke.types.length < 2) {
     return (
-      `<div class="pokemon_elegido">
+      `<div class="pokemon_elegido" data-id="${poke.id}">
         <img src="${poke.sprites.front_default}" class="poke_img"></img>
         <div class="info_pokemon">
           <p><strong>Name:</strong> ${poke.name}</p>
@@ -45,11 +45,11 @@ function registrarEquipo(poke) {
     )
   } else {
     return (
-      `<div class="pokemon_elegido">
+      `<div class="pokemon_elegido" data-id="${poke.id}">
         <img src="${poke.sprites.front_default}" class="poke_img"></img>
         <div class="info_pokemon">
           <p><strong>Name:</strong> ${poke.name}</p>
-          <p><span><strong>Type:</strong> ${poke.types[0].type.name}</span> <br> <span><strong>Type</strong>: ${poke.types[1].type.name}</span></p>
+          <p><span><strong>Type:</strong> ${poke.types[0].type.name}</span> <br> <span><strong>Type:</strong> ${poke.types[1].type.name}</span></p>
         </div>`
     )
   }
@@ -123,9 +123,9 @@ $intel.addEventListener('submit', async (event) => {
 
 $poke.addEventListener('click', () => {
   if (usuario.length < 2) {
-    const u = titulo(2)
+    const titu = titulo(2)
     // createTemplate(u, $titulo)
-    $titulo.innerHTML = u
+    $titulo.innerHTML = titu
     const equipoString = equipoIncompleto(usuario)
     // createTemplate(equipoString, $info)
     $info.innerHTML = equipoString

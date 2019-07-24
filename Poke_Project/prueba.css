@@ -35,15 +35,25 @@ body{
   width: 500px;
   display: grid;
   justify-content: center;
-  grid-template-columns: 300px;
+  align-items: center;
+  grid-template-columns: 400px;
   grid-template-rows: repeat(6, 100px);
-  grid-row-gap: 10px;
+  grid-row-gap: 5px;
   overflow: hidden;
+  background-color: rgb(156, 12, 12);
 }
 
 .pokemon_elegido{
-  display: flex;
+  display: grid;
+  grid-template-columns: 130px 210px;
+  justify-content: space-evenly;
   width: 100%;
+}
+.pokemon_elegido strong{
+  color: #000;
+}
+.pokemon_elegido p{
+  color: #fff;
 }
 
 .info_pokemon{
