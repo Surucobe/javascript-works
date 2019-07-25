@@ -102,4 +102,13 @@ i don't know if there will be energy later... there's no warranty i won't spend 
 
 i won't give up, it takes more than this to make me quit, actually there's nothing that can make me quit now!
 
+##24/07/2019
+give me a moment i was laughing....
+
+better now?
+is important to keep a healthy mind one that can be a flow of unlimited ideas and plans and what a better way to do that than laughing, after every lesson and sometimes while i code i put on some funny videos to have a nice laugh andit feel amazing! i mean my mouth hurts but for a good reason 
+
+what about the projects?
+i'm giving a rest to the main project i was working on till i get some new ideas to add and in the meanwhile i started working on my portfolio, this will be my best work yet, the goal is to make an incredible personal website aiming to show anyone who enters in this one who am i and what can he expect from me if he hires me, i'm moving on my projects but still need to get back to some other stuff, i'm glad i have many things to do!
+
 ## everybody wants to be famous but no body wants to de the work
