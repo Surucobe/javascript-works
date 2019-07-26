@@ -184,6 +184,35 @@ body{
   transform: scale(.7);
 }
 
+.lista-pokemon{
+  position: fixed;
+  background-color: rgba(00, 00, 00, .8);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-pokemon{
+  overflow: auto;
+  background-color: #fff;
+  border-radius: 6px;
+  height: 600px;
+  width: 800px;
+  padding: 10px 15px;
+  display: grid;
+  grid-template: repeat(auto-fill, 60px)/repeat(auto-fill, 60px);
+}
+
+.testing{
+  border: 1px solid #000;
+  width: 60px;
+  height: 60px;
+}
+
 @media (max-width: 800px){
   .title{
     font-size: 5px;
