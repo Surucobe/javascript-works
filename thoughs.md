@@ -111,4 +111,10 @@ is important to keep a healthy mind one that can be a flow of unlimited ideas an
 what about the projects?
 i'm giving a rest to the main project i was working on till i get some new ideas to add and in the meanwhile i started working on my portfolio, this will be my best work yet, the goal is to make an incredible personal website aiming to show anyone who enters in this one who am i and what can he expect from me if he hires me, i'm moving on my projects but still need to get back to some other stuff, i'm glad i have many things to do!
 
+##25/07/2019
+apparently i kinda miss a day, i've been coding every single day, some less than other, but every day but i guess that in this madness i'm living in i miss a day due to energy problems
+
+how you doing?
+i'm going well, today i keep working to imrpove my app making sure that once an object is already inside of an array a second object won't go inside the problem may be the fact that i used a second array to evaluate this, the second option would be to evaluate a single array and work on a function to take out the id of those objects to tranforms them into objects again soon in the app but sounds like lots more of code and making new petitions and sounds longer and not quite efficience, may look for a different solution soon tho, a new idea pop into my head, creat the ultimate catalog with ALL the pokemons and IT IS madness but i like how it sounds
+
 ## everybody wants to be famous but no body wants to de the work
