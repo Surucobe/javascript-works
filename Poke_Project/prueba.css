@@ -91,6 +91,7 @@ body{
   border-radius: 5px;
   height: 1.5em;
   width: 200px;
+  outline: 0;
 }
 
 

@@ -1,6 +1,7 @@
 const POKE_URL_REAL = 'https:pokeapi.co/api/v2/pokemon/'
 const mensaje = ['¡Felicidades!', 'Busca a tu pokemon <br> por nombre o ID', 'Error']
 const usuario = []
+const pokebox = []
 
 const go = document.getElementById('pokedex')
 const $poke = document.getElementById('poke_all')
@@ -19,11 +20,18 @@ function createTemplate(string, elm){
   return elm.appendChild(html.body.children[0])
 }
 
-async function whoIsPoke(i) {
-  const brook = await fetch(`${POKE_URL_REAL}${i}`)
+function yaRegistrado(obj){
+  debugger
+  const dato = pokebox.includes(obj.id)
+  if(dato == false){
+    pokebox.push(obj.id)
+    usuario.push(obj)
+  }
+}
+
+async function whoIsPoke(str) {
+  const brook = await fetch(`${POKE_URL_REAL}${str}`)
   const cook = await brook.json()
-  //evaluar si el elemento existe dentro del array
-  usuario.push(cook)
   return cook
 }
 
@@ -99,9 +107,10 @@ function registroPokemon() {
   $overlay.classList.add('active')
 }
 
-async function misty(tag) {
+async function misty(dato) {
   $intel.blur()
-  const a = await whoIsPoke(tag)
+  const a = await whoIsPoke(dato, usuario)
+  yaRegistrado(a)
   const string = catchPoke(a)
   const stringTitle = titulo(0)
   $info.innerHTML = string
@@ -111,7 +120,6 @@ async function misty(tag) {
 
 $intel.addEventListener('submit', async (event) => {
   event.preventDefault()
-
   const dato = new FormData($intel)
   const subaru = dato.get('name')
   await misty(subaru)
@@ -124,10 +132,8 @@ $intel.addEventListener('submit', async (event) => {
 $poke.addEventListener('click', () => {
   if (usuario.length < 2) {
     const titu = titulo(2)
-    // createTemplate(u, $titulo)
     $titulo.innerHTML = titu
     const equipoString = equipoIncompleto(usuario)
-    // createTemplate(equipoString, $info)
     $info.innerHTML = equipoString
     registroPokemon()
   } else {
@@ -146,3 +152,11 @@ $bye.addEventListener('click', () => {
 $agree.addEventListener('click', () => {
   $overlay.classList.remove('active')
 })
+
+//quiza lo cambie o lo quite
+$intel.addEventListener('focus', (event) =>{
+  event.target.style.background = 'pink'
+}, true)
+$intel.addEventListener('blur', (event) =>{
+  event.target.style.background = ''
+}, true)
