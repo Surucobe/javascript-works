@@ -194,6 +194,14 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
+  transform: 1s linear;
+}
+.lista-pokemon.active{
+  opacity: 1.1;
+  visibility: visible;
 }
 
 .modal-pokemon{
@@ -204,7 +212,68 @@ body{
   width: 800px;
   padding: 10px 15px;
   display: grid;
+  grid-gap: 15px;
   grid-template: repeat(auto-fill, 60px)/repeat(auto-fill, 60px);
+  justify-content: center;
+  position: relative;
+  scroll-behavior: smooth;
+  scroll-behavior: unset;
+  animation: modalOut .8s forwards;
+}
+.modal-pokemon::-webkit-scrollbar{
+  display: none;
+}
+.close{
+  background-color: #ff463d;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 10px;
+  top: 10px;
+  outline: 0;
+  transition: .7s;
+  box-shadow: 4px 4px  #ccc;
+}
+.close:active{
+  transform: scale(.8);
+}
+
+.library-pkm{
+  width: 80px;
+}
+.library-pkm:hover{
+  background-color: #4962B3;
+}
+
+@keyframes modalIn{
+  0%{
+    transform: translateY(-3000px)
+  }
+  60%{
+    transform: translateY(25px);
+  }
+  75%{
+    transform: translateY(-10px);
+  }
+  90%{
+    transform: translateY(5px);
+  }
+}
+@keyframes modalOut{
+  0%{
+    transform: translateY(5px)
+  }
+  60%{
+    transform: translateY(-25px)
+  }
+  75%{
+    transform: translateY(25px)
+  }
+  100%{
+    transform: translateY(-3000px)
+  }
 }
 
 .testing{

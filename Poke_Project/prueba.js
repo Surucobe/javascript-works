@@ -13,6 +13,9 @@ const $modal = document.getElementById('modal')
 const $info = document.getElementById('info')
 const $titulo = document.getElementById('titulo')
 const $intel = document.querySelector('form')
+const $national = document.getElementById('national')
+const $library = document.getElementById('library')
+const $close = document.getElementById('close')
 
 function createTemplate(string, elm){
   const html = document.implementation.createHTMLDocument()
@@ -29,8 +32,8 @@ function yaRegistrado(obj){
   }
 }
 
-async function whoIsPoke(str) {
-  const brook = await fetch(`${POKE_URL_REAL}${str}`)
+async function whoIsPoke(i) {
+  const brook = await fetch(`${POKE_URL_REAL}${i}`)
   const cook = await brook.json()
   return cook
 }
@@ -38,6 +41,12 @@ async function whoIsPoke(str) {
 function titulo(n){
   return(
     `<h1>${mensaje[n]}</h1>`
+  )
+}
+
+function nationalPokedex(obj){
+  return(
+    `<img src="${obj.sprites.front_default}" alt="${obj.name}" data-set="${obj.id}" class="library-pkm">`
   )
 }
 
@@ -127,7 +136,14 @@ $intel.addEventListener('submit', async (event) => {
   $overlay.classList.add('active')
 })
 
-//go.addEventListener('click') // cambiar para quitar pokemon de la lista
+go.addEventListener('click', () =>{
+  $national.classList.add('active')
+  $library.style.animation = 'modalIn .8s'
+})
+$close.addEventListener('click', ()=>{
+    $national.classList.remove('active')
+    $library.style.animation = 'modalOut .8s forwards'
+})
 
 $poke.addEventListener('click', () => {
   if (usuario.length < 2) {
@@ -155,8 +171,17 @@ $agree.addEventListener('click', () => {
 
 //quiza lo cambie o lo quite
 $intel.addEventListener('focus', (event) =>{
-  event.target.style.background = 'pink'
+  event.target.style.background = 'blue'
 }, true)
 $intel.addEventListener('blur', (event) =>{
   event.target.style.background = ''
 }, true)
+
+async function createLibrary(){
+  for(let i = 1; i <= 802; i++){
+    const a = await whoIsPoke(i)
+    const str = nationalPokedex(a)
+    createTemplate(str, $library) 
+  }
+}
+createLibrary()
