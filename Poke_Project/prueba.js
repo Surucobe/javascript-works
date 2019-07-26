@@ -24,7 +24,6 @@ function createTemplate(string, elm){
 }
 
 function yaRegistrado(obj){
-  debugger
   const dato = pokebox.includes(obj.id)
   if(dato == false){
     pokebox.push(obj.id)
@@ -144,6 +143,12 @@ $close.addEventListener('click', ()=>{
     $national.classList.remove('active')
     $library.style.animation = 'modalOut .8s forwards'
 })
+$national.addEventListener('click', (event)=>{
+  if(event.target === $national){
+    $national.classList.remove('active')
+    $library.style.animation = 'modalOut .8s forwards'
+  }
+})
 
 $poke.addEventListener('click', () => {
   if (usuario.length < 2) {
@@ -171,7 +176,7 @@ $agree.addEventListener('click', () => {
 
 //quiza lo cambie o lo quite
 $intel.addEventListener('focus', (event) =>{
-  event.target.style.background = 'blue'
+  event.target.style.background = '#61dafb'
 }, true)
 $intel.addEventListener('blur', (event) =>{
   event.target.style.background = ''

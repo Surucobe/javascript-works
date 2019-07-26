@@ -211,11 +211,11 @@ body{
   height: 600px;
   width: 800px;
   padding: 10px 15px;
+  position: relative;
   display: grid;
   grid-gap: 15px;
-  grid-template: repeat(auto-fill, 60px)/repeat(auto-fill, 60px);
+  grid-template: repeat(auto-fill, 75px)/repeat(auto-fill, 75px);
   justify-content: center;
-  position: relative;
   scroll-behavior: smooth;
   scroll-behavior: unset;
   animation: modalOut .8s forwards;
@@ -241,7 +241,9 @@ body{
 }
 
 .library-pkm{
-  width: 80px;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
 }
 .library-pkm:hover{
   background-color: #4962B3;
@@ -274,12 +276,6 @@ body{
   100%{
     transform: translateY(-3000px)
   }
-}
-
-.testing{
-  border: 1px solid #000;
-  width: 60px;
-  height: 60px;
 }
 
 @media (max-width: 800px){
