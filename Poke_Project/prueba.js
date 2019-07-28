@@ -32,13 +32,14 @@ function yaRegistrado(obj){
 }
 
 async function whoIsPoke(i) {
-    const brook = await fetch(`${POKE_URL_REAL}${i}`)
-    const cook = await brook.json()
-    // debugger
-    if(cook.is_default === true){
-      return cook
-    }
-    throw new Error("El pokemon no existe... aun")
+  const brook = await fetch(`${POKE_URL_REAL}${i}`)
+  const cook = await brook.json()
+  // posible cambio: almacenar cada objeto en un array
+  if(cook.is_default === true){
+    return cook
+  }
+  //chequear a profundidad
+  throw new Error("El pokemon no existe... aun")
 }
 
 
@@ -46,6 +47,10 @@ function titulo(n){
   return(
     `<h1>${mensaje[n]}</h1>`
   )
+}
+
+function almacen({name}){
+  window.localStorage.setItem(name, {'name' : name})
 }
 
 function nationalPokedex(obj){
@@ -122,13 +127,13 @@ function registroPokemon() {
 
 async function misty(dato) {
   $intel.blur()
-  const a = await whoIsPoke(dato, usuario)
+  const a = await whoIsPoke(dato)
   yaRegistrado(a)
   const string = catchPoke(a)
   const stringTitle = titulo(0)
   $info.innerHTML = string
   $titulo.innerHTML = stringTitle
-  registroPokemon
+  registroPokemon()
 }
 
 $intel.addEventListener('submit', async (event) => {
