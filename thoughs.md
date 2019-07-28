@@ -117,4 +117,10 @@ apparently i kinda miss a day, i've been coding every single day, some less than
 how you doing?
 i'm going well, today i keep working to imrpove my app making sure that once an object is already inside of an array a second object won't go inside the problem may be the fact that i used a second array to evaluate this, the second option would be to evaluate a single array and work on a function to take out the id of those objects to tranforms them into objects again soon in the app but sounds like lots more of code and making new petitions and sounds longer and not quite efficience, may look for a different solution soon tho, a new idea pop into my head, creat the ultimate catalog with ALL the pokemons and IT IS madness but i like how it sounds
 
+##26/07/2019
+today was an interesting day, i improve my app and check some new things on my classes i feel glad to understand everything i do, and even when i get a little lost i can just start reading what i'm doing
+
+what's next now?
+many ideas and thoughs run through my head wildly, idk how to make most of them and i'm not sure how to make the other but i yet but i know is possible and i just need some time, i've been thinking about trying the 100 days of code challenge again, i mean i'm already on it on my own but this time i would like to finish this
+
 ## everybody wants to be famous but no body wants to de the work
