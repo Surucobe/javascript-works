@@ -32,10 +32,15 @@ function yaRegistrado(obj){
 }
 
 async function whoIsPoke(i) {
-  const brook = await fetch(`${POKE_URL_REAL}${i}`)
-  const cook = await brook.json()
-  return cook
+    const brook = await fetch(`${POKE_URL_REAL}${i}`)
+    const cook = await brook.json()
+    // debugger
+    if(cook.is_default === true){
+      return cook
+    }
+    throw new Error("El pokemon no existe... aun")
 }
+
 
 function titulo(n){
   return(
@@ -130,9 +135,12 @@ $intel.addEventListener('submit', async (event) => {
   event.preventDefault()
   const dato = new FormData($intel)
   const subaru = dato.get('name')
-  await misty(subaru)
-
-  $overlay.classList.add('active')
+  try{
+    await misty(subaru)
+    $overlay.classList.add('active')
+  }catch(error){
+    alert(error)
+  }
 })
 
 go.addEventListener('click', () =>{
@@ -186,7 +194,7 @@ async function createLibrary(){
   for(let i = 1; i <= 802; i++){
     const a = await whoIsPoke(i)
     const str = nationalPokedex(a)
-    createTemplate(str, $library) 
+    createTemplate(str, $library)
   }
 }
 createLibrary()
