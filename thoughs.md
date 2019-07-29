@@ -123,4 +123,10 @@ today was an interesting day, i improve my app and check some new things on my c
 what's next now?
 many ideas and thoughs run through my head wildly, idk how to make most of them and i'm not sure how to make the other but i yet but i know is possible and i just need some time, i've been thinking about trying the 100 days of code challenge again, i mean i'm already on it on my own but this time i would like to finish this
 
+##27/07/2019
+today i had a very productive day, i started a new class in OOP, oriented object programming i know the name better in spanish, with the goal of understanding objects and classes a little bit better and a new though pop into my head i feel like my life has change a lot in these last few weeks i've made some major changes and i'm looking forward to keep making more and more changes, i'm still looking in my ultimate goal but i feel like i'm stuck...
+
+why you feel stuck?
+well when i first start programming, making cool stuff, making this kind of things that i've never done before in my life i feel so different, like if i was a new person a different one but this feeling lasted little i can still make new a cool stuff and every day i learn more and more but i feel like i'm stuck with new trick under the same categories i wanna keep moving forwards i want new challenges and for that i most keep practicing and learning but then the question pops into my head, how do i get to the thngs i wanna do, where do i find them but i think there is right answer i just need to keep walking and hope to find all those answers on my own... yeah
+
 ## everybody wants to be famous but no body wants to de the work
