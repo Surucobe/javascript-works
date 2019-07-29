@@ -31,13 +31,18 @@ function yaRegistrado(obj){
   }
 }
 
+const conf = {
+  method: 'Get',
+  mode: 'cors',
+  crossDomain: 'true',
+}
+
 async function whoIsPoke(i) {
-  const brook = await fetch(`${POKE_URL_REAL}${i}`)
+  // const brook = await fetch(`${POKE_URL_REAL + i} ${conf}`)
+  const brook = await fetch(POKE_URL_REAL + i, conf)
   const cook = await brook.json()
   // posible cambio: almacenar cada objeto en un array
   return cook
-  //chequear a profundidad
-  // throw new Error("El pokemon no existe... aun")
 }
 
 
