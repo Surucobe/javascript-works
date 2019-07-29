@@ -33,7 +33,7 @@ function yaRegistrado(obj){
 
 const conf = {
   method: 'Get',
-  mode: 'cors',
+  type: 'cors',
   crossDomain: true,
 }
 
