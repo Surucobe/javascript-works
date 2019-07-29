@@ -129,4 +129,10 @@ today i had a very productive day, i started a new class in OOP, oriented object
 why you feel stuck?
 well when i first start programming, making cool stuff, making this kind of things that i've never done before in my life i feel so different, like if i was a new person a different one but this feeling lasted little i can still make new a cool stuff and every day i learn more and more but i feel like i'm stuck with new trick under the same categories i wanna keep moving forwards i want new challenges and for that i most keep practicing and learning but then the question pops into my head, how do i get to the thngs i wanna do, where do i find them but i think there is right answer i just need to keep walking and hope to find all those answers on my own... yeah
 
-## everybody wants to be famous but no body wants to de the work
+##28/07/2019
+today was a very normal day, i decided to take an actual rest, no classes, no reading about classes, i basically slept eat and eatch some videos
+
+what's that really all?
+well i also work on my projects and may or may not look at them again before i go to sleep, i may also look for a few things about js before going to sleep i have a few ideas in my head that idk how to execute just yet but that i'm sure i will execute and are gonna be great, today i linked working on my portfolio more than i like to work on my other projects
+
+## Inspirational Quote
