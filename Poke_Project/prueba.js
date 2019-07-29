@@ -34,7 +34,7 @@ function yaRegistrado(obj){
 const conf = {
   method: 'Get',
   mode: 'cors',
-  crossDomain: 'true',
+  crossDomain: true,
 }
 
 async function whoIsPoke(i) {
