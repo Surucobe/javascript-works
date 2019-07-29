@@ -35,11 +35,9 @@ async function whoIsPoke(i) {
   const brook = await fetch(`${POKE_URL_REAL}${i}`)
   const cook = await brook.json()
   // posible cambio: almacenar cada objeto en un array
-  if(cook.is_default === true){
-    return cook
-  }
+  return cook
   //chequear a profundidad
-  throw new Error("El pokemon no existe... aun")
+  // throw new Error("El pokemon no existe... aun")
 }
 
 
@@ -49,8 +47,8 @@ function titulo(n){
   )
 }
 
-function almacen({name}){
-  window.localStorage.setItem(name, {'name' : name})
+function almacen(obj){
+  window.localStorage.setItem(obj.name, JSON.stringify(obj))
 }
 
 function nationalPokedex(obj){
