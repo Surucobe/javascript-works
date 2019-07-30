@@ -32,12 +32,22 @@ function yaRegistrado(obj){
 }
 
 async function whoIsPoke(i) {
-  const brook = await fetch(`${POKE_URL_REAL + i}`, {crossDomain: true })
+  const brook = await fetch(`${POKE_URL_REAL + i}`, {crossDomain: true, mode: 'cors' })
   const cook = await brook.json()
-  // posible cambio: almacenar cada objeto en un array
-  return cook
+  if (cook.sprites.front_default){
+    return cook
+  }
+  throw new Error('Missing image')
 }
 
+async function oak(obj){
+  const poem = window.localStorage.getItem(obj)
+  if(poem){
+    return JSON.parse(poem)
+  }
+  const pok = await whoIsPoke(obj)
+  return pok
+}
 
 function titulo(n){
   return(
@@ -46,7 +56,16 @@ function titulo(n){
 }
 
 function almacen(obj){
-  window.localStorage.setItem(obj.name, JSON.stringify(obj))
+  let n = {
+    id: obj.id,
+    types: obj.types,
+    name: obj.name,
+    sprites: {
+      front_default: obj.sprites.front_default,
+      front_shiny: obj.sprites.front_shiny
+    }
+  }
+  window.localStorage.setItem(n.name, JSON.stringify(n))
 }
 
 function nationalPokedex(obj){
@@ -123,7 +142,8 @@ function registroPokemon() {
 
 async function misty(dato) {
   $intel.blur()
-  const a = await whoIsPoke(dato)
+  const a = await oak(dato)
+  almacen(a)
   yaRegistrado(a)
   const string = catchPoke(a)
   const stringTitle = titulo(0)
@@ -134,13 +154,13 @@ async function misty(dato) {
 
 $intel.addEventListener('submit', async (event) => {
   event.preventDefault()
-  const dato = new FormData($intel)
-  const subaru = dato.get('name')
   try{
+    const dato = new FormData($intel)
+    const subaru = dato.get('name')
     await misty(subaru)
     $overlay.classList.add('active')
   }catch(error){
-    alert(error)
+    alert(error.message)
   }
 })
 
@@ -189,13 +209,16 @@ $intel.addEventListener('focus', (event) =>{
 }, true)
 $intel.addEventListener('blur', (event) =>{
   event.target.style.background = ''
-}, true)
-
-async function createLibrary(){
+}, true);
+//no quites ese punto y coma o se rompe lo de abajo
+(async function createLibrary(){
   for(let i = 1; i <= 802; i++){
     const a = await whoIsPoke(i)
     const str = nationalPokedex(a)
     createTemplate(str, $library)
+    const $pic = $library.querySelector('img')
+    $pic.addEventListener('click', (evet) =>{
+      console.log('data-set')
+    })
   }
-}
-createLibrary()
+})()
