@@ -32,7 +32,7 @@ function yaRegistrado(obj){
 }
 
 async function whoIsPoke(i) {
-  const brook = await fetch(`${POKE_URL_REAL + i}`)
+  const brook = await fetch(`${POKE_URL_REAL + i}`, {crossDomain: true })
   const cook = await brook.json()
   // posible cambio: almacenar cada objeto en un array
   return cook
