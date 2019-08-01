@@ -218,7 +218,7 @@ body{
   justify-content: center;
   scroll-behavior: smooth;
   scroll-behavior: unset;
-  /* animation: modalOut .8s forwards; */
+  animation: modalOut .8s forwards;
 }
 .modal-pokemon::-webkit-scrollbar{
   display: none;

@@ -33,7 +33,7 @@ function yaRegistrado(obj){
 }
 
 async function whoIsPoke(i) {
-  const brook = await fetch(`${POKE_URL_REAL + i}`, {crossDomain: true, mode: 'cors' })
+  const brook = await fetch(`${POKE_URL_REAL + i}`, {crossDomain: true, mode: 'cors', method: 'GET'})
   const cook = await brook.json()
   if (cook.sprites.front_default){
     return cook
@@ -71,7 +71,7 @@ function almacen(obj){
 
 function nationalPokedex(obj){
   return(
-    `<img src="${obj.sprites.front_default}" alt="${obj.name}" data-set="${obj.id}" class="library-pkm fadeIn">`
+    `<img src="${obj.sprites.front_default}" alt="${obj.name}" data-set="${obj.id}" class="library-pkm">`
   )
 }
 
@@ -193,6 +193,9 @@ $poke.addEventListener('click', () => {
       const pokeSTRING = registrarEquipo(item)
       const tem = createTemplate(pokeSTRING)
       $box.append(tem)
+      $poke.addEventListener('click', () => {
+        tem.classList.add('fadeIn')
+      })
     })
   }
 })
@@ -211,7 +214,7 @@ $intel.addEventListener('focus', (event) =>{
 }, true)
 $intel.addEventListener('blur', (event) =>{
   event.target.style.background = ''
-}, true);
+}, true)
 
 function click(elm){
   elm.addEventListener('mouseup', (event) =>{
@@ -219,16 +222,16 @@ function click(elm){
   })
 }
 
-//no quites ese punto y coma o se rompe lo de abajo, quedaste advertido
 (async function createLibrary(){
-  for(let i = 1; i <= 802; i++){
+  const series = 802
+  for(let i = 1; i <= series; i++){
     const a = await whoIsPoke(i)
     const str = nationalPokedex(a)
     const tem = createTemplate(str)
     $library.append(tem)
-    // click(tem)
-    tem.addEventListener('mouseup', (event) => {
-      console.log(event)
+    click(tem)
+    tem.addEventListener('load', () => {
+      tem.classList.add('fadeIn')
     })
   }
 })()
