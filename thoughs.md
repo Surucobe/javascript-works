@@ -147,4 +147,10 @@ finally manage to work with the localstorage now the next step is working with t
 that's great!
 it is!!! i wanna keepp working on new thing, such as the portfolio what i already said a new project and how to make it work in this repo or maybe somewhere else, the idea is to maybe show my work!
 
+##31/07/2019
+spend the entire day on a way to interact with the elements i was printing on my code, it was hard and it makes me realize that i still have a long way to go, but i'm enjoying it, i still do small and funny celebration stance whenever i achieve something in my code, i can't help it
+
+you moving?
+maybe... i've decided to give 100 days of codes a second chance, well rather look for a second chance on a 100 days of code i didn't finish that challenge and i'm no coward, i'm done running and have no interested in doing so ever again so here i am once again but stronger this time
+
 ## Inspirational Quote
