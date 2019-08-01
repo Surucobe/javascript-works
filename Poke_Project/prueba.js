@@ -16,11 +16,12 @@ const $intel = document.querySelector('form')
 const $national = document.getElementById('national')
 const $library = document.getElementById('library')
 const $close = document.getElementById('close')
+const $tiny = document.getElementById('tiny')
 
-function createTemplate(string, elm){
+function createTemplate(string){
   const html = document.implementation.createHTMLDocument()
   html.body.innerHTML = string
-  return elm.appendChild(html.body.children[0])
+  return html.body.children[0]
 }
 
 function yaRegistrado(obj){
@@ -70,7 +71,7 @@ function almacen(obj){
 
 function nationalPokedex(obj){
   return(
-    `<img src="${obj.sprites.front_default}" alt="${obj.name}" data-set="${obj.id}" class="library-pkm">`
+    `<img src="${obj.sprites.front_default}" alt="${obj.name}" data-set="${obj.id}" class="library-pkm fadeIn">`
   )
 }
 
@@ -190,7 +191,8 @@ $poke.addEventListener('click', () => {
     let equipo = usuario.slice(0,6)
     equipo.forEach((item) => {
       const pokeSTRING = registrarEquipo(item)
-      createTemplate(pokeSTRING, $box)
+      const tem = createTemplate(pokeSTRING)
+      $box.append(tem)
     })
   }
 })
@@ -210,15 +212,23 @@ $intel.addEventListener('focus', (event) =>{
 $intel.addEventListener('blur', (event) =>{
   event.target.style.background = ''
 }, true);
-//no quites ese punto y coma o se rompe lo de abajo
+
+function click(elm){
+  elm.addEventListener('mouseup', (event) =>{
+    console.log(event)
+  })
+}
+
+//no quites ese punto y coma o se rompe lo de abajo, quedaste advertido
 (async function createLibrary(){
   for(let i = 1; i <= 802; i++){
     const a = await whoIsPoke(i)
     const str = nationalPokedex(a)
-    createTemplate(str, $library)
-    const $pic = $library.querySelector('img')
-    $pic.addEventListener('click', (evet) =>{
-      console.log('data-set')
+    const tem = createTemplate(str)
+    $library.append(tem)
+    // click(tem)
+    tem.addEventListener('mouseup', (event) => {
+      console.log(event)
     })
   }
 })()

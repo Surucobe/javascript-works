@@ -218,7 +218,7 @@ body{
   justify-content: center;
   scroll-behavior: smooth;
   scroll-behavior: unset;
-  animation: modalOut .8s forwards;
+  /* animation: modalOut .8s forwards; */
 }
 .modal-pokemon::-webkit-scrollbar{
   display: none;
@@ -247,6 +247,15 @@ body{
 }
 .library-pkm:hover{
   background-color: #4962B3;
+}
+
+.tiny-modal{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  background-color: #000;
 }
 
 @keyframes modalIn{
@@ -286,7 +295,8 @@ body{
 
 
 .fadeIn {
-  animation: 5s fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 1s;
 }
 
 @keyframes fadeIn {
