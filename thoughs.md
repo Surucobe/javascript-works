@@ -136,9 +136,15 @@ what's that really all?
 well i also work on my projects and may or may not look at them again before i go to sleep, i may also look for a few things about js before going to sleep i have a few ideas in my head that idk how to execute just yet but that i'm sure i will execute and are gonna be great, today i linked working on my portfolio more than i like to work on my other projects
 
 ##29/07/2019
-I spend most of the day trying to make my repo in github works, the one that works with an api, but i couldn't make it work not because me but it seems that github has is own rules about this kind of things
+I spend most of the day trying to make my repo in github works, the one that works with an api, but i couldn't make it worh it to me because me but it seems that github has is own rules about this kind of things
 
 long day?
 i guess you could say that, i fall asleep and ended up writing this the day after i made a huge mess with my personal things and my studies, i try to make both things happened and ended up doing none i need to set what i'm doing better, stick to one things after the other, i wanna finish my projects which will only be finish if i keep working on it and i wanna keep working on my portfolio but i need to stop being scared from moving on for this
+
+##30/07/2019
+finally manage to work with the localstorage now the next step is working with the elements i creat at the moment so that part will be intereting, i already have an idea
+
+that's great!
+it is!!! i wanna keepp working on new thing, such as the portfolio what i already said a new project and how to make it work in this repo or maybe somewhere else, the idea is to maybe show my work!
 
 ## Inspirational Quote
