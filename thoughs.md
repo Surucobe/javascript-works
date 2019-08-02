@@ -147,4 +147,19 @@ finally manage to work with the localstorage now the next step is working with t
 that's great!
 it is!!! i wanna keepp working on new thing, such as the portfolio what i already said a new project and how to make it work in this repo or maybe somewhere else, the idea is to maybe show my work!
 
+##31/07/2019
+spend the entire day on a way to interact with the elements i was printing on my code, it was hard and it makes me realize that i still have a long way to go, but i'm enjoying it, i still do small and funny celebration stance whenever i achieve something in my code, i can't help it
+
+you moving?
+maybe... i've decided to give 100 days of codes a second chance, well rather look for a second chance on a 100 days of code i didn't finish that challenge and i'm no coward, i'm done running and have no interested in doing so ever again so here i am once again but stronger this time
+
+##01/08/2019
+quick though in a couple of week it wil be a month since i started doing this log, is nice, i once heard that to make something an habit you need to repeat it every day for a month, i found myself in piece doing this,i like to share my ideas with... me lol and next month will be my birthday
+
+new plans?
+well before my birthday arrives i would like to get a nice paid job as a fronted developer so i can actually celebrate or who knows maybe even buy a phone! that would be very sweet to FINALLY have a phone means i would get to talk with my friends again
+
+what about coding?
+i feel stuck but at the same time i feel like i'm not, i'm looking for way to implement new stuff on my app, what i'm doing it may be advanced and idk how to do it but i like it, i'm trying to either make an element appear every time i place the mouse on certain areas or to make an element be created at the moment i place the mouse on those areas
+
 ## Inspirational Quote
