@@ -41,6 +41,11 @@ async function whoIsPoke(i) {
   throw new Error('Missing image')
 }
 
+function nombres(str){
+  let resul = str.charAt(0).toUpperCase() + str.substr(1).toLowerCase()
+  return resul
+}
+
 async function oak(obj){
   const poem = window.localStorage.getItem(obj)
   if(poem){
@@ -81,8 +86,8 @@ function registrarEquipo(poke) {
       `<div class="pokemon_elegido" data-id="${poke.id}">
         <img src="${poke.sprites.front_default}" class="poke_img"></img>
         <div class="info_pokemon">
-          <p><strong>Name:</strong> ${poke.name}</p>
-          <p><span><strong>Type:</strong> ${poke.types[0].type.name}</span></p>
+          <p><strong>Name:</strong> ${nombres(poke.name)}</p>
+          <p><span><strong>Type:</strong> ${nombres(poke.types[0].type.name)}</span></p>
         </div>`
     )
   } else {
@@ -90,8 +95,8 @@ function registrarEquipo(poke) {
       `<div class="pokemon_elegido" data-id="${poke.id}">
         <img src="${poke.sprites.front_default}" class="poke_img"></img>
         <div class="info_pokemon">
-          <p><strong>Name:</strong> ${poke.name}</p>
-          <p><span><strong>Type:</strong> ${poke.types[0].type.name}</span> <br> <span><strong>Type:</strong> ${poke.types[1].type.name}</span></p>
+          <p><strong>Name:</strong> ${nombres(poke.name)}</p>
+          <p><span><strong>Type:</strong> ${nombres(poke.types[0].type.name)}</span> <br> <span><strong>Type:</strong> ${nombres(poke.types[1].type.name)}</span></p>
         </div>`
     )
   }
@@ -120,7 +125,7 @@ function catchPoke(obj) {
       `<div class="modal-info-card">
       <img src="${obj.sprites.front_default}" class="modal-info-img"></img>
       <div class="single-type">
-        <p><strong>Type</strong>:${obj.types[0].type.name}</p>
+        <p><strong>Type</strong>:${nombres(obj.types[0].type.name)}</p>
       </div>
      </div>`
     )
@@ -129,8 +134,8 @@ function catchPoke(obj) {
     `<div class="modal-info-card">
       <img src="${obj.sprites.front_default}" class="modal-info-img"></img>
       <div class="double-type">
-        <p><strong>Type</strong>:${obj.types[0].type.name}</p>
-        <p><strong>Type</strong>:${obj.types[1].type.name}</p>
+        <p><strong>Type</strong>:${nombres(obj.types[0].type.name)}</p>
+        <p><strong>Type</strong>:${nombres(obj.types[1].type.name)}</p>
       </div>
      </div>`
     )
@@ -216,9 +221,17 @@ $intel.addEventListener('blur', (event) =>{
   event.target.style.background = ''
 }, true)
 
+$tiny.addEventListener('mouseover', (event) =>{
+  const x = event.clientX
+  const y = event.clientY
+  console.log(event)
+  debugger
+})
+
 function click(elm){
-  elm.addEventListener('mouseup', (event) =>{
-    console.log(event)
+  elm.addEventListener('mouseover', (event) =>{
+    // console.log(event.target.dataset.set)
+    console.log(`${nombres(event.target.alt)} \n\ ${event.target.dataset.set}`)
   })
 }
 
