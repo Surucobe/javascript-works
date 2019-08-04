@@ -194,10 +194,10 @@ body{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* opacity: 0;
+  opacity: 0;
   visibility: hidden;
   transition: 1s;
-  transform: 1s linear; */
+  transform: 1s linear;
 }
 .lista-pokemon.active{
   opacity: 1.1;
@@ -218,7 +218,7 @@ body{
   justify-content: center;
   scroll-behavior: smooth;
   scroll-behavior: unset;
-  /* animation: modalOut .8s forwards; */
+  animation: modalOut .8s forwards;
 }
 .modal-pokemon::-webkit-scrollbar{
   display: none;
