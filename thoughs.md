@@ -168,4 +168,10 @@ today i didn't code that much, i solve some freecodecamp problems and saw some c
 out of ideas?
 not really i still have many i just don't know how to plasm them into the web i also wanna start studying for interviews and want to study react.js there is a lot of things i want to study but before i do that i also wanna work on my concentration
 
+##03/08/2019
+today was normal, i'm still coding as i write this i'm gonna work on my portfolio but i didn't study that much, i'm currently studying objects so i can understand js objects a little bit better
+
+objects huh?
+yeah i need to learn and dominate objects i cannot let myself get stuck can i? besides if i learn objects things will have a new and different perspective that i'm looking forward, also today i sent my cv to a company looking for a web developer idk if i will get it but i feel like i'm already making changes is the first time i apply for a company as a web developer! this is exciting
+
 ## Inspirational Quote
