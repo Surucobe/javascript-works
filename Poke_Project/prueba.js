@@ -234,8 +234,12 @@ function click(elm){
   elm.addEventListener('mouseover', (event) =>{
     console.log(`${nombres(event.target.alt)} \n\ ${event.target.dataset.set}`)
   })
-  elm.addEventListener('click', (event) =>{
-    
+  elm.addEventListener('click', () =>{
+    if(elm.style.background != "red"){
+      elm.style.background = "red"
+    }else{
+      elm.style.background = ""
+    }
   })
 }
 
