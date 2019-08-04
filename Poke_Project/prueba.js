@@ -223,15 +223,6 @@ $intel.addEventListener('blur', (event) =>{
   event.target.style.background = ''
 }, true)
 
-// window.addEventListener('mouseover', (event) =>{
-//   if (event.target == go) {
-//     $tiny.style.display = "flex"
-//   }
-//   if (event.target != go) {
-//     $tiny.style.display = 'none'
-//   }
-// })
-
 function click(elm){
   elm.addEventListener('mouseover', (event) =>{
     console.log(`${nombres(event.target.alt)} \n\ ${event.target.dataset.set}`)
@@ -240,15 +231,20 @@ function click(elm){
     if(elm.style.background != "red"){
       elm.style.background = "red"
       $sub.style.animation = "infoIn 1s forwards"
+      $sub.style.display = "flex"
     }else{
       elm.style.background = ""
     }
   })
 }
 
-test.addEventListener('click', () =>{
+test.addEventListener('click', async () =>{
   $sub.style.animation = "infoOut 1s forwards"
-  debugger
+  $sub.addEventListener('animationend', (event)=>{
+    if(event.animationName === 'infoOut'){
+      $sub.style.display = "none"
+    }
+  })
 });
 
 //ten cuidado al intereactuar con esto

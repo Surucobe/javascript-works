@@ -267,6 +267,7 @@ body{
   align-self: flex-start;
   margin-top: 5px;
   animation: infoOut 1s forwards;
+  display: none;
 }
 
 @keyframes infoIn{
