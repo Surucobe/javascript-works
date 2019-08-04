@@ -250,12 +250,14 @@ body{
 }
 
 .tiny-modal{
+  display: none;
   position: absolute;
   width: 100px;
   height: 100px;
   top: 50%;
   left: 50%;
   background-color: #000;
+  z-index: 999;
 }
 
 @keyframes modalIn{

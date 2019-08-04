@@ -221,17 +221,21 @@ $intel.addEventListener('blur', (event) =>{
   event.target.style.background = ''
 }, true)
 
-$tiny.addEventListener('mouseover', (event) =>{
-  const x = event.clientX
-  const y = event.clientY
-  console.log(event)
-  debugger
+window.addEventListener('mouseover', (event) =>{
+  if (event.target == go) {
+    $tiny.style.display = "flex"
+  }
+  if (event.target != go) {
+    $tiny.style.display = 'none'
+  }
 })
 
 function click(elm){
   elm.addEventListener('mouseover', (event) =>{
-    // console.log(event.target.dataset.set)
     console.log(`${nombres(event.target.alt)} \n\ ${event.target.dataset.set}`)
+  })
+  elm.addEventListener('click', (event) =>{
+    
   })
 }
 
