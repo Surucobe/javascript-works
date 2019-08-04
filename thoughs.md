@@ -162,4 +162,10 @@ well before my birthday arrives i would like to get a nice paid job as a fronted
 what about coding?
 i feel stuck but at the same time i feel like i'm not, i'm looking for way to implement new stuff on my app, what i'm doing it may be advanced and idk how to do it but i like it, i'm trying to either make an element appear every time i place the mouse on certain areas or to make an element be created at the moment i place the mouse on those areas
 
+##02/08/2019
+today i didn't code that much, i solve some freecodecamp problems and saw some classes on webpack and OOP it was nice
+
+out of ideas?
+not really i still have many i just don't know how to plasm them into the web i also wanna start studying for interviews and want to study react.js there is a lot of things i want to study but before i do that i also wanna work on my concentration
+
 ## Inspirational Quote
