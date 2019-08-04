@@ -16,7 +16,9 @@ const $intel = document.querySelector('form')
 const $national = document.getElementById('national')
 const $library = document.getElementById('library')
 const $close = document.getElementById('close')
-const $tiny = document.getElementById('tiny')
+const $sub = document.getElementById('sub-modal')
+const test = $sub.querySelector('p')
+//const $tiny = document.getElementById('tiny')
 
 function createTemplate(string){
   const html = document.implementation.createHTMLDocument()
@@ -221,14 +223,14 @@ $intel.addEventListener('blur', (event) =>{
   event.target.style.background = ''
 }, true)
 
-window.addEventListener('mouseover', (event) =>{
-  if (event.target == go) {
-    $tiny.style.display = "flex"
-  }
-  if (event.target != go) {
-    $tiny.style.display = 'none'
-  }
-})
+// window.addEventListener('mouseover', (event) =>{
+//   if (event.target == go) {
+//     $tiny.style.display = "flex"
+//   }
+//   if (event.target != go) {
+//     $tiny.style.display = 'none'
+//   }
+// })
 
 function click(elm){
   elm.addEventListener('mouseover', (event) =>{
@@ -237,12 +239,19 @@ function click(elm){
   elm.addEventListener('click', () =>{
     if(elm.style.background != "red"){
       elm.style.background = "red"
+      $sub.style.animation = "infoIn 1s forwards"
     }else{
       elm.style.background = ""
     }
   })
 }
 
+test.addEventListener('click', () =>{
+  $sub.style.animation = "infoOut 1s forwards"
+  debugger
+});
+
+//ten cuidado al intereactuar con esto
 (async function createLibrary(){
   const series = 802
   for(let i = 1; i <= series; i++){
