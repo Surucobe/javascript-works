@@ -174,4 +174,10 @@ today was normal, i'm still coding as i write this i'm gonna work on my portfoli
 objects huh?
 yeah i need to learn and dominate objects i cannot let myself get stuck can i? besides if i learn objects things will have a new and different perspective that i'm looking forward, also today i sent my cv to a company looking for a web developer idk if i will get it but i feel like i'm already making changes is the first time i apply for a company as a web developer! this is exciting
 
+##04/08/2019
+today i'm making this one form my visual studio code idk why i just felt like doing so, thse ays have been rough i don't feel that motivated, i must be doing something wrong, ideas are still flying by but other things seem to be getting me down as i type this  feel like crying even tho i have no reasons... well maybe i do but crying won't fix a damn thing
+
+is it affecting your code?
+maybe, again i have no idea about this cause... maybe i just need to talk to people, ever since i lost my phone y feel like i lost my friends, i can still talk to them but not like before, they are no longer one text away from me i can now notice the distance between us, today i'm not talking about code but not every day has to be about it yea i'll be good once i work over this things
+
 ## Inspirational Quote
