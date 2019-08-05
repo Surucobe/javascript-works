@@ -224,7 +224,7 @@ $intel.addEventListener('blur', (event) =>{
 }, true)
 
 function click(elm){
-  elm.addEventListener('mouseover', (event) =>{
+  elm.addEventListener('click', (event) =>{
     console.log(`${nombres(event.target.alt)} \n\ ${event.target.dataset.set}`)
   })
   elm.addEventListener('click', () =>{
