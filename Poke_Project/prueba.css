@@ -268,6 +268,22 @@ body{
   margin-top: 5px;
   animation: infoOut 1s forwards;
   display: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.arrow{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.sub-modal-libr{
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
 }
 
 @keyframes infoIn{

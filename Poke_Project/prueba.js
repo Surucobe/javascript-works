@@ -17,8 +17,8 @@ const $national = document.getElementById('national')
 const $library = document.getElementById('library')
 const $close = document.getElementById('close')
 const $sub = document.getElementById('sub-modal')
-const test = $sub.querySelector('p')
-//const $tiny = document.getElementById('tiny')
+const test = $sub.querySelector('p');
+const mini = document.getElementById('sub-modal-library')
 
 function createTemplate(string){
   const html = document.implementation.createHTMLDocument()
@@ -200,7 +200,7 @@ $poke.addEventListener('click', () => {
       const pokeSTRING = registrarEquipo(item)
       const tem = createTemplate(pokeSTRING)
       $box.append(tem)
-      $poke.addEventListener('click', () => {
+      $poke.addEventListener('load', () => {
         tem.classList.add('fadeIn')
       })
     })
@@ -224,8 +224,17 @@ $intel.addEventListener('blur', (event) =>{
 }, true)
 
 function click(elm){
-  elm.addEventListener('click', (event) =>{
-    console.log(`${nombres(event.target.alt)} \n\ ${event.target.dataset.set}`)
+  elm.addEventListener('click', async (event) =>{
+    //a la fecha del 5/08/2019 esta es la unica funcion que usa let, la razon es una prueba
+    let arr = []
+    let set = elm.getAttribute('data-set')
+    let obj = await whoIsPoke(set)
+    arr.unshift(obj)
+    arr.forEach((n)=>{
+      let string = nationalPokedex(n)
+      let tem = createTemplate(string)
+      mini.append(tem)
+    })
   })
   elm.addEventListener('click', () =>{
     if(elm.style.background != "red"){
