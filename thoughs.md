@@ -180,4 +180,11 @@ today i'm making this one form my visual studio code idk why i just felt like do
 is it affecting your code?
 maybe, again i have no idea about this cause... maybe i just need to talk to people, ever since i lost my phone y feel like i lost my friends, i can still talk to them but not like before, they are no longer one text away from me i can now notice the distance between us, today i'm not talking about code but not every day has to be about it yea i'll be good once i work over this things
 
+##05/08/2019
+today was a very normal day, i can barely type this cuase.... i fell asleep and forgot to this before doing so and so i'm half asleep yay
+
+half asleep?
+yeah but today was a day of improvements as i started making some fun changes into my app in js, also learned how to make classes in Java and Python, i feel like i'm no longer stuck but i need to focus more on what i was doing!
+Also with this commiy, this will be the commit 100 of this repo, so hurray!
+
 ## Inspirational Quote
