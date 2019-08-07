@@ -187,4 +187,10 @@ half asleep?
 yeah but today was a day of improvements as i started making some fun changes into my app in js, also learned how to make classes in Java and Python, i feel like i'm no longer stuck but i need to focus more on what i was doing!
 Also with this commiy, this will be the commit 100 of this repo, so hurray!
 
+##06/08/2019
+today was officially my laziest day EVER!
+
+that much?
+yeah i mean i just study and well yeah i know i study but still i did not study much, i'm not complaining tho, maybe the problem is that i don't enjoy myself and i tend to do the things in a different way, like for example, coding as much as i can although i do get to enjoy that but forcing myself into it is bad
+
 ## Inspirational Quote
