@@ -193,4 +193,10 @@ today was officially my laziest day EVER!
 that much?
 yeah i mean i just study and well yeah i know i study but still i did not study much, i'm not complaining tho, maybe the problem is that i don't enjoy myself and i tend to do the things in a different way, like for example, coding as much as i can although i do get to enjoy that but forcing myself into it is bad
 
+##07/08/2019
+it's been a while since i had to write yesterday's progress today but well i have no controlover this part at the curent moment i'm afraid, having family over means i have to go to sleep when they do but i keep coding
+
+what you coding?
+i'm currently studying and practicing with webpack... more studying than practicing tho, but it has been fun and usefull to see this course thanks to the fact that is nt just webpack but it also shows hw it works with js and having multiple html and js documents working together and with only one css which is amazing if you ask me! on a side note i feel like playing with java
+
 ## Inspirational Quote
