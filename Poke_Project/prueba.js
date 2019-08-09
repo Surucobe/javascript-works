@@ -17,7 +17,7 @@ const $national = document.getElementById('national')
 const $library = document.getElementById('library')
 const $close = document.getElementById('close')
 const $sub = document.getElementById('sub-modal')
-const test = $sub.querySelector('p');
+const test = $sub.querySelector('i');
 const mini = document.getElementById('sub-modal-library')
 
 function createTemplate(string){
@@ -200,9 +200,6 @@ $poke.addEventListener('click', () => {
       const pokeSTRING = registrarEquipo(item)
       const tem = createTemplate(pokeSTRING)
       $box.append(tem)
-      $poke.addEventListener('load', () => {
-        tem.classList.add('fadeIn')
-      })
     })
   }
 })
@@ -231,6 +228,9 @@ function click(elm){
     let obj = await whoIsPoke(set)
     arr.unshift(obj)
     arr.forEach((n)=>{
+      if(mini.children.length > 4){
+        mini.children[0].remove
+      }
       let string = nationalPokedex(n)
       let tem = createTemplate(string)
       mini.append(tem)

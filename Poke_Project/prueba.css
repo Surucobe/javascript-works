@@ -279,6 +279,9 @@ body{
   top: 0;
   right: 0;
 }
+i{
+  transform: rotate(90deg);
+}
 
 .sub-modal-libr{
   /* overflow: hidden; */
