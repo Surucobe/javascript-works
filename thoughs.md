@@ -199,4 +199,10 @@ it's been a while since i had to write yesterday's progress today but well i hav
 what you coding?
 i'm currently studying and practicing with webpack... more studying than practicing tho, but it has been fun and usefull to see this course thanks to the fact that is nt just webpack but it also shows hw it works with js and having multiple html and js documents working together and with only one css which is amazing if you ask me! on a side note i feel like playing with java
 
+##08/08/2019
+as family visits continues i have been studying less, tomorrow i'll go to a friends house and stay so i may do some actual code there, i have some fun ideas to do but i'm also downloading other cool stuff to do
+
+what ideas?
+well i've been thinking about a fun license creator, it will be a form that will take information from people and make a license of whatever they want such as a license for whispering corndogs or a license to kill or a license to check if people says the letter K properly lol, only valid in neverland for law reasons, i wanna keep expanding all the things i do
+
 ## Inspirational Quote
