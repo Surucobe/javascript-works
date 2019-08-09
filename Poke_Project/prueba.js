@@ -228,8 +228,8 @@ function click(elm){
     let obj = await whoIsPoke(set)
     arr.unshift(obj)
     arr.forEach((n)=>{
-      if(mini.children.length > 4){
-        mini.children[0].remove
+      if(mini.childNodes.length >= 4){
+        mini.removeChild(mini.childNodes[0])
       }
       let string = nationalPokedex(n)
       let tem = createTemplate(string)
