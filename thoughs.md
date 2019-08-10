@@ -205,4 +205,10 @@ as family visits continues i have been studying less, tomorrow i'll go to a frie
 what ideas?
 well i've been thinking about a fun license creator, it will be a form that will take information from people and make a license of whatever they want such as a license for whispering corndogs or a license to kill or a license to check if people says the letter K properly lol, only valid in neverland for law reasons, i wanna keep expanding all the things i do
 
+##09/08/2019
+today was a cool day, i rpove that there are things that i don't know yet even if i saw them in classes but that i can still manage to make it
+
+that's cool!
+it's freaking amazing!!! i mean i have new ideas and i want to implement new stuff, the kind of stuff that you wish to make without knowing what is gonna happen lol, i have an amazing function that rotates picture, name and id of the pokemons but is not working as i though it was, is working but not in the way i though i need to check it better to make sure it does as i meant to
+
 ## Inspirational Quote
