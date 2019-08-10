@@ -180,4 +180,29 @@ today i'm making this one form my visual studio code idk why i just felt like do
 is it affecting your code?
 maybe, again i have no idea about this cause... maybe i just need to talk to people, ever since i lost my phone y feel like i lost my friends, i can still talk to them but not like before, they are no longer one text away from me i can now notice the distance between us, today i'm not talking about code but not every day has to be about it yea i'll be good once i work over this things
 
+##05/08/2019
+today was a very normal day, i can barely type this cuase.... i fell asleep and forgot to this before doing so and so i'm half asleep yay
+
+half asleep?
+yeah but today was a day of improvements as i started making some fun changes into my app in js, also learned how to make classes in Java and Python, i feel like i'm no longer stuck but i need to focus more on what i was doing!
+Also with this commiy, this will be the commit 100 of this repo, so hurray!
+
+##06/08/2019
+today was officially my laziest day EVER!
+
+that much?
+yeah i mean i just study and well yeah i know i study but still i did not study much, i'm not complaining tho, maybe the problem is that i don't enjoy myself and i tend to do the things in a different way, like for example, coding as much as i can although i do get to enjoy that but forcing myself into it is bad
+
+##07/08/2019
+it's been a while since i had to write yesterday's progress today but well i have no controlover this part at the curent moment i'm afraid, having family over means i have to go to sleep when they do but i keep coding
+
+what you coding?
+i'm currently studying and practicing with webpack... more studying than practicing tho, but it has been fun and usefull to see this course thanks to the fact that is nt just webpack but it also shows hw it works with js and having multiple html and js documents working together and with only one css which is amazing if you ask me! on a side note i feel like playing with java
+
+##08/08/2019
+as family visits continues i have been studying less, tomorrow i'll go to a friends house and stay so i may do some actual code there, i have some fun ideas to do but i'm also downloading other cool stuff to do
+
+what ideas?
+well i've been thinking about a fun license creator, it will be a form that will take information from people and make a license of whatever they want such as a license for whispering corndogs or a license to kill or a license to check if people says the letter K properly lol, only valid in neverland for law reasons, i wanna keep expanding all the things i do
+
 ## Inspirational Quote
