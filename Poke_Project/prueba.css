@@ -261,8 +261,8 @@ body{
 
 .library-info{
   background-color: #fff;
-  height: 300px;
-  width: 150px;
+  height: 340px;
+  width: 180px;
   border-radius: 5px;
   align-self: flex-start;
   margin-top: 5px;
@@ -284,9 +284,16 @@ i{
 }
 
 .sub-modal-libr{
-  /* overflow: hidden; */
   display: flex;
   flex-direction: column;
+}
+
+.search-info-container{
+  width: 100%;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
 }
 
 @keyframes infoIn{

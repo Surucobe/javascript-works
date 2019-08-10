@@ -48,6 +48,15 @@ function nombres(str){
   return resul
 }
 
+function searchInfo(obj){
+  return(
+    `<div class="search-info-container">
+      <img src="${obj.sprites.front_default}" alt="${obj.name}" data-set="${obj.id}" class="search-info">
+      <p> <span>${obj.name}</span> <br> <span>${obj.id}</span></p>
+    </div>`
+  )
+}
+
 async function oak(obj){
   const poem = window.localStorage.getItem(obj)
   if(poem){
@@ -196,6 +205,9 @@ $poke.addEventListener('click', () => {
     registroPokemon()
   } else {
     let equipo = usuario.slice(0,6)
+    if ($box.innerHTML != "") {
+      $box.innerHTML = ""
+    }
     equipo.forEach((item) => {
       const pokeSTRING = registrarEquipo(item)
       const tem = createTemplate(pokeSTRING)
@@ -220,18 +232,23 @@ $intel.addEventListener('blur', (event) =>{
   event.target.style.background = ''
 }, true)
 
-function click(elm){
-  elm.addEventListener('click', async (event) =>{
+function clickMaster(elm){
+  elm.addEventListener('click', async () =>{
     //a la fecha del 5/08/2019 esta es la unica funcion que usa let, la razon es una prueba
-    let arr = []
+    //funcional pero falta revision
+    const arr = []
     let set = elm.getAttribute('data-set')
     let obj = await whoIsPoke(set)
+    if(arr.length > 4){
+      arr.pop()
+    }
+    debugger
     arr.unshift(obj)
     arr.forEach((n)=>{
       if(mini.childNodes.length >= 4){
         mini.removeChild(mini.childNodes[0])
       }
-      let string = nationalPokedex(n)
+      let string = searchInfo(n)
       let tem = createTemplate(string)
       mini.append(tem)
     })
@@ -259,7 +276,7 @@ test.addEventListener('click', async () =>{
     const str = nationalPokedex(a)
     const tem = createTemplate(str)
     $library.append(tem)
-    click(tem)
+    clickMaster(tem)
     tem.addEventListener('load', () => {
       tem.classList.add('fadeIn')
     })
