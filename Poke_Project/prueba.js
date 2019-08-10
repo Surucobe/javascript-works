@@ -237,13 +237,8 @@ function click(elm){
     })
   })
   elm.addEventListener('click', () =>{
-    if(elm.style.background != "red"){
-      elm.style.background = "red"
       $sub.style.animation = "infoIn 1s forwards"
       $sub.style.display = "flex"
-    }else{
-      elm.style.background = ""
-    }
   })
 }
 
