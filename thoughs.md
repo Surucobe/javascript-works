@@ -211,4 +211,10 @@ today was a cool day, i rpove that there are things that i don't know yet even i
 that's cool!
 it's freaking amazing!!! i mean i have new ideas and i want to implement new stuff, the kind of stuff that you wish to make without knowing what is gonna happen lol, i have an amazing function that rotates picture, name and id of the pokemons but is not working as i though it was, is working but not in the way i though i need to check it better to make sure it does as i meant to
 
+##10/08/2019
+i decided to go out to meet some friends thinking i could update everything there but turned out that there was no internet so now there is a little gray square in my github history... rip
+
+laughing out loud?
+i guess, the idea of making everything from js is tempting, making the html content i feel like practicing this new technique or rather just practice this tecnique as much as i can this is a nice way to improve what i know
+
 ## Inspirational Quote
