@@ -217,4 +217,10 @@ i decided to go out to meet some friends thinking i could update everything ther
 laughing out loud?
 i guess, the idea of making everything from js is tempting, making the html content i feel like practicing this new technique or rather just practice this tecnique as much as i can this is a nice way to improve what i know
 
+##11/08/2019
+so.... apparentely so much time out of my routine got me a little rusty, it was hard for me to get into a routine where i work on my projects and study while not getting any of my other duties off and as a result it seems i'm a little off of my schedule
+
+how come?
+i feel like i'm coming back from vacations i still work on my projects but i get a little lazy but i'm reignited!
+
 ## Inspirational Quote
