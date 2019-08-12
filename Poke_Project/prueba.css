@@ -69,8 +69,8 @@ body{
   object-fit: contain;
 }
 .poke_img:hover{
-  transition: 1s;
-  transform: scale(1.3);
+  transition: 0.08s;
+  transform: scale(1.2);
 }
 
 .modal-info-img{

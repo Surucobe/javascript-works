@@ -52,7 +52,7 @@ function searchInfo(obj){
   return(
     `<div class="search-info-container">
       <img src="${obj.sprites.front_default}" alt="${obj.name}" data-set="${obj.id}" class="search-info">
-      <p> <span>${obj.name}</span> <br> <span>${obj.id}</span></p>
+      <p> <span>${obj.name}</span> <br> <span>ID: ${obj.id}</span></p>
     </div>`
   )
 }
@@ -173,7 +173,7 @@ $intel.addEventListener('submit', async (event) => {
   event.preventDefault()
   try{
     const dato = new FormData($intel)
-    const subaru = dato.get('name')
+    const subaru = dato.get('name').toLowerCase()
     await misty(subaru)
     $overlay.classList.add('active')
   }catch(error){
@@ -196,8 +196,18 @@ $national.addEventListener('click', (event)=>{
   }
 })
 
+// function clickShiny(elm){
+//   elm.addEventListener('click', async () =>{
+//     debugger
+//     const data = elm.getAttribute('data-id')
+//     const img = await oak(data)
+//     const shiny = img.sprites.front_shiny
+//     elm.setAttribute('src', shiny)
+//   })
+// }
+
 $poke.addEventListener('click', () => {
-  if (usuario.length < 2) {
+  if (usuario.length < 1) {
     const titu = titulo(2)
     $titulo.innerHTML = titu
     const equipoString = equipoIncompleto(usuario)
@@ -212,6 +222,7 @@ $poke.addEventListener('click', () => {
       const pokeSTRING = registrarEquipo(item)
       const tem = createTemplate(pokeSTRING)
       $box.append(tem)
+      clickShiny(tem)
     })
   }
 })
@@ -236,22 +247,14 @@ function clickMaster(elm){
   elm.addEventListener('click', async () =>{
     //a la fecha del 5/08/2019 esta es la unica funcion que usa let, la razon es una prueba
     //funcional pero falta revision
-    const arr = []
     let set = elm.getAttribute('data-set')
-    let obj = await whoIsPoke(set)
-    if(arr.length > 4){
-      arr.pop()
+    let obj = await oak(set)
+    if(mini.childNodes.length >= 4){
+      mini.removeChild(mini.childNodes[0])
     }
-    debugger
-    arr.unshift(obj)
-    arr.forEach((n)=>{
-      if(mini.childNodes.length >= 4){
-        mini.removeChild(mini.childNodes[0])
-      }
-      let string = searchInfo(n)
-      let tem = createTemplate(string)
-      mini.append(tem)
-    })
+    let string = searchInfo(obj)
+    let tem = createTemplate(string)
+    mini.append(tem)
   })
   elm.addEventListener('click', () =>{
       $sub.style.animation = "infoIn 1s forwards"
