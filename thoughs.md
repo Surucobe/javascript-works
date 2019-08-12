@@ -205,4 +205,22 @@ as family visits continues i have been studying less, tomorrow i'll go to a frie
 what ideas?
 well i've been thinking about a fun license creator, it will be a form that will take information from people and make a license of whatever they want such as a license for whispering corndogs or a license to kill or a license to check if people says the letter K properly lol, only valid in neverland for law reasons, i wanna keep expanding all the things i do
 
+##09/08/2019
+today was a cool day, i rpove that there are things that i don't know yet even if i saw them in classes but that i can still manage to make it
+
+that's cool!
+it's freaking amazing!!! i mean i have new ideas and i want to implement new stuff, the kind of stuff that you wish to make without knowing what is gonna happen lol, i have an amazing function that rotates picture, name and id of the pokemons but is not working as i though it was, is working but not in the way i though i need to check it better to make sure it does as i meant to
+
+##10/08/2019
+i decided to go out to meet some friends thinking i could update everything there but turned out that there was no internet so now there is a little gray square in my github history... rip
+
+laughing out loud?
+i guess, the idea of making everything from js is tempting, making the html content i feel like practicing this new technique or rather just practice this tecnique as much as i can this is a nice way to improve what i know
+
+##11/08/2019
+so.... apparentely so much time out of my routine got me a little rusty, it was hard for me to get into a routine where i work on my projects and study while not getting any of my other duties off and as a result it seems i'm a little off of my schedule
+
+how come?
+i feel like i'm coming back from vacations i still work on my projects but i get a little lazy but i'm reignited!
+
 ## Inspirational Quote
