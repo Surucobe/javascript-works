@@ -223,4 +223,12 @@ so.... apparentely so much time out of my routine got me a little rusty, it was 
 how come?
 i feel like i'm coming back from vacations i still work on my projects but i get a little lazy but i'm reignited!
 
+##12/08/2019
+a new day begun and it seems like my ideas are also coming back from vacations but i'm not gonna allow myself to be lazy about this!
+
+longer explanation?
+well i feel like if i allow myself to be lazy i'll just stop looking to improve but at the same time i must be aware that i need to take a proper rest every now and then, not just a "i'm lazy to study or code right now" kind of rest but more like "i'm gonna go outside walk for a while and let the sun hit me for a change" kind of rest lol and after saying this i can also proudly say that i finish the basic algorithm section of freeCodeCamp, some of these were difficult and the other a bit confusing but they surely were fun :D
+
+Also i've been updating this log for a month already, except for a sad day with no internet where i couldn't so gratz me!
+
 ## Inspirational Quote
