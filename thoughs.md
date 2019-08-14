@@ -231,4 +231,10 @@ well i feel like if i allow myself to be lazy i'll just stop looking to improve 
 
 Also i've been updating this log for a month already, except for a sad day with no internet where i couldn't so gratz me!
 
+##13/08/2019
+i swear idk how i am awake, maybe is the wish to keep doing other stuff or the fact that i'm downloading a program, or the feeling of my innevitable responsability on taking my dog out for a walk tomorrow despite of the fact that i'm still sleepy...
+
+coding?
+today i code very little i made some classes on Java and Javascript and fight with php... i don't like php but is more of a personal matter than an actual reason i prefer javascript but php is needed in projects and some companies so i have to study to keep learning and improving
+
 ## Inspirational Quote
