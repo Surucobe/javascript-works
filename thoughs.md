@@ -237,4 +237,10 @@ i swear idk how i am awake, maybe is the wish to keep doing other stuff or the f
 coding?
 today i code very little i made some classes on Java and Javascript and fight with php... i don't like php but is more of a personal matter than an actual reason i prefer javascript but php is needed in projects and some companies so i have to study to keep learning and improving
 
+##14/08/2019
+today was a nice day, i study object i solve some minor troubles on my vs code configuration for Java and even tho i didn't solve PHP i still keep it in mind, i may solve it later
+
+and what else?
+well i keep studying the object part from freeCodeCamp, idk yet if it's just hard or my english is just stopping me from getting a full understanding of this subject but is gonna be a little rough, and while i do this i'm also studying OOP on Platzi where i happen to understand better lol
+
 ## Inspirational Quote
