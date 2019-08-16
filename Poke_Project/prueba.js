@@ -96,7 +96,7 @@ function nationalPokedex(obj){
 function registrarEquipo(poke) {
   if (poke.types.length < 2) {
     return (
-      `<div class="pokemon_elegido" data-id="${poke.id}">
+      `<div class="pokemon_elegido" data-id="${poke.id}" data-form="normal">
         <img src="${poke.sprites.front_default}" class="poke_img"></img>
         <div class="info_pokemon">
           <p><strong>Name:</strong> ${nombres(poke.name)}</p>
@@ -105,7 +105,7 @@ function registrarEquipo(poke) {
     )
   } else {
     return (
-      `<div class="pokemon_elegido" data-id="${poke.id}">
+      `<div class="pokemon_elegido" data-id="${poke.id}" data-form="normal">
         <img src="${poke.sprites.front_default}" class="poke_img"></img>
         <div class="info_pokemon">
           <p><strong>Name:</strong> ${nombres(poke.name)}</p>
@@ -198,15 +198,21 @@ $national.addEventListener('click', (event)=>{
   }
 })
 
-// function clickShiny(elm){
-//   elm.addEventListener('click', async () =>{
-//     debugger
-//     const data = elm.getAttribute('data-id')
-//     const img = await oak(data)
-//     const shiny = img.sprites.front_shiny
-//     elm.setAttribute('src', shiny)
-//   })
-// }
+function clickShiny(elm){
+  elm.addEventListener('click', async () =>{
+    const data = elm.getAttribute('data-id')
+    const img = await oak(data)
+    const normal = img.sprites.front_default
+    const shiny = img.sprites.front_shiny
+    if(elm.getAttribute('data-form') == 'normal'){
+      elm.children[0].src = shiny
+      elm.setAttribute('data-form', 'shiny')
+    }else{
+      elm.children[0].src = normal
+      elm.setAttribute('data-form', 'normal')
+    }
+  })
+}
 
 $poke.addEventListener('click', () => {
   if (usuario.length < 1) {

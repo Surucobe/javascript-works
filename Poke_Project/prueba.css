@@ -72,6 +72,10 @@ body{
   transition: 0.08s;
   transform: scale(1.2);
 }
+.poke_img:active{
+  transition: 0.08s;
+  transform: scale(1.0);
+}
 
 .modal-info-img{
   width: 126px;
