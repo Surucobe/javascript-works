@@ -243,4 +243,10 @@ today was a nice day, i study object i solve some minor troubles on my vs code c
 and what else?
 well i keep studying the object part from freeCodeCamp, idk yet if it's just hard or my english is just stopping me from getting a full understanding of this subject but is gonna be a little rough, and while i do this i'm also studying OOP on Platzi where i happen to understand better lol
 
+##15/08/2019
+another day studying objects and doing exercise which i found funny enough btw
+
+how come?
+i've been studying objects with Java, JavaScript, Python and PHP the syntax between them is very similar yet is interesting, Java is a language more focus into programming and not so much web, not sure if it's possible to use it in web due to my lack of knowledge, and as i keep studying the langeague and how to make objects Java seem more and more attractive i think i may study this language in the future for sure!
+
 ## Inspirational Quote
