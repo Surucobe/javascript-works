@@ -34,8 +34,10 @@ function yaRegistrado(obj){
   }
 }
 
+const request = new Request(POKE_URL_REAL, {method: 'GET', type: 'cors', crossDomain: true})
+
 async function whoIsPoke(i) {
-  const brook = await fetch(`${POKE_URL_REAL + i}`, {crossDomain: true, mode: 'cors', method: 'GET'})
+  const brook = await fetch(`${POKE_URL_REAL + i}`)
   const cook = await brook.json()
   if (cook.sprites.front_default){
     return cook
