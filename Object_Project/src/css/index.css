@@ -1,0 +1,37 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+}
+
+.test{
+  border: 1px solid black;
+}
+
+.container{
+  height: 600px;
+  width: 900px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.left{
+  width: 250px;
+  height: 50%;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.right{
+  width: 250px;
+  height: 50%;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.form{
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
