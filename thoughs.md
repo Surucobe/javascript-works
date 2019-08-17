@@ -249,4 +249,10 @@ another day studying objects and doing exercise which i found funny enough btw
 how come?
 i've been studying objects with Java, JavaScript, Python and PHP the syntax between them is very similar yet is interesting, Java is a language more focus into programming and not so much web, not sure if it's possible to use it in web due to my lack of knowledge, and as i keep studying the langeague and how to make objects Java seem more and more attractive i think i may study this language in the future for sure!
 
+##16/08/2019
+this day i was overwelhemed by the decisition of what should i next, i see a lot of people asking for php while some other asking for react, i've come to realize that maybe i need them both and have to learn them, it feels complicated and quite unfair as it seems my path is taking a forcefull and difficult detour
+
+how you feeling?
+not so great, i'm a little scared as i'm facing something new that i've never done before, i have the goal of getting a job as a web developer before september 25, most of the offers seem to look for someone who knows php a language i don't find myself too fond with but there are some other who look for react, the next step into my evolution in this career in any case i need to work towards this with the desire and determination to improve myself and be one step closer from my ultimate goal
+
 ## Inspirational Quote
