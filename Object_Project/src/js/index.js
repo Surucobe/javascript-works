@@ -8,13 +8,14 @@ class Permiso {
   }
 
   crearPermiso(){
-    console.log(`${this.id},<br> ${this.license}, ${this.name}, ${this.apellido}, ${this.fecha}`)
+    $result.innerHTML = `${this.id}<br> ${this.license}<br> ${this.name}<br> ${this.apellido}<br> ${this.fecha}`
   }
 }
 
 const $form = document.getElementById('form')
+const $result = document.getElementById('result')
 
-$form.addEventListener('submit', async (event)=>{
+$form.addEventListener('submit', (event)=>{
   event.preventDefault()
   const request = new FormData($form)
   let nombre = request.get('name')
@@ -23,7 +24,12 @@ $form.addEventListener('submit', async (event)=>{
   let id = request.get('id')
   let fecha = request.get('fecha')
 
-  const user = await new Permiso(id, license, nombre, lastName, fecha)
+  const user = new Permiso(id, license, nombre, lastName, fecha)
   user.crearPermiso()
-  //console.log(user)
 })
+
+function licensiaTemplate(){
+  return(
+    ``
+  )
+}

@@ -13,7 +13,11 @@
       <form action="" id="form" class="form">
         <div class="form-container">
           <label for="license">Tipo de Licensia:</label>
-          <input type="text" placeholder="Licensia" id="license" name="license" required type="text">
+          <select placeholder="Licensia" id="license" name="license" required type="" size="1">
+            <option>Matar</option>
+            <option>Domador de Tortugas</option>
+            <option>Verificador de waifus</option>
+          </select>
         </div>
         <div class="form-container">
           <label for="name">Nombre:</label>
@@ -34,7 +38,7 @@
         <button>Submit</button>
       </form>
     </div>
-    <div class="right test"></div>
+    <div class="right test" id="result"></div>
   </div>
 </body>
 <script src="./src/js/index.js"></script>
