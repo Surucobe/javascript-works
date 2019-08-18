@@ -255,4 +255,10 @@ this day i was overwelhemed by the decisition of what should i next, i see a lot
 how you feeling?
 not so great, i'm a little scared as i'm facing something new that i've never done before, i have the goal of getting a job as a web developer before september 25, most of the offers seem to look for someone who knows php a language i don't find myself too fond with but there are some other who look for react, the next step into my evolution in this career in any case i need to work towards this with the desire and determination to improve myself and be one step closer from my ultimate goal
 
+##17/08/2019
+today i just chill, there wasn't so much coding just me learning some object oriented programming in freeCodeCamp and checkin my notes from Platzi
+
+how did it go?
+kinda nice i start a new project a little ago is not that fancy yet tbh but in time it will be fun, nowhere near as fun as the poke project for sure but still nice hahaha also kept studying the object section from freeCodeCamp i feel is a little outdated due to the fact that they explain the objects using prototypes which is not that bad... but since ES6 already supports classes i see no reason to feel particulary excited about using prototype.... except maybe the fact of looking at how it used to be other than that i feel like reading history...
+
 ## Inspirational Quote
