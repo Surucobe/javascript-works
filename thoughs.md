@@ -261,4 +261,7 @@ today i just chill, there wasn't so much coding just me learning some object ori
 how did it go?
 kinda nice i start a new project a little ago is not that fancy yet tbh but in time it will be fun, nowhere near as fun as the poke project for sure but still nice hahaha also kept studying the object section from freeCodeCamp i feel is a little outdated due to the fact that they explain the objects using prototypes which is not that bad... but since ES6 already supports classes i see no reason to feel particulary excited about using prototype.... except maybe the fact of looking at how it used to be other than that i feel like reading history...
 
+##18/08/2019
+this weekend was soft on conding but me  being sick is getting me bad, today's entry is gonna be short due to that and this is gonna be it actually
+
 ## Inspirational Quote
