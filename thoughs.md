@@ -261,4 +261,13 @@ today i just chill, there wasn't so much coding just me learning some object ori
 how did it go?
 kinda nice i start a new project a little ago is not that fancy yet tbh but in time it will be fun, nowhere near as fun as the poke project for sure but still nice hahaha also kept studying the object section from freeCodeCamp i feel is a little outdated due to the fact that they explain the objects using prototypes which is not that bad... but since ES6 already supports classes i see no reason to feel particulary excited about using prototype.... except maybe the fact of looking at how it used to be other than that i feel like reading history...
 
+##18/08/2019
+this weekend was soft on conding but me  being sick is getting me bad, today's entry is gonna be short due to that and this is gonna be it actually
+
+##19/08/2019
+today i kept studying OOP, i need to work hard on this
+
+why?
+the reasong is quite simple, object programming is the main focus and source of all kind of programs now a days, well there are some codes that still remain structured but this is the most efficience way to work on it makes things simplier and more fun and interesting... is how video games are made and so i need to work hard on this cause is the way i will learn this, that's how i did with javascript and as i'm still learning i need to continue
+
 ## Inspirational Quote
