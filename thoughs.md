@@ -264,4 +264,10 @@ kinda nice i start a new project a little ago is not that fancy yet tbh but in t
 ##18/08/2019
 this weekend was soft on conding but me  being sick is getting me bad, today's entry is gonna be short due to that and this is gonna be it actually
 
+##19/08/2019
+today i kept studying OOP, i need to work hard on this
+
+why?
+the reasong is quite simple, object programming is the main focus and source of all kind of programs now a days, well there are some codes that still remain structured but this is the most efficience way to work on it makes things simplier and more fun and interesting... is how video games are made and so i need to work hard on this cause is the way i will learn this, that's how i did with javascript and as i'm still learning i need to continue
+
 ## Inspirational Quote
