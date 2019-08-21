@@ -6,18 +6,20 @@ class player{
   }
 
   //metodos de movimiento
-  //primera prueba sera con diferentes metodos
-  moverDerecha(){
-
-  }
-  moverIzquierda(){
-
-  }
-  moverArriba(){
-
-  }
-  moverAbajo(){
-
+  //cambiando metodo
+  movimiento(){
+    window.addEventListener('keydown', (event) =>{
+      switch(event){
+        case event.keyCode == '39':
+          return this.ejeX + 10
+        case event.keyCode == '37':
+          return this.ejeX - 10
+        case event.keyCode == '40':
+          return this.ejeY - 10
+        case event.keyCode == '38':
+          return this.ejeY + 10
+      }
+    })
   }
 }
 
