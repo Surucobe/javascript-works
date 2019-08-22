@@ -270,4 +270,10 @@ today i kept studying OOP, i need to work hard on this
 why?
 the reasong is quite simple, object programming is the main focus and source of all kind of programs now a days, well there are some codes that still remain structured but this is the most efficience way to work on it makes things simplier and more fun and interesting... is how video games are made and so i need to work hard on this cause is the way i will learn this, that's how i did with javascript and as i'm still learning i need to continue
 
+##21/08/2019
+today i'm feeling quite tired so this entry may be a little short
+
+or is it!?
+as i started my new project i realize what i need and what i got, i started with a simple idea which quickly improve as i was progressing with this logic, my first task is simple, create an objest that listens to what i'm doing on the keyboard, the following part will be difficult, moving this object... i remember doing so a long time ago with a canvas maybe i should check that option again
+
 ## Inspirational Quote
