@@ -276,4 +276,10 @@ today i'm feeling quite tired so this entry may be a little short
 or is it!?
 as i started my new project i realize what i need and what i got, i started with a simple idea which quickly improve as i was progressing with this logic, my first task is simple, create an objest that listens to what i'm doing on the keyboard, the following part will be difficult, moving this object... i remember doing so a long time ago with a canvas maybe i should check that option again
 
+##22/08/2019
+was an average day, struggle with my new project realizing i need to study more object oriented programming, specially in JS
+
+that bad?
+most of the resources i already have are quite old sadly... which means some of them are even focus on teaching objects with prototypes and what i really need is to learn how to use this along with my objects in order for me to be able to work this trhough and keep climbing my way up to the top of this mountain
+
 ## Inspirational Quote
