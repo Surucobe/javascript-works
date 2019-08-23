@@ -34,16 +34,17 @@ function yaRegistrado(obj){
   }
 }
 
-//const request = new Request(POKE_URL_REAL, {method: 'GET', type: 'cors', crossDomain: true})
 
 async function whoIsPoke(i) {
-  // const brook = await fetch(`${POKE_URL_REAL + i}/`)
   const brook = await fetch(new Request(`${POKE_URL_REAL}${i}/`, { method: 'GET', type: 'cors', crossDomain: true }))
   const cook = await brook.json()
+  // if (Object.keys(cook).length !== 0){
+  // return cook
+  // }
   if (cook.sprites.front_default){
     return cook
   }
-  throw new Error('Missing image')
+  throw new Error('No pokemon')
 }
 
 function nombres(str){
@@ -174,9 +175,9 @@ async function misty(dato) {
 
 $intel.addEventListener('submit', async (event) => {
   event.preventDefault()
+  const dato = new FormData($intel)
+  const subaru = dato.get('name').toLowerCase()
   try{
-    const dato = new FormData($intel)
-    const subaru = dato.get('name').toLowerCase()
     await misty(subaru)
     $overlay.classList.add('active')
   }catch(error){

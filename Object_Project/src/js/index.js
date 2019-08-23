@@ -1,34 +1,25 @@
 const $main = document.getElementById('main')
 class player{
-  constructor(id){
+  constructor(id, up, down, left, right){
     this.id = id
+    this.up = up
+    this.down = down
+    this.left = left
+    this.right = right
     this.ejeX//posicion en eje X
     this.ejeY//posicion en eje Y
   }
 
   //metodos de movimiento
-  //cambiando metodo
-  movimiento(event){
-    let codeNme = event.keyCode
-    switch (codeNme) {
-      // return this.ejeX + 10 derecha
-      case codeNme = 39:
-        return alert('derecha')
-        // return this.ejeX - 10 izquierda
-      case codeNme = 37:
-        return alert('izquierda')
-        // return this.ejeY - 10 abajo
-      case codeNme = 40:
-        return alert('abajo')
-        // return this.ejeY + 10 arriba
-      case codeNme = 38:
-        return alert('arriba')
-    }
-
-    $main.addEventListener('keydown', (event) =>{
-      this.movimiento(event)
-    })
+  movimiento(){
+    console.log(`This is the player ${this.id}`)
   }
+
+  window.addEventListener('keydown', (event) =>{
+    
+  })
 }
 
-const playerOne = new player($main)
+const playerOne = new player(1, 38, 40, 37, 39)
+
+const playerTwo = new player(2, 87, 83, 65, 68)
