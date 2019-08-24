@@ -16,7 +16,9 @@ class player{
   }
 
   window.addEventListener('keydown', (event) =>{
-    
+    if(event.keyCoe == this.up){
+      console.log(`This is the player ${this.up} button`)
+    }
   })
 }
 
