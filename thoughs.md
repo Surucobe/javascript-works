@@ -282,4 +282,7 @@ was an average day, struggle with my new project realizing i need to study more 
 that bad?
 most of the resources i already have are quite old sadly... which means some of them are even focus on teaching objects with prototypes and what i really need is to learn how to use this along with my objects in order for me to be able to work this trhough and keep climbing my way up to the top of this mountain
 
+##22/08/2019
+new lazy day no match for the last one, i need to make an actuacl schedule to regulate the way i do things in order to be more efficient in basically everything, i actually wana work on this
+
 ## Inspirational Quote
