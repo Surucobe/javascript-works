@@ -285,4 +285,7 @@ most of the resources i already have are quite old sadly... which means some of 
 ##22/08/2019
 new lazy day no match for the last one, i need to make an actuacl schedule to regulate the way i do things in order to be more efficient in basically everything, i actually wana work on this
 
+##23/08/2019
+thanks to the lack of electricity courtesy of my country i ended up spending the whole day without studying nor coding.... it was very frustrating but it did helped me think about how could i possibbly solve this and i can't... so a remote work from home could be harder... i need to find a place to work/study/grow as a web developer i realize that i need to learn PHP beyond of just adding PHP to my tech list there is also the fact that i cannot just let myself be beaten by any tech, i choose this path on my own and on my own shall i triumph!!!
+
 ## Inspirational Quote
