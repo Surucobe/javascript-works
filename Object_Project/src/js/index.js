@@ -11,15 +11,7 @@ class player{
   }
 
   //metodos de movimiento
-  movimiento(){
-    console.log(`This is the player ${this.id}`)
-  }
-
-  window.addEventListener('keydown', (event) =>{
-    if(event.keyCoe == this.up){
-      console.log(`This is the player ${this.up} button`)
-    }
-  })
+  movimiento(){}
 }
 
 const playerOne = new player(1, 38, 40, 37, 39)
