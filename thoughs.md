@@ -285,10 +285,15 @@ most of the resources i already have are quite old sadly... which means some of 
 ##22/08/2019
 new lazy day no match for the last one, i need to make an actuacl schedule to regulate the way i do things in order to be more efficient in basically everything, i actually wana work on this
 
+##23/08/2019
+thanks to the lack of electricity courtesy of my country i ended up spending the whole day without studying nor coding.... it was very frustrating but it did helped me think about how could i possibbly solve this and i can't... so a remote work from home could be harder... i need to find a place to work/study/grow as a web developer i realize that i need to learn PHP beyond of just adding PHP to my tech list there is also the fact that i cannot just let myself be beaten by any tech, i choose this path on my own and on my own shall i triumph!!!
+<<<<<<< HEAD
 ##24/08/2019
 today's commit is in vscode but not by choice, my city, or probably state, is currently having electricity problems which means i either have no electricty to turn my laptop on or no internet to commit anything into my repos.... and yeah it sucks!
 
 sounds bad?
 and it is... i try to not let this get me down but the truth is that when you study with the help of the internet and suddenly is gone there is nothing you can do but to practice and is nice if it wasn't for whn i get stuck in which case i have to look online which also leave me nowhere... is not as half as bad as when there is no electricity moment in which i can't even practice, again, i try to not let this get me down the in reality it hits me really hard.... i can't stop thinking on why should i go through this and then i understand that YES it is bad but it has also helped me to realize how gratefull i should be over the things i have WHEN i have them something as small as a lighter is amazing sometimes...
+=======
+>>>>>>> 211983e29a018f3c34e0600c5f3c4199afacfb2c
 
 ## Inspirational Quote
