@@ -9,9 +9,15 @@ class player{
     this.ejeX//posicion en eje X
     this.ejeY//posicion en eje Y
   }
-
+  
   //metodos de movimiento
-  movimiento(){}
+  movimiento(n){
+    if(n == this.up){
+      console.log(`i'm tired`)
+    }else{
+      console.log(`long way to go`)
+    }
+  }
 }
 
 const playerOne = new player(1, 38, 40, 37, 39)
