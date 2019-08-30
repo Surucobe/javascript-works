@@ -287,13 +287,14 @@ new lazy day no match for the last one, i need to make an actuacl schedule to re
 
 ##23/08/2019
 thanks to the lack of electricity courtesy of my country i ended up spending the whole day without studying nor coding.... it was very frustrating but it did helped me think about how could i possibbly solve this and i can't... so a remote work from home could be harder... i need to find a place to work/study/grow as a web developer i realize that i need to learn PHP beyond of just adding PHP to my tech list there is also the fact that i cannot just let myself be beaten by any tech, i choose this path on my own and on my own shall i triumph!!!
-<<<<<<< HEAD
+
 ##24/08/2019
 today's commit is in vscode but not by choice, my city, or probably state, is currently having electricity problems which means i either have no electricty to turn my laptop on or no internet to commit anything into my repos.... and yeah it sucks!
 
 sounds bad?
 and it is... i try to not let this get me down but the truth is that when you study with the help of the internet and suddenly is gone there is nothing you can do but to practice and is nice if it wasn't for whn i get stuck in which case i have to look online which also leave me nowhere... is not as half as bad as when there is no electricity moment in which i can't even practice, again, i try to not let this get me down the in reality it hits me really hard.... i can't stop thinking on why should i go through this and then i understand that YES it is bad but it has also helped me to realize how gratefull i should be over the things i have WHEN i have them something as small as a lighter is amazing sometimes...
-=======
->>>>>>> 211983e29a018f3c34e0600c5f3c4199afacfb2c
+
+##30/08/2019
+This one is gonna be different... i got quite down, depress, sad... basically while i was with no internet i felt disconnected from the world and what quite even worse is the fact of me not being able to check how to solve my problems with the classes in javascript which i haven't check yet, something i've come to realize is the fact that i'm scared of both success and failure or maybe i'm scare of fail in my success it hasn't been easy to get to where i am right now and is not exactly high per say i don't want to give up, i refuse tto give up but is getting harder to keep moving... i'm making myself harder to move deal with this kind of things is more than difficult but i just need to make my big problem a bunch of little problems i can do it, is not that hard and once i've done it i know i will be able to move easier
 
 ## Inspirational Quote
