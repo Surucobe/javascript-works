@@ -1,4 +1,5 @@
 const $main = document.getElementById('main')
+const $hide = document.getElementById('hide')
 class player{
   constructor(id, up, down, left, right){
     this.id = id
@@ -23,3 +24,7 @@ class player{
 const playerOne = new player(1, 38, 40, 37, 39)
 
 const playerTwo = new player(2, 87, 83, 65, 68)
+
+$hide.addEventListener('click', ()=>{
+  alert('I Exist!')
+})

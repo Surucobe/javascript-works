@@ -54,7 +54,6 @@ button{
   height: 100vh;
   position: fixed;
   display: flex;
-  justify-content: center;
   top: 0;
   bottom: 0;
   right: 0;
@@ -64,16 +63,65 @@ button{
 .top{
   position: absolute;
   top: 0;
-  justify-self: center;
+  /* justify-self: center; */
   height: 100px;
   width: 600px;
   border-bottom: 1px solid black;
+  background: crimson;
 }
 .top.lefty{
-  transform: skewX(25deg);
+  transform: skew(25deg);
+  left: calc(100% - 75%);
   border-left: 1px solid black;
 }
 .top.righty{
-  transform: skewX(-25deg);
+  transform: skew(-25deg);
+  right: calc(100% - 75%);
   border-right: 1px solid black;
+}
+
+.left-fix{
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  border: 1px solid black;
+  border-left: 0;
+  background: crimson;
+}
+.left-fix.topy{
+  bottom: calc(100% - 75%);
+  transform: skewY(-25deg);
+  border-top: 0;
+}
+.left-fix.boty{
+  transform: skewY(25deg);
+  top: calc(100% - 75%);
+  border-bottom: 0;
+}
+
+.right-fix{
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  border: 1px solid black;
+  right: 0;
+  border-right: 0;
+  background: crimson;
+}
+.right-fix.right-top{
+  bottom: calc(100% - 75%);
+  transform: skewY(25deg);
+  border-top: 0;
+}
+.right-fix.right-bot{
+  transform: skewY(-25deg);
+  top: calc(100% - 75%);
+  border-bottom: 0;
+}
+
+.fixed-overlay p{
+  position: absolute;
+  top: 5px;
+  right: 25px;
+  cursor: pointer;
 }

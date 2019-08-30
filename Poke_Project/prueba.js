@@ -38,9 +38,6 @@ function yaRegistrado(obj){
 async function whoIsPoke(i) {
   const brook = await fetch(new Request(`${POKE_URL_REAL}${i}/`, { method: 'GET', type: 'cors', crossDomain: true }))
   const cook = await brook.json()
-  // if (Object.keys(cook).length !== 0){
-  // return cook
-  // }
   if (cook.sprites.front_default){
     return cook
   }
