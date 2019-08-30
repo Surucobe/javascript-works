@@ -49,3 +49,31 @@ button{
   border-radius: 5px;
   height: 2em;
 }
+
+.fixed-overlay{
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.top{
+  position: absolute;
+  top: 0;
+  justify-self: center;
+  height: 100px;
+  width: 600px;
+  border-bottom: 1px solid black;
+}
+.top.lefty{
+  transform: skewX(25deg);
+  border-left: 1px solid black;
+}
+.top.righty{
+  transform: skewX(-25deg);
+  border-right: 1px solid black;
+}
