@@ -297,4 +297,7 @@ and it is... i try to not let this get me down but the truth is that when you st
 ##30/08/2019
 This one is gonna be different... i got quite down, depress, sad... basically while i was with no internet i felt disconnected from the world and what quite even worse is the fact of me not being able to check how to solve my problems with the classes in javascript which i haven't check yet, something i've come to realize is the fact that i'm scared of both success and failure or maybe i'm scare of fail in my success it hasn't been easy to get to where i am right now and is not exactly high per say i don't want to give up, i refuse tto give up but is getting harder to keep moving... i'm making myself harder to move deal with this kind of things is more than difficult but i just need to make my big problem a bunch of little problems i can do it, is not that hard and once i've done it i know i will be able to move easier
 
+##31/08/2019
+RIP my cute little forest in github... i'm feeling lazy to do things lately, specially programming but i think is mainly cause whenever i get stuck i don't want to continue, probably cause i feel like i should already know how that works but truth is that i don't know how it does and that's okay i need to understand that not knowing how something works at first is okay, what's bad is not wanting to know how it does i need to stop being scared cause there is nothing to be affraid but to fear it self
+
 ## Inspirational Quote
