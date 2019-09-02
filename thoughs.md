@@ -300,4 +300,7 @@ This one is gonna be different... i got quite down, depress, sad... basically wh
 ##31/08/2019
 RIP my cute little forest in github... i'm feeling lazy to do things lately, specially programming but i think is mainly cause whenever i get stuck i don't want to continue, probably cause i feel like i should already know how that works but truth is that i don't know how it does and that's okay i need to understand that not knowing how something works at first is okay, what's bad is not wanting to know how it does i need to stop being scared cause there is nothing to be affraid but to fear it self
 
+##01/09/2019
+New month, is already september so yay! this month i'll be 23 but that's meaningless what is important is that i challenge myself to get a job as a web developer before september 25 so i have 22 days left basically... time is running and i'm currently not really studying and i should i don't feel scared for not getting the job i'm determinated to get it but rather on how to keep it... i mean is suppose to be simple right? just work, do your best and fight any obstacle that comes your way... easy!
+
 ## Inspirational Quote
