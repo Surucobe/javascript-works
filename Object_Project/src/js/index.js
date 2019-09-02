@@ -1,5 +1,7 @@
 const $main = document.getElementById('main')
 const $hide = document.getElementById('hide')
+const $overlay = document.getElementById('overlay')
+const $formas = overlay.querySelectorAll('div')
 class player{
   constructor(id, up, down, left, right){
     this.id = id
@@ -27,4 +29,8 @@ const playerTwo = new player(2, 87, 83, 65, 68)
 
 $hide.addEventListener('click', ()=>{
   alert('I Exist!')
+})
+
+$formas.forEach((n) =>{
+  n.addEventListener('click', () => alert('working'))
 })
