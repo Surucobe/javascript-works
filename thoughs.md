@@ -303,4 +303,7 @@ RIP my cute little forest in github... i'm feeling lazy to do things lately, spe
 ##01/09/2019
 New month, is already september so yay! this month i'll be 23 but that's meaningless what is important is that i challenge myself to get a job as a web developer before september 25 so i have 22 days left basically... time is running and i'm currently not really studying and i should i don't feel scared for not getting the job i'm determinated to get it but rather on how to keep it... i mean is suppose to be simple right? just work, do your best and fight any obstacle that comes your way... easy!
 
+##03/09/2019
+i haven't been constant on this journal but what i really wanna say today is that i realize that my phone number is kinda of unplug, it doesn't get calls a friend told me today that he couldn't get to call me and then showed me that in the moment he called thee was no tone.... this is actually quite worrying as it may be a reason why  don't get call for interviews and i say this with some optimism intentions it wouldn't be the worst that it was mainly because of that so... let's ty a new change
+
 ## Inspirational Quote
