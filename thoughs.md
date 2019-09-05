@@ -306,4 +306,7 @@ New month, is already september so yay! this month i'll be 23 but that's meaning
 ##03/09/2019
 i haven't been constant on this journal but what i really wanna say today is that i realize that my phone number is kinda of unplug, it doesn't get calls a friend told me today that he couldn't get to call me and then showed me that in the moment he called thee was no tone.... this is actually quite worrying as it may be a reason why  don't get call for interviews and i say this with some optimism intentions it wouldn't be the worst that it was mainly because of that so... let's ty a new change
 
+##04/09/2019
+so where should i begin? the day started quite... no it started in a mess yesterday there was a problem that basically forced me to be part of a rave party with the electricity coming in and out so i slep quite uncomfortable but that was meaningless after waking up i started learning about webpack and react, it was fun as the class is focus on webpack i couldn't really learn much about react yet i got some info so yay, later while delivering my sister something she left at home and on the way to her academy i lost my bag pack, which has been with me for years... and once at home right before starting a class i decided to play with my dog and due to a mistake from me i dislocated my pinky... i finish the class tho as annoying as this is i'm okay with it
+
 ## Inspirational Quote
