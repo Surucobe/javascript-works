@@ -309,4 +309,7 @@ i haven't been constant on this journal but what i really wanna say today is tha
 ##04/09/2019
 so where should i begin? the day started quite... no it started in a mess yesterday there was a problem that basically forced me to be part of a rave party with the electricity coming in and out so i slep quite uncomfortable but that was meaningless after waking up i started learning about webpack and react, it was fun as the class is focus on webpack i couldn't really learn much about react yet i got some info so yay, later while delivering my sister something she left at home and on the way to her academy i lost my bag pack, which has been with me for years... and once at home right before starting a class i decided to play with my dog and due to a mistake from me i dislocated my pinky... i finish the class tho as annoying as this is i'm okay with it
 
+##05/09/2019
+keeping habits is hard, at least the good ones is easy to forget them specialles when you try to keep them under a schedule but when you keep a good habit is very rewarding because you are working on yourself and there is no better way to benefit yourself... maybe today is gonna be shurt but i have a nice plan for tomorrow or at least i will lol
+
 ## Inspirational Quote
