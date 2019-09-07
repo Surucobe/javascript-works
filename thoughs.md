@@ -312,4 +312,7 @@ so where should i begin? the day started quite... no it started in a mess yester
 ##05/09/2019
 keeping habits is hard, at least the good ones is easy to forget them specialles when you try to keep them under a schedule but when you keep a good habit is very rewarding because you are working on yourself and there is no better way to benefit yourself... maybe today is gonna be shurt but i have a nice plan for tomorrow or at least i will lol
 
+##06/09/2019
+every step i take into beliving i did learn how to close this gap about my knowledge in classes and objects seems to be a fake step when i start testing is not gonna be easy at all but i think i can do it and even if i couldn't i will do it and achieve victory!
+
 ## Inspirational Quote

@@ -15,12 +15,16 @@ class Player{
   movimiento(){
     console.log(`This are my keys \n\ ${this.down}, ${this.left}, ${this.right}, ${this.up}`)
   }
+
+  eventFunc(){
+    console.log(`is working cause ${this.id}!`)
+  }
 }
 
 $hide.addEventListener('click', ()=>{
   alert('I Exist!')
 });
 
-(function gaming(){
-  playerOne = new Player(1, 38, 40, 37, 39)
-})()
+const playerOne = new Player(1, 2, 3, 4, 5)
+
+$main.addEventListener('click', playerOne.eventFunc)
