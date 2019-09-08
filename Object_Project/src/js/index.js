@@ -15,6 +15,10 @@ class Player{
     console.log(`This are my keys \n\ ${this.down}, ${this.left}, ${this.right}, ${this.up}`)
   }
 
+  keys(){
+  //new struggles
+  }
+
   workinProgress(){
     alert(`is working cause ${this.id}!`)
   }
