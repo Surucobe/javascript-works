@@ -315,4 +315,7 @@ keeping habits is hard, at least the good ones is easy to forget them specialles
 ##06/09/2019
 every step i take into beliving i did learn how to close this gap about my knowledge in classes and objects seems to be a fake step when i start testing is not gonna be easy at all but i think i can do it and even if i couldn't i will do it and achieve victory!
 
+##07/09/2019
+finally after what i believe it was a week of different trials, tests and ideas i finally manage to make my class do just exactly what i wanted... or at least start to do the idea i had on is no way near to what i wanna do BUT i'm closer to my goal! understanding how something works, understaind how to make it work and understanding how these ideas go along is quite satisfactory!
+
 ## Inspirational Quote
