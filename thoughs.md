@@ -321,4 +321,7 @@ finally after what i believe it was a week of different trials, tests and ideas 
 ##08/09/2019
 today something interesting happened i remember how a few months ago i started the javascript section in freeCodeCamp and felt quite bad being unable to finish a simple problem that involved using Map and Filter as i ended up confused and looking for solutions which i find but made me feel like i wasn't learning at all and today i faced a similar problem from which i came out victorious! i feel quite hapy with my progress and inside me a little spark is lighten on with the desire of looking to what i can do in the future!!!
 
+##09/09/2019
+so today while testing my project i found a very fun bug which lead me to believe that my progress was worthless, i mean, i did progress but in the way i found a bug, it is impossible not to find a bug in the way but is stil very surprising to find one after believing so firmly that there was none... sneaky little basterd
+
 ## Inspirational Quote
