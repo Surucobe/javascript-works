@@ -1,6 +1,5 @@
 const $top = document.getElementById('top')
 const $hide = document.getElementById('hide')
-const $formas = overlay.querySelectorAll('div')
 
 class Player{
   constructor(id, up, down, left, right){
@@ -12,7 +11,7 @@ class Player{
   }
   
   movimiento(){
-    console.log(`This are my keys \n\ ${this.down}, ${this.left}, ${this.right}, ${this.up}`)
+    document.body.innerHTML = `This are my keys \n\ ${this.down}, ${this.left}, ${this.right}, ${this.up}`
   }
 
   keys(){
@@ -20,7 +19,7 @@ class Player{
   }
 
   workinProgress(){
-    alert(`is working cause ${this.id}!`)
+    alert(`is working cause ${this.up}!`)
   }
 }
 

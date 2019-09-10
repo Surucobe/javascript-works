@@ -5,10 +5,6 @@ body{
   background-color: skyblue;
 }
 
-.test{
-  border: 1px solid black;
-}
-
 .container{
   height: 600px;
   width: 900px;
@@ -23,11 +19,7 @@ body{
   height: 275px;
   border-radius: 5px;
   background-color: #fff;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "blue"
-                       "brown green"
-                       "purple";
+  border: 1px solid black;
 }
 
 .form{
@@ -91,37 +83,4 @@ button{
   bottom: 0;
   left: 0;
   right: 0;
-}
-
-.arriba{
-width: 0;
-height: 0;
-border-top: 150px solid blue;
-border-left: 135px solid transparent;
-border-right: 135px solid transparent;
-grid-area: blue;
-}
-.izquierda{
-width: 0;
-height: 0;
-border-top: 135px solid transparent;
-border-left: 150px solid brown;
-border-bottom: 135px solid transparent;
-grid-area: brown;
-}
-.derecha{
-width: 0;
-height: 0;
-border-right: 150px solid green;
-border-top: 135px solid transparent;
-border-bottom: 135px solid transparent;
-grid-area: green;
-}
-.abajo{
-width: 0;
-height: 0;
-border-bottom: 150px solid purple;
-border-left: 135px solid transparent;
-border-right: 135px solid transparent;
-grid-area: purple;
 }
