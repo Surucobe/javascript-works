@@ -318,4 +318,7 @@ every step i take into beliving i did learn how to close this gap about my knowl
 ##07/09/2019
 finally after what i believe it was a week of different trials, tests and ideas i finally manage to make my class do just exactly what i wanted... or at least start to do the idea i had on is no way near to what i wanna do BUT i'm closer to my goal! understanding how something works, understaind how to make it work and understanding how these ideas go along is quite satisfactory!
 
+##08/09/2019
+today something interesting happened i remember how a few months ago i started the javascript section in freeCodeCamp and felt quite bad being unable to finish a simple problem that involved using Map and Filter as i ended up confused and looking for solutions which i find but made me feel like i wasn't learning at all and today i faced a similar problem from which i came out victorious! i feel quite hapy with my progress and inside me a little spark is lighten on with the desire of looking to what i can do in the future!!!
+
 ## Inspirational Quote
