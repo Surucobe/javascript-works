@@ -324,4 +324,7 @@ today something interesting happened i remember how a few months ago i started t
 ##09/09/2019
 so today while testing my project i found a very fun bug which lead me to believe that my progress was worthless, i mean, i did progress but in the way i found a bug, it is impossible not to find a bug in the way but is stil very surprising to find one after believing so firmly that there was none... sneaky little basterd
 
+##10/09/2019
+today i had an unintentional break due to daily life but i manage myself to understand a bug in my code, i'm still learning how 'this' work and i'm not ahasmed, also manage to find the "you don't know JS yet!" section of scope and closures! and that' about it for today
+
 ## Inspirational Quote
