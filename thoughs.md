@@ -327,4 +327,7 @@ so today while testing my project i found a very fun bug which lead me to believ
 ##10/09/2019
 today i had an unintentional break due to daily life but i manage myself to understand a bug in my code, i'm still learning how 'this' work and i'm not ahasmed, also manage to find the "you don't know JS yet!" section of scope and closures! and that' about it for today
 
+##11/09/2019
+recently i feel less and less motivated even to do this, i'm not sure why it may just be a natural process to get bored eventually but i feel like going down and down and i don't like it, maybe is cause the easy part is done and now the hardest part of all has come, to get a deeper knwoledge as i see myself swiing into the depths of my career i feel more and more scared yeah is not easy, it won't be easy and is not suppose to be easy i knew this already but facing this reality is hard and then my reality which is the fact that my family is running through hard times and when all of that comes it makes me think "you can change it you just need to start working and as web developer will be easy" which then brings me more stress and frustration no one said it was gonna be aesy and if i keep my plan as i'm thinking is gonna be even harder and harder, telling myself that i'm waiting for this challenges is a bit of a lie but is not entirely a lie i do wanna face new stuffs, i'm tired of my current life but i'm also scared of moving on, i'm now taking small and i'm afraid of walking but i'm also cared of staying still
+
 ## Inspirational Quote
