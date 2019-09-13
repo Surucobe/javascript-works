@@ -19,7 +19,7 @@ class Player{
   }
 
   workinProgress(){
-    alert(`is working cause ${this.up}!`)
+    alert(`is working cause ${up}!`)
   }
 }
 

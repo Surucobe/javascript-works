@@ -1,0 +1,7 @@
+:root{
+  --borde: 1px solid #000;
+}
+
+.main{
+  border: var(--borde)
+}
