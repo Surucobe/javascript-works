@@ -33,3 +33,5 @@ function render(obj){
   $gender.textContent = obj.gender
   $location.textContent = obj.location.name
 }
+
+Promise.all([getChar(), getChar()])
