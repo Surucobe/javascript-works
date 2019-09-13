@@ -2,6 +2,20 @@
   --borde: 1px solid #000;
 }
 
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main{
-  border: var(--borde)
+  border: var(--borde);
+  width: 500px;
+  height: 500px;
+}
+
+.char-img{
+  border: var(--borde);
+  height: 50px;
+  width: 50px;
 }
