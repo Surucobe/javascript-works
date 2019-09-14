@@ -3,6 +3,7 @@ const DATA = {
   locations: "https://rickandmortyapi.com/api/location",
   episodes: "https://rickandmortyapi.com/api/episode"
 }
+
 const $info = document.getElementById('info')
 const img = document.querySelector('img')
 const $id = document.getElementById('identidad')
@@ -10,9 +11,10 @@ const $stat = document.getElementById('status')
 const $specie = document.getElementById('species')
 const $gender = document.getElementById('gender')
 const $location = document.getElementById('location')
+const $char = document.getElementById('char')
 
 function num(){
-  return parseInt(Math.random() * 50000 / 100)
+  return parseInt(Math.random() * 49300 / 100)
 }
 
 async function getChar(){
@@ -34,4 +36,4 @@ function render(obj){
   $location.textContent = obj.location.name
 }
 
-Promise.all([getChar(), getChar()])
+$char.addEventListener('click', getChar)
