@@ -12,6 +12,7 @@ const $specie = document.getElementById('species')
 const $gender = document.getElementById('gender')
 const $location = document.getElementById('location')
 const $char = document.getElementById('char')
+const $li = document.querySelectorAll('li')
 
 function num(){
   return parseInt(Math.random() * 49300 / 100)
@@ -36,4 +37,21 @@ function render(obj){
   $location.textContent = obj.location.name
 }
 
-$char.addEventListener('click', getChar)
+
+$char.onclick = () => getChar()
+
+$li.forEach((x) =>{
+  x.addEventListener('click', () =>{
+    removeSelec()
+    x.classList.add('selected')
+  })
+})
+
+function removeSelec(){
+  $li.forEach((x) => {
+    // debugger
+    if (x.classList.contains('selected') == true){
+      x.classList.remove('selected')
+    }
+  })
+}

@@ -10,10 +10,8 @@ body{
 }
 
 .container{
-  border: var(--borde);
   width: 585px;
   display: flex;
-  /* justify-content: space-between; */
 }
 .container ul{
   justify-content: center;
@@ -24,8 +22,13 @@ body{
   font-size: 1.2em;
 }
 .container li{
-  border: var(--borde);
+  border: 1px orangered solid;
+  border-right: 0;
   cursor: pointer;
+}
+.selected{
+  border: 2px orangered solid;
+  transform: scale(1.1);
 }
 
 .main{
