@@ -333,4 +333,7 @@ recently i feel less and less motivated even to do this, i'm not sure why it may
 ##12/09/2019
 i'm actually doing this real quick cause time is almost over for my daily commit, recently i feel like i've been very lazy, also yesterday bug was solve, to code not sure why rather than lazy maybe i very simply don't want to maybe i'm loosing fate what i've been doing a lot is watch gintama that i've been doing A LOT and idea that just popped up into my mind is combining my love for anime with coding i may be able to do some pretty sick and amazing things with that!
 
+##13/09/2019
+today i felt a bit inspire, i decided to make a little app with js that creates a list of characters from rick and morty it has been fun but is something i have already done in the past and quite batter i most add it was a better day overall, my new idea is to create mutiple tab inside the page with different characters and when you click on one of them it's show and then closed the previos and on and on
+
 ## Inspirational Quote
