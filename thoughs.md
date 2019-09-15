@@ -336,4 +336,7 @@ i'm actually doing this real quick cause time is almost over for my daily commit
 ##13/09/2019
 today i felt a bit inspire, i decided to make a little app with js that creates a list of characters from rick and morty it has been fun but is something i have already done in the past and quite batter i most add it was a better day overall, my new idea is to create mutiple tab inside the page with different characters and when you click on one of them it's show and then closed the previos and on and on
 
+##14/09/2019
+so this day... today i did not study like actually getting into platzi or freeCodeCamp, nope yet i did code i manage to do some thing that made me quite happy some cool js stuff that pleased me to do as it wasn't just me remembering but also analizing how was i suppose to do so and finally fixed a bug that has been bothering me for a while but i did nothing on my religious part, it makes me sad but something made me feel out of place, i'm feeling down and sick
+
 ## Inspirational Quote
