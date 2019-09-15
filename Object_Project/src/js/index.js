@@ -19,9 +19,9 @@ class Player{
   }
 
   workinProgress(){
-    alert(`is working cause ${up}!`)
+    alert(`is working cause ${this.up}!`)
   }
 }
 
 const playerOne = new Player(1, 38, 40, 37, 39)
-$top.addEventListener('click', playerOne.workinProgress)
+$top.addEventListener('click', playerOne.workinProgress.bind(playerOne))
