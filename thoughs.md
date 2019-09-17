@@ -339,4 +339,7 @@ today i felt a bit inspire, i decided to make a little app with js that creates 
 ##14/09/2019
 so this day... today i did not study like actually getting into platzi or freeCodeCamp, nope yet i did code i manage to do some thing that made me quite happy some cool js stuff that pleased me to do as it wasn't just me remembering but also analizing how was i suppose to do so and finally fixed a bug that has been bothering me for a while but i did nothing on my religious part, it makes me sad but something made me feel out of place, i'm feeling down and sick
 
+##16/09/2019
+i'm not feeling very talktive these days it's been rough, stress is piling up and i'm running away, but i can't keep running, i mean i can but i don't think i should cause... there is nothin to run away from there isn't
+
 ## Inspirational Quote
