@@ -202,7 +202,10 @@ function clickShiny(elm){
     const data = elm.getAttribute('data-id')
     const img = await oak(data)
     const normal = img.sprites.front_default
-    const shiny = img.sprites.front_shiny
+    let shiny = img.sprites.front_shiny
+    if(shiny == null){
+      shiny = normal
+    }
     if(elm.getAttribute('data-form') == 'normal'){
       elm.children[0].src = shiny
       elm.setAttribute('data-form', 'shiny')
