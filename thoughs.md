@@ -342,4 +342,7 @@ so this day... today i did not study like actually getting into platzi or freeCo
 ##16/09/2019
 i'm not feeling very talktive these days it's been rough, stress is piling up and i'm running away, but i can't keep running, i mean i can but i don't think i should cause... there is nothin to run away from there isn't
 
+##17/09/2019
+been a while since i last log on github... i feel nothing... as days pass by i feel more and more stress piling up on me, i'm trying my hardest to get a job as a web developer, or to just get a gig as a freelance web developer but of course i have no expirienced on the field just that alone hits really bad and if it wasn't enough most of the offers have some high requirements maybe i should stop looking for one like this and actually focus on something i can get while i can, today for the first time in a long time i kinda talk with my mom about my problems i suppose that was useless it seems like anything i ask or tell her just goes away later on... i feel barely nothing towards what she thinks about me ijust wanna start working as a web developer and keep running my projects yeah that's the trurth of what i really want it may be selfish but is the truth
+
 ## Inspirational Quote
