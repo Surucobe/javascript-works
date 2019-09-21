@@ -348,4 +348,8 @@ been a while since i last log on github... i feel nothing... as days pass by i f
 ##18/09/2019
 i'm very tired, currently facing a bug that prevents me from starting my react app, is suppose to be inside my webpack or something like that... i'm quite tired of facing this i started a class very early today and i haven't been able to test the output thanks to this thing i'm still trying to figurate how did this even happen...but once is over i'm back at react!
 
+##20/09/2019
+i missed yesterdays commit by accident but the good new is that i have conquer yet another challenge by defeating another bug!
+basically i didn't know that webpack understand the exclamation mark (!) for markdown language and being this the case and me having a folder with one of those, every time i tried to run my React app things went wrong, it took me a while to realize this because is something new that never bothered me before but well, live and learn
+
 ## Inspirational Quote
