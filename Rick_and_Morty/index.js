@@ -25,17 +25,18 @@ async function getChar(){
   console.log(char)
   CHARLIST.push(char)
   // render(char)
+  return char
 }
 
 function render(obj){
   let name = $info.querySelector('h3')
   img.setAttribute('src', obj.image)
-  name.textContent = obj.name
-  $id.textContent = obj.id
-  $stat.textContent = obj.status
-  $specie.textContent = obj.species
-  $gender.textContent = obj.gender
-  $location.textContent = obj.location.name
+  name.textContent = ` ${obj.name}`
+  $id.textContent = ` ${obj.id}`
+  $stat.textContent = ` ${obj.status}`
+  $specie.textContent = ` ${obj.species}`
+  $gender.textContent = ` ${obj.gender}`
+  $location.textContent = ` ${obj.location.name}`
 }
 
 
@@ -45,9 +46,11 @@ $char.onclick = () => {
 }
 
 $li.forEach((x) =>{
-  x.addEventListener('click', () =>{
+  x.addEventListener('click', async() =>{
     removeSelec()
     x.classList.add('selected')
+    let obj = await getChar()
+    render(obj)
   })
 })
 
