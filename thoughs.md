@@ -352,4 +352,8 @@ i'm very tired, currently facing a bug that prevents me from starting my react a
 i missed yesterdays commit by accident but the good new is that i have conquer yet another challenge by defeating another bug!
 basically i didn't know that webpack understand the exclamation mark (!) for markdown language and being this the case and me having a folder with one of those, every time i tried to run my React app things went wrong, it took me a while to realize this because is something new that never bothered me before but well, live and learn
 
+##21/09/2019
+quick update, today i was coding with js after some time without coding, didn't learn more react but i feel a little good as i feel that my knowledge isn't gone i'm happy about this and i forgot to do this earlier so i'm up against the clock
+i keep looking for a job and still remain withot one
+
 ## Inspirational Quote
