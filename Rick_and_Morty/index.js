@@ -4,6 +4,7 @@ const DATA = {
   episodes: "https://rickandmortyapi.com/api/episode"
 }
 
+const CHARLIST = []
 const $info = document.getElementById('info')
 const img = document.querySelector('img')
 const $id = document.getElementById('identidad')
@@ -12,7 +13,7 @@ const $specie = document.getElementById('species')
 const $gender = document.getElementById('gender')
 const $location = document.getElementById('location')
 const $char = document.getElementById('char')
-// const $li = document.querySelectorAll('li')
+const $li = document.querySelectorAll('li')
 
 function num(){
   return parseInt(Math.random() * 49300 / 100)
@@ -21,9 +22,9 @@ function num(){
 async function getChar(){
   const data = await fetch(`${DATA.characters}/${num()}`)
   const char = await data.json()
-  console.log(`ID:${char.id} \n\Name:${char.name} \n\Status:${char.status}`)
   console.log(char)
-  render(char)
+  CHARLIST.push(char)
+  // render(char)
 }
 
 function render(obj){
@@ -38,7 +39,10 @@ function render(obj){
 }
 
 
-$char.onclick = () => getChar()
+$char.onclick = () => {
+  CHARLIST.splice(0)
+  rick()
+}
 
 $li.forEach((x) =>{
   x.addEventListener('click', () =>{
@@ -55,3 +59,9 @@ function removeSelec(){
     }
   })
 }
+
+function rick(){
+  Promise.all([getChar(), getChar(), getChar(), getChar(), getChar()])
+}
+
+rick()
