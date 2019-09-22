@@ -12,7 +12,7 @@ const $specie = document.getElementById('species')
 const $gender = document.getElementById('gender')
 const $location = document.getElementById('location')
 const $char = document.getElementById('char')
-const $li = document.querySelectorAll('li')
+// const $li = document.querySelectorAll('li')
 
 function num(){
   return parseInt(Math.random() * 49300 / 100)
