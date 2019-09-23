@@ -49,14 +49,11 @@ $li.forEach((x) =>{
   x.addEventListener('click', async() =>{
     removeSelec()
     x.classList.add('selected')
-    let obj = await getChar()
-    render(obj)
   })
 })
 
 function removeSelec(){
   $li.forEach((x) => {
-    // debugger
     if (x.classList.contains('selected') == true){
       x.classList.remove('selected')
     }
@@ -66,5 +63,6 @@ function removeSelec(){
 function rick(){
   Promise.all([getChar(), getChar(), getChar(), getChar(), getChar()])
 }
-
 rick()
+
+$li[0].addEventListener('click', () => render(CHARLIST[0]))
