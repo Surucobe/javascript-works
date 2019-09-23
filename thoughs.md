@@ -356,4 +356,7 @@ basically i didn't know that webpack understand the exclamation mark (!) for mar
 quick update, today i was coding with js after some time without coding, didn't learn more react but i feel a little good as i feel that my knowledge isn't gone i'm happy about this and i forgot to do this earlier so i'm up against the clock
 i keep looking for a job and still remain withot one
 
+##22/09/2019
+today i realize something i still have the bad habit of letting other look down on me even when i know i'm right this is a very bad habit i need to break with something that actually makes me feel bad is something i need to improve i recently feel really bad about myself not being able to find the job i want, not doing what i want it does make me feel bad tbh
+
 ## Inspirational Quote
