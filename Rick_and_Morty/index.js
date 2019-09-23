@@ -14,9 +14,11 @@ const $gender = document.getElementById('gender')
 const $location = document.getElementById('location')
 const $char = document.getElementById('char')
 const $li = document.querySelectorAll('li')
+const main = document.getElementById('main_container')
+const mainDiv = main.querySelectorAll('div .char-container-char')
 
 function num(){
-  return parseInt(Math.random() * 49300 / 100)
+  return parseInt(Math.random() * 49000 / 100)
 }
 
 async function getChar(){
@@ -24,7 +26,6 @@ async function getChar(){
   const char = await data.json()
   console.log(char)
   CHARLIST.push(char)
-  // render(char)
   return char
 }
 
@@ -63,6 +64,11 @@ function removeSelec(){
 function rick(){
   Promise.all([getChar(), getChar(), getChar(), getChar(), getChar()])
 }
-rick()
 
-$li[0].addEventListener('click', () => render(CHARLIST[0]))
+async function damnItMorty(){
+  await rick()
+  mainDiv.forEach( x =>{
+    render(CHARLIST[x])
+  })
+}
+damnItMorty()
