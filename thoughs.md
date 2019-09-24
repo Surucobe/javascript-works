@@ -359,4 +359,7 @@ i keep looking for a job and still remain withot one
 ##22/09/2019
 today i realize something i still have the bad habit of letting other look down on me even when i know i'm right this is a very bad habit i need to break with something that actually makes me feel bad is something i need to improve i recently feel really bad about myself not being able to find the job i want, not doing what i want it does make me feel bad tbh
 
+##23/09/2019
+i guess is fair to say that today was a bad day, i got myself wet out of my mind in a HUGE rain i didn't make anything particualary special and prove myself once again that i don't know how to handle modules, i feel really sad these days not being able to get a job in what i want is hitting me hard and i guess i correct to say i refuse to get a job in a different area but, specifically as a web developer, i want to really hard but i don't work half as hard as i use to the question on how to make it is one that has me intrigue how to be proactive, how to stop procastinating and how to get serious and maybe the answer is just do it...
+
 ## Inspirational Quote
