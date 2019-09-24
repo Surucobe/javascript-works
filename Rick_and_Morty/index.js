@@ -5,20 +5,44 @@ const DATA = {
 }
 
 const CHARLIST = []
-const $info = document.getElementById('info')
-const img = document.querySelector('img')
-const $id = document.getElementById('identidad')
-const $stat = document.getElementById('status')
-const $specie = document.getElementById('species')
-const $gender = document.getElementById('gender')
-const $location = document.getElementById('location')
 const $char = document.getElementById('char')
 const $li = document.querySelectorAll('li')
 const main = document.getElementById('main_container')
-const mainDiv = main.querySelectorAll('div .char-container-char')
 
 function num(){
   return parseInt(Math.random() * 49000 / 100)
+}
+
+function characters(obj) {
+  return (
+    `<div class="char-container-char">
+    <img src="${obj.image}" alt="image" class="char-img">
+      <div class="info">
+        <h3>Name</h3>
+        <p>
+          ID: <span>${obj.id}</span>
+        </p>
+        <p>
+          Status: <span>${obj.status}</span>
+        </p>
+        <p>
+          Specie: <span>${obj.species}</span>
+        </p>
+        <p>
+          Gender: <span>${obj.gender}</span>
+        </p>
+        <p>
+          Location: <span>${obj.location.name}</span>
+        </p>
+      </div>
+  </div>`
+  )
+}
+
+function rendering(tem){
+  const html = document.implementation.createHTMLDocument()
+  html.body.innerHTML = tem
+  return html.body.children[0]
 }
 
 async function getChar(){
@@ -28,18 +52,6 @@ async function getChar(){
   CHARLIST.push(char)
   return char
 }
-
-function render(obj){
-  let name = $info.querySelector('h3')
-  img.setAttribute('src', obj.image)
-  name.textContent = ` ${obj.name}`
-  $id.textContent = ` ${obj.id}`
-  $stat.textContent = ` ${obj.status}`
-  $specie.textContent = ` ${obj.species}`
-  $gender.textContent = ` ${obj.gender}`
-  $location.textContent = ` ${obj.location.name}`
-}
-
 
 $char.onclick = () => {
   CHARLIST.splice(0)
@@ -65,10 +77,11 @@ function rick(){
   Promise.all([getChar(), getChar(), getChar(), getChar(), getChar()])
 }
 
-async function damnItMorty(){
-  await rick()
-  mainDiv.forEach( x =>{
-    render(CHARLIST[x])
-  })
+async function morty(){
+  let obj = await getChar()
+  let string = characters(obj)
+  let g = rendering(string)
+  main.append(g)
 }
-damnItMorty()
+
+morty()
