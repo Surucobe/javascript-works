@@ -8,6 +8,13 @@ const CHARLIST = []
 const $char = document.getElementById('char')
 const $li = document.querySelectorAll('li')
 const main = document.getElementById('main_container')
+const head = document.getElementById('header')
+
+function rendering(tem) {
+  const html = document.implementation.createHTMLDocument()
+  html.body.innerHTML = tem
+  return html.body.children[0]
+}
 
 function num(){
   return parseInt(Math.random() * 49000 / 100)
@@ -18,7 +25,7 @@ function characters(obj) {
     `<div class="char-container-char">
     <img src="${obj.image}" alt="image" class="char-img">
       <div class="info">
-        <h3>Name</h3>
+        <h3>Name ${obj.name}</h3>
         <p>
           ID: <span>${obj.id}</span>
         </p>
@@ -39,12 +46,6 @@ function characters(obj) {
   )
 }
 
-function rendering(tem){
-  const html = document.implementation.createHTMLDocument()
-  html.body.innerHTML = tem
-  return html.body.children[0]
-}
-
 async function getChar(){
   const data = await fetch(`${DATA.characters}/${num()}`)
   const char = await data.json()
@@ -52,6 +53,11 @@ async function getChar(){
   CHARLIST.push(char)
   return char
 }
+
+const option = head.querySelectorAll('div')
+option.forEach((x) => {
+  x.addEventListener('click', () => alert('working'))
+})
 
 $char.onclick = () => {
   CHARLIST.splice(0)
