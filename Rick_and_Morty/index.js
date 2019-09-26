@@ -9,6 +9,7 @@ const $char = document.getElementById('char')
 const $li = document.querySelectorAll('li')
 const main = document.getElementById('main_container')
 const head = document.getElementById('header')
+let collection 
 
 function rendering(tem) {
   const html = document.implementation.createHTMLDocument()
@@ -64,6 +65,14 @@ $char.onclick = () => {
   rick()
 }
 
+function removeSelec() {
+  $li.forEach((x) => {
+    if (x.classList.contains('selected') == true) {
+      x.classList.remove('selected')
+    }
+  })
+}
+
 $li.forEach((x) =>{
   x.addEventListener('click', async() =>{
     removeSelec()
@@ -71,23 +80,17 @@ $li.forEach((x) =>{
   })
 })
 
-function removeSelec(){
-  $li.forEach((x) => {
-    if (x.classList.contains('selected') == true){
-      x.classList.remove('selected')
-    }
-  })
-}
-
-function rick(){
-  Promise.all([getChar(), getChar(), getChar(), getChar(), getChar()])
+async function rick(){
+  debugger
+  CHARLIST.splice(0)
+  const prom = await Promise.all([getChar(), getChar(), getChar(), getChar(), getChar()])
 }
 
 async function morty(){
-  let obj = await getChar()
-  let string = characters(obj)
-  let g = rendering(string)
-  main.append(g)
+  let riky = await rick()
+  CHARLIST.forEach(async (items) =>{
+    let string = characters(items)
+    let g = rendering(string)
+    main.append(g)
+  })
 }
-
-morty()
