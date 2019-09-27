@@ -81,7 +81,7 @@ $li.forEach((x) =>{
 })
 
 async function rick(){
-  debugger
+  //debugger
   CHARLIST.splice(0)
   const prom = await Promise.all([getChar(), getChar(), getChar(), getChar(), getChar()])
 }

@@ -226,7 +226,9 @@ $poke.addEventListener('click', () => {
   } else {
     let equipo = usuario.slice(0,6)
     if ($box.innerHTML != "") {
-      $box.innerHTML = ""
+      while ($box.firstChild){
+        $box.removeChild($box.firstChild)
+      }
     }
     equipo.forEach((item) => {
       const pokeSTRING = registrarEquipo(item)
@@ -260,7 +262,7 @@ function clickMaster(elm){
     let set = elm.getAttribute('data-set')
     let obj = await oak(set)
     if(mini.childNodes.length >= 4){
-      mini.removeChild(mini.childNodes[0])
+      mini.removeChild(mini.firstChild)
     }
     let string = searchInfo(obj)
     let tem = createTemplate(string)
