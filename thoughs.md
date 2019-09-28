@@ -94,7 +94,7 @@ today i started working on my portfolio, i decided to put a pause on my poke app
 what happened?
 there was a massive blackout in my country.... no energy till around 1 or 2 am maybe and then around 4 am light was off again, internet hasn't come back ever since and all i did was the side bar and the main page so yeah there is that
 
-##23/07/2019
+## 23/07/2019
 energy finally came back like 1 or two hours ago, it's 14:17pm at the time i write this down and while i work on my portfolio
 
 why so early?
@@ -102,7 +102,7 @@ i don't know if there will be energy later... there's no warranty i won't spend 
 
 i won't give up, it takes more than this to make me quit, actually there's nothing that can make me quit now!
 
-##24/07/2019
+## 24/07/2019
 give me a moment i was laughing....
 
 better now?
@@ -111,49 +111,49 @@ is important to keep a healthy mind one that can be a flow of unlimited ideas an
 what about the projects?
 i'm giving a rest to the main project i was working on till i get some new ideas to add and in the meanwhile i started working on my portfolio, this will be my best work yet, the goal is to make an incredible personal website aiming to show anyone who enters in this one who am i and what can he expect from me if he hires me, i'm moving on my projects but still need to get back to some other stuff, i'm glad i have many things to do!
 
-##25/07/2019
+## 25/07/2019
 apparently i kinda miss a day, i've been coding every single day, some less than other, but every day but i guess that in this madness i'm living in i miss a day due to energy problems
 
 how you doing?
 i'm going well, today i keep working to imrpove my app making sure that once an object is already inside of an array a second object won't go inside the problem may be the fact that i used a second array to evaluate this, the second option would be to evaluate a single array and work on a function to take out the id of those objects to tranforms them into objects again soon in the app but sounds like lots more of code and making new petitions and sounds longer and not quite efficience, may look for a different solution soon tho, a new idea pop into my head, creat the ultimate catalog with ALL the pokemons and IT IS madness but i like how it sounds
 
-##26/07/2019
+## 26/07/2019
 today was an interesting day, i improve my app and check some new things on my classes i feel glad to understand everything i do, and even when i get a little lost i can just start reading what i'm doing
 
 what's next now?
 many ideas and thoughs run through my head wildly, idk how to make most of them and i'm not sure how to make the other but i yet but i know is possible and i just need some time, i've been thinking about trying the 100 days of code challenge again, i mean i'm already on it on my own but this time i would like to finish this
 
-##27/07/2019
+## 27/07/2019
 today i had a very productive day, i started a new class in OOP, oriented object programming i know the name better in spanish, with the goal of understanding objects and classes a little bit better and a new though pop into my head i feel like my life has change a lot in these last few weeks i've made some major changes and i'm looking forward to keep making more and more changes, i'm still looking in my ultimate goal but i feel like i'm stuck...
 
 why you feel stuck?
 well when i first start programming, making cool stuff, making this kind of things that i've never done before in my life i feel so different, like if i was a new person a different one but this feeling lasted little i can still make new a cool stuff and every day i learn more and more but i feel like i'm stuck with new trick under the same categories i wanna keep moving forwards i want new challenges and for that i most keep practicing and learning but then the question pops into my head, how do i get to the thngs i wanna do, where do i find them but i think there is right answer i just need to keep walking and hope to find all those answers on my own... yeah
 
-##28/07/2019
+## 28/07/2019
 today was a very normal day, i decided to take an actual rest, no classes, no reading about classes, i basically slept eat and eatch some videos
 
 what's that really all?
 well i also work on my projects and may or may not look at them again before i go to sleep, i may also look for a few things about js before going to sleep i have a few ideas in my head that idk how to execute just yet but that i'm sure i will execute and are gonna be great, today i linked working on my portfolio more than i like to work on my other projects
 
-##29/07/2019
+## 29/07/2019
 I spend most of the day trying to make my repo in github works, the one that works with an api, but i couldn't make it worh it to me because me but it seems that github has is own rules about this kind of things
 
 long day?
 i guess you could say that, i fall asleep and ended up writing this the day after i made a huge mess with my personal things and my studies, i try to make both things happened and ended up doing none i need to set what i'm doing better, stick to one things after the other, i wanna finish my projects which will only be finish if i keep working on it and i wanna keep working on my portfolio but i need to stop being scared from moving on for this
 
-##30/07/2019
+## 30/07/2019
 finally manage to work with the localstorage now the next step is working with the elements i creat at the moment so that part will be intereting, i already have an idea
 
 that's great!
 it is!!! i wanna keepp working on new thing, such as the portfolio what i already said a new project and how to make it work in this repo or maybe somewhere else, the idea is to maybe show my work!
 
-##31/07/2019
+## 31/07/2019
 spend the entire day on a way to interact with the elements i was printing on my code, it was hard and it makes me realize that i still have a long way to go, but i'm enjoying it, i still do small and funny celebration stance whenever i achieve something in my code, i can't help it
 
 you moving?
 maybe... i've decided to give 100 days of codes a second chance, well rather look for a second chance on a 100 days of code i didn't finish that challenge and i'm no coward, i'm done running and have no interested in doing so ever again so here i am once again but stronger this time
 
-##01/08/2019
+## 01/08/2019
 quick though in a couple of week it wil be a month since i started doing this log, is nice, i once heard that to make something an habit you need to repeat it every day for a month, i found myself in piece doing this,i like to share my ideas with... me lol and next month will be my birthday
 
 new plans?
@@ -162,68 +162,68 @@ well before my birthday arrives i would like to get a nice paid job as a fronted
 what about coding?
 i feel stuck but at the same time i feel like i'm not, i'm looking for way to implement new stuff on my app, what i'm doing it may be advanced and idk how to do it but i like it, i'm trying to either make an element appear every time i place the mouse on certain areas or to make an element be created at the moment i place the mouse on those areas
 
-##02/08/2019
+## 02/08/2019
 today i didn't code that much, i solve some freecodecamp problems and saw some classes on webpack and OOP it was nice
 
 out of ideas?
 not really i still have many i just don't know how to plasm them into the web i also wanna start studying for interviews and want to study react.js there is a lot of things i want to study but before i do that i also wanna work on my concentration
 
-##03/08/2019
+## 03/08/2019
 today was normal, i'm still coding as i write this i'm gonna work on my portfolio but i didn't study that much, i'm currently studying objects so i can understand js objects a little bit better
 
 objects huh?
 yeah i need to learn and dominate objects i cannot let myself get stuck can i? besides if i learn objects things will have a new and different perspective that i'm looking forward, also today i sent my cv to a company looking for a web developer idk if i will get it but i feel like i'm already making changes is the first time i apply for a company as a web developer! this is exciting
 
-##04/08/2019
+## 04/08/2019
 today i'm making this one form my visual studio code idk why i just felt like doing so, thse ays have been rough i don't feel that motivated, i must be doing something wrong, ideas are still flying by but other things seem to be getting me down as i type this  feel like crying even tho i have no reasons... well maybe i do but crying won't fix a damn thing
 
 is it affecting your code?
 maybe, again i have no idea about this cause... maybe i just need to talk to people, ever since i lost my phone y feel like i lost my friends, i can still talk to them but not like before, they are no longer one text away from me i can now notice the distance between us, today i'm not talking about code but not every day has to be about it yea i'll be good once i work over this things
 
-##05/08/2019
+## 05/08/2019
 today was a very normal day, i can barely type this cuase.... i fell asleep and forgot to this before doing so and so i'm half asleep yay
 
 half asleep?
 yeah but today was a day of improvements as i started making some fun changes into my app in js, also learned how to make classes in Java and Python, i feel like i'm no longer stuck but i need to focus more on what i was doing!
 Also with this commiy, this will be the commit 100 of this repo, so hurray!
 
-##06/08/2019
+## 06/08/2019
 today was officially my laziest day EVER!
 
 that much?
 yeah i mean i just study and well yeah i know i study but still i did not study much, i'm not complaining tho, maybe the problem is that i don't enjoy myself and i tend to do the things in a different way, like for example, coding as much as i can although i do get to enjoy that but forcing myself into it is bad
 
-##07/08/2019
+## 07/08/2019
 it's been a while since i had to write yesterday's progress today but well i have no controlover this part at the curent moment i'm afraid, having family over means i have to go to sleep when they do but i keep coding
 
 what you coding?
 i'm currently studying and practicing with webpack... more studying than practicing tho, but it has been fun and usefull to see this course thanks to the fact that is nt just webpack but it also shows hw it works with js and having multiple html and js documents working together and with only one css which is amazing if you ask me! on a side note i feel like playing with java
 
-##08/08/2019
+## 08/08/2019
 as family visits continues i have been studying less, tomorrow i'll go to a friends house and stay so i may do some actual code there, i have some fun ideas to do but i'm also downloading other cool stuff to do
 
 what ideas?
 well i've been thinking about a fun license creator, it will be a form that will take information from people and make a license of whatever they want such as a license for whispering corndogs or a license to kill or a license to check if people says the letter K properly lol, only valid in neverland for law reasons, i wanna keep expanding all the things i do
 
-##09/08/2019
+## 09/08/2019
 today was a cool day, i rpove that there are things that i don't know yet even if i saw them in classes but that i can still manage to make it
 
 that's cool!
 it's freaking amazing!!! i mean i have new ideas and i want to implement new stuff, the kind of stuff that you wish to make without knowing what is gonna happen lol, i have an amazing function that rotates picture, name and id of the pokemons but is not working as i though it was, is working but not in the way i though i need to check it better to make sure it does as i meant to
 
-##10/08/2019
+## 10/08/2019
 i decided to go out to meet some friends thinking i could update everything there but turned out that there was no internet so now there is a little gray square in my github history... rip
 
 laughing out loud?
 i guess, the idea of making everything from js is tempting, making the html content i feel like practicing this new technique or rather just practice this tecnique as much as i can this is a nice way to improve what i know
 
-##11/08/2019
+## 11/08/2019
 so.... apparentely so much time out of my routine got me a little rusty, it was hard for me to get into a routine where i work on my projects and study while not getting any of my other duties off and as a result it seems i'm a little off of my schedule
 
 how come?
 i feel like i'm coming back from vacations i still work on my projects but i get a little lazy but i'm reignited!
 
-##12/08/2019
+## 12/08/2019
 a new day begun and it seems like my ideas are also coming back from vacations but i'm not gonna allow myself to be lazy about this!
 
 longer explanation?
@@ -231,138 +231,144 @@ well i feel like if i allow myself to be lazy i'll just stop looking to improve 
 
 Also i've been updating this log for a month already, except for a sad day with no internet where i couldn't so gratz me!
 
-##13/08/2019
+## 13/08/2019
 i swear idk how i am awake, maybe is the wish to keep doing other stuff or the fact that i'm downloading a program, or the feeling of my innevitable responsability on taking my dog out for a walk tomorrow despite of the fact that i'm still sleepy...
 
 coding?
 today i code very little i made some classes on Java and Javascript and fight with php... i don't like php but is more of a personal matter than an actual reason i prefer javascript but php is needed in projects and some companies so i have to study to keep learning and improving
 
-##14/08/2019
+## 14/08/2019
 today was a nice day, i study object i solve some minor troubles on my vs code configuration for Java and even tho i didn't solve PHP i still keep it in mind, i may solve it later
 
 and what else?
 well i keep studying the object part from freeCodeCamp, idk yet if it's just hard or my english is just stopping me from getting a full understanding of this subject but is gonna be a little rough, and while i do this i'm also studying OOP on Platzi where i happen to understand better lol
 
-##15/08/2019
+## 15/08/2019
 another day studying objects and doing exercise which i found funny enough btw
 
 how come?
 i've been studying objects with Java, JavaScript, Python and PHP the syntax between them is very similar yet is interesting, Java is a language more focus into programming and not so much web, not sure if it's possible to use it in web due to my lack of knowledge, and as i keep studying the langeague and how to make objects Java seem more and more attractive i think i may study this language in the future for sure!
 
-##16/08/2019
+## 16/08/2019
 this day i was overwelhemed by the decisition of what should i next, i see a lot of people asking for php while some other asking for react, i've come to realize that maybe i need them both and have to learn them, it feels complicated and quite unfair as it seems my path is taking a forcefull and difficult detour
 
 how you feeling?
 not so great, i'm a little scared as i'm facing something new that i've never done before, i have the goal of getting a job as a web developer before september 25, most of the offers seem to look for someone who knows php a language i don't find myself too fond with but there are some other who look for react, the next step into my evolution in this career in any case i need to work towards this with the desire and determination to improve myself and be one step closer from my ultimate goal
 
-##17/08/2019
+## 17/08/2019
 today i just chill, there wasn't so much coding just me learning some object oriented programming in freeCodeCamp and checkin my notes from Platzi
 
 how did it go?
 kinda nice i start a new project a little ago is not that fancy yet tbh but in time it will be fun, nowhere near as fun as the poke project for sure but still nice hahaha also kept studying the object section from freeCodeCamp i feel is a little outdated due to the fact that they explain the objects using prototypes which is not that bad... but since ES6 already supports classes i see no reason to feel particulary excited about using prototype.... except maybe the fact of looking at how it used to be other than that i feel like reading history...
 
-##18/08/2019
+## 18/08/2019
 this weekend was soft on conding but me  being sick is getting me bad, today's entry is gonna be short due to that and this is gonna be it actually
 
-##19/08/2019
+## 19/08/2019
 today i kept studying OOP, i need to work hard on this
 
 why?
 the reasong is quite simple, object programming is the main focus and source of all kind of programs now a days, well there are some codes that still remain structured but this is the most efficience way to work on it makes things simplier and more fun and interesting... is how video games are made and so i need to work hard on this cause is the way i will learn this, that's how i did with javascript and as i'm still learning i need to continue
 
-##21/08/2019
+## 21/08/2019
 today i'm feeling quite tired so this entry may be a little short
 
 or is it!?
 as i started my new project i realize what i need and what i got, i started with a simple idea which quickly improve as i was progressing with this logic, my first task is simple, create an objest that listens to what i'm doing on the keyboard, the following part will be difficult, moving this object... i remember doing so a long time ago with a canvas maybe i should check that option again
 
-##22/08/2019
+## 22/08/2019
 was an average day, struggle with my new project realizing i need to study more object oriented programming, specially in JS
 
 that bad?
 most of the resources i already have are quite old sadly... which means some of them are even focus on teaching objects with prototypes and what i really need is to learn how to use this along with my objects in order for me to be able to work this trhough and keep climbing my way up to the top of this mountain
 
-##22/08/2019
+## 22/08/2019
 new lazy day no match for the last one, i need to make an actuacl schedule to regulate the way i do things in order to be more efficient in basically everything, i actually wana work on this
 
-##23/08/2019
+## 23/08/2019
 thanks to the lack of electricity courtesy of my country i ended up spending the whole day without studying nor coding.... it was very frustrating but it did helped me think about how could i possibbly solve this and i can't... so a remote work from home could be harder... i need to find a place to work/study/grow as a web developer i realize that i need to learn PHP beyond of just adding PHP to my tech list there is also the fact that i cannot just let myself be beaten by any tech, i choose this path on my own and on my own shall i triumph!!!
 
-##24/08/2019
+## 24/08/2019
 today's commit is in vscode but not by choice, my city, or probably state, is currently having electricity problems which means i either have no electricty to turn my laptop on or no internet to commit anything into my repos.... and yeah it sucks!
 
 sounds bad?
 and it is... i try to not let this get me down but the truth is that when you study with the help of the internet and suddenly is gone there is nothing you can do but to practice and is nice if it wasn't for whn i get stuck in which case i have to look online which also leave me nowhere... is not as half as bad as when there is no electricity moment in which i can't even practice, again, i try to not let this get me down the in reality it hits me really hard.... i can't stop thinking on why should i go through this and then i understand that YES it is bad but it has also helped me to realize how gratefull i should be over the things i have WHEN i have them something as small as a lighter is amazing sometimes...
 
-##30/08/2019
+## 30/08/2019
 This one is gonna be different... i got quite down, depress, sad... basically while i was with no internet i felt disconnected from the world and what quite even worse is the fact of me not being able to check how to solve my problems with the classes in javascript which i haven't check yet, something i've come to realize is the fact that i'm scared of both success and failure or maybe i'm scare of fail in my success it hasn't been easy to get to where i am right now and is not exactly high per say i don't want to give up, i refuse tto give up but is getting harder to keep moving... i'm making myself harder to move deal with this kind of things is more than difficult but i just need to make my big problem a bunch of little problems i can do it, is not that hard and once i've done it i know i will be able to move easier
 
-##31/08/2019
+## 31/08/2019
 RIP my cute little forest in github... i'm feeling lazy to do things lately, specially programming but i think is mainly cause whenever i get stuck i don't want to continue, probably cause i feel like i should already know how that works but truth is that i don't know how it does and that's okay i need to understand that not knowing how something works at first is okay, what's bad is not wanting to know how it does i need to stop being scared cause there is nothing to be affraid but to fear it self
 
-##01/09/2019
+## 01/09/2019
 New month, is already september so yay! this month i'll be 23 but that's meaningless what is important is that i challenge myself to get a job as a web developer before september 25 so i have 22 days left basically... time is running and i'm currently not really studying and i should i don't feel scared for not getting the job i'm determinated to get it but rather on how to keep it... i mean is suppose to be simple right? just work, do your best and fight any obstacle that comes your way... easy!
 
-##03/09/2019
+## 03/09/2019
 i haven't been constant on this journal but what i really wanna say today is that i realize that my phone number is kinda of unplug, it doesn't get calls a friend told me today that he couldn't get to call me and then showed me that in the moment he called thee was no tone.... this is actually quite worrying as it may be a reason why  don't get call for interviews and i say this with some optimism intentions it wouldn't be the worst that it was mainly because of that so... let's ty a new change
 
-##04/09/2019
+## 04/09/2019
 so where should i begin? the day started quite... no it started in a mess yesterday there was a problem that basically forced me to be part of a rave party with the electricity coming in and out so i slep quite uncomfortable but that was meaningless after waking up i started learning about webpack and react, it was fun as the class is focus on webpack i couldn't really learn much about react yet i got some info so yay, later while delivering my sister something she left at home and on the way to her academy i lost my bag pack, which has been with me for years... and once at home right before starting a class i decided to play with my dog and due to a mistake from me i dislocated my pinky... i finish the class tho as annoying as this is i'm okay with it
 
-##05/09/2019
+## 05/09/2019
 keeping habits is hard, at least the good ones is easy to forget them specialles when you try to keep them under a schedule but when you keep a good habit is very rewarding because you are working on yourself and there is no better way to benefit yourself... maybe today is gonna be shurt but i have a nice plan for tomorrow or at least i will lol
 
-##06/09/2019
+## 06/09/2019
 every step i take into beliving i did learn how to close this gap about my knowledge in classes and objects seems to be a fake step when i start testing is not gonna be easy at all but i think i can do it and even if i couldn't i will do it and achieve victory!
 
-##07/09/2019
+## 07/09/2019
 finally after what i believe it was a week of different trials, tests and ideas i finally manage to make my class do just exactly what i wanted... or at least start to do the idea i had on is no way near to what i wanna do BUT i'm closer to my goal! understanding how something works, understaind how to make it work and understanding how these ideas go along is quite satisfactory!
 
-##08/09/2019
+## 08/09/2019
 today something interesting happened i remember how a few months ago i started the javascript section in freeCodeCamp and felt quite bad being unable to finish a simple problem that involved using Map and Filter as i ended up confused and looking for solutions which i find but made me feel like i wasn't learning at all and today i faced a similar problem from which i came out victorious! i feel quite hapy with my progress and inside me a little spark is lighten on with the desire of looking to what i can do in the future!!!
 
-##09/09/2019
+## 09/09/2019
 so today while testing my project i found a very fun bug which lead me to believe that my progress was worthless, i mean, i did progress but in the way i found a bug, it is impossible not to find a bug in the way but is stil very surprising to find one after believing so firmly that there was none... sneaky little basterd
 
-##10/09/2019
+## 10/09/2019
 today i had an unintentional break due to daily life but i manage myself to understand a bug in my code, i'm still learning how 'this' work and i'm not ahasmed, also manage to find the "you don't know JS yet!" section of scope and closures! and that' about it for today
 
-##11/09/2019
+## 11/09/2019
 recently i feel less and less motivated even to do this, i'm not sure why it may just be a natural process to get bored eventually but i feel like going down and down and i don't like it, maybe is cause the easy part is done and now the hardest part of all has come, to get a deeper knwoledge as i see myself swiing into the depths of my career i feel more and more scared yeah is not easy, it won't be easy and is not suppose to be easy i knew this already but facing this reality is hard and then my reality which is the fact that my family is running through hard times and when all of that comes it makes me think "you can change it you just need to start working and as web developer will be easy" which then brings me more stress and frustration no one said it was gonna be aesy and if i keep my plan as i'm thinking is gonna be even harder and harder, telling myself that i'm waiting for this challenges is a bit of a lie but is not entirely a lie i do wanna face new stuffs, i'm tired of my current life but i'm also scared of moving on, i'm now taking small and i'm afraid of walking but i'm also cared of staying still
 
-##12/09/2019
+## 12/09/2019
 i'm actually doing this real quick cause time is almost over for my daily commit, recently i feel like i've been very lazy, also yesterday bug was solve, to code not sure why rather than lazy maybe i very simply don't want to maybe i'm loosing fate what i've been doing a lot is watch gintama that i've been doing A LOT and idea that just popped up into my mind is combining my love for anime with coding i may be able to do some pretty sick and amazing things with that!
 
-##13/09/2019
+## 13/09/2019
 today i felt a bit inspire, i decided to make a little app with js that creates a list of characters from rick and morty it has been fun but is something i have already done in the past and quite batter i most add it was a better day overall, my new idea is to create mutiple tab inside the page with different characters and when you click on one of them it's show and then closed the previos and on and on
 
-##14/09/2019
+## 14/09/2019
 so this day... today i did not study like actually getting into platzi or freeCodeCamp, nope yet i did code i manage to do some thing that made me quite happy some cool js stuff that pleased me to do as it wasn't just me remembering but also analizing how was i suppose to do so and finally fixed a bug that has been bothering me for a while but i did nothing on my religious part, it makes me sad but something made me feel out of place, i'm feeling down and sick
 
-##16/09/2019
+## 16/09/2019
 i'm not feeling very talktive these days it's been rough, stress is piling up and i'm running away, but i can't keep running, i mean i can but i don't think i should cause... there is nothin to run away from there isn't
 
-##17/09/2019
+## 17/09/2019
 been a while since i last log on github... i feel nothing... as days pass by i feel more and more stress piling up on me, i'm trying my hardest to get a job as a web developer, or to just get a gig as a freelance web developer but of course i have no expirienced on the field just that alone hits really bad and if it wasn't enough most of the offers have some high requirements maybe i should stop looking for one like this and actually focus on something i can get while i can, today for the first time in a long time i kinda talk with my mom about my problems i suppose that was useless it seems like anything i ask or tell her just goes away later on... i feel barely nothing towards what she thinks about me ijust wanna start working as a web developer and keep running my projects yeah that's the trurth of what i really want it may be selfish but is the truth
 
-##18/09/2019
+## 18/09/2019
 i'm very tired, currently facing a bug that prevents me from starting my react app, is suppose to be inside my webpack or something like that... i'm quite tired of facing this i started a class very early today and i haven't been able to test the output thanks to this thing i'm still trying to figurate how did this even happen...but once is over i'm back at react!
 
-##20/09/2019
+## 20/09/2019
 i missed yesterdays commit by accident but the good new is that i have conquer yet another challenge by defeating another bug!
 basically i didn't know that webpack understand the exclamation mark (!) for markdown language and being this the case and me having a folder with one of those, every time i tried to run my React app things went wrong, it took me a while to realize this because is something new that never bothered me before but well, live and learn
 
-##21/09/2019
+## 21/09/2019
 quick update, today i was coding with js after some time without coding, didn't learn more react but i feel a little good as i feel that my knowledge isn't gone i'm happy about this and i forgot to do this earlier so i'm up against the clock
 i keep looking for a job and still remain withot one
 
-##22/09/2019
+## 22/09/2019
 today i realize something i still have the bad habit of letting other look down on me even when i know i'm right this is a very bad habit i need to break with something that actually makes me feel bad is something i need to improve i recently feel really bad about myself not being able to find the job i want, not doing what i want it does make me feel bad tbh
 
-##23/09/2019
+## 23/09/2019
 i guess is fair to say that today was a bad day, i got myself wet out of my mind in a HUGE rain i didn't make anything particualary special and prove myself once again that i don't know how to handle modules, i feel really sad these days not being able to get a job in what i want is hitting me hard and i guess i correct to say i refuse to get a job in a different area but, specifically as a web developer, i want to really hard but i don't work half as hard as i use to the question on how to make it is one that has me intrigue how to be proactive, how to stop procastinating and how to get serious and maybe the answer is just do it...
 
-##25/09/2019
+## 25/09/2019
 Today is my brithday and a birthday gift to me i wanna make myself private and not share a thing nor text, why? i don't like sharing on my bday that simple lol
+
+## 27/092019
+Today was an interesting day i must say i was rather productive, i progress on ALMOST everything, had fun while coding entretaing myself, watch some fun videos, tried podcast, played yu gi oh, ate cake, bought a snack for my parents, i do feel good about today's outcome there's a few things i need to do but other than that is all good
+
+am i back?
+for now, we'll see the truth is that i feel like i'm started making things better at the very moment but the word i actualy wanna use is "right" i feel like i'm doing things right this time, at the current moment as i'm writing this down i feel good, yes i still have problems indeed BUT i'm preparing my magistral attack!
 
 ## Inspirational Quote
