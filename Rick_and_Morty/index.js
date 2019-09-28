@@ -26,19 +26,19 @@ function characters(obj) {
       <div class="info">
         <h3>Name ${obj.name}</h3>
         <p>
-          ID: <span>${obj.id}</span>
+          ID: ${obj.id}
         </p>
         <p>
-          Status: <span>${obj.status}</span>
+          Status: ${obj.status}
         </p>
         <p>
-          Specie: <span>${obj.species}</span>
+          Specie: ${obj.species}
         </p>
         <p>
-          Gender: <span>${obj.gender}</span>
+          Gender: ${obj.gender}
         </p>
         <p>
-          Location: <span>${obj.location.name}</span>
+          Location: ${obj.location.name}
         </p>
       </div>
   </div>`
@@ -48,7 +48,6 @@ function characters(obj) {
 async function getChar(url, num){
   const data = await fetch(`${url}/${num}`)
   const char = await data.json()
-  //console.log(char)
   return char
 }
 
@@ -93,7 +92,6 @@ async function morty(){
 }
 morty()
 
-//testing area
 function nodos() {
   for (let i = 0; i < main.children.length; i++) {
     main.children[i].style = "z-index: 0;"
@@ -107,3 +105,9 @@ $li.forEach((items) => {
     main.children[N].style = "z-index: 2;"
   })
 })
+
+//testing area
+function match(){
+  //funcion que aregara dinamismo y union a la lista y al contenedor
+  //$li debe verificar donde esta main
+}

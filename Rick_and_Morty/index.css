@@ -50,6 +50,7 @@ body{
                        "list char  char";
 }
 .header{
+  position: relative;
   grid-area: prime;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -62,6 +63,17 @@ body{
   align-items: center;
   font-size: 1.5em;
   text-decoration: underline;
+  position: relative;
+}
+.header-border{
+  border: 1px #fff solid;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
 }
 
 .char-container{
@@ -71,6 +83,7 @@ body{
 }
 .char-container-char{
   background-color: #fff;
+  border-bottom-right-radius: 5px;
   color: #000;
   display: flex;
   position: absolute;
@@ -91,9 +104,9 @@ body{
 
 .char-img{
   grid-area: char;
-  border-top-right-radius: 5px;
   height: 100%;
   width: 250px;
+  object-fit: cover;
 }
 
 .info{
