@@ -4,12 +4,10 @@ const DATA = {
   episodes: "https://rickandmortyapi.com/api/episode"
 }
 
-const CHARLIST = []
 const $char = document.getElementById('char')
 const $li = document.querySelectorAll('li')
 const main = document.getElementById('main_container')
 const head = document.getElementById('header')
-let collection 
 
 function rendering(tem) {
   const html = document.implementation.createHTMLDocument()
@@ -23,7 +21,7 @@ function num(){
 
 function characters(obj) {
   return (
-    `<div class="char-container-char">
+    `<div class="char-container-char" data-name"${obj.name}" data-id"${obj.id}">
     <img src="${obj.image}" alt="image" class="char-img">
       <div class="info">
         <h3>Name ${obj.name}</h3>
@@ -47,11 +45,10 @@ function characters(obj) {
   )
 }
 
-async function getChar(){
-  const data = await fetch(`${DATA.characters}/${num()}`)
+async function getChar(url, num){
+  const data = await fetch(`${url}/${num}`)
   const char = await data.json()
-  console.log(char)
-  CHARLIST.push(char)
+  //console.log(char)
   return char
 }
 
@@ -60,10 +57,7 @@ option.forEach((x) => {
   x.addEventListener('click', () => alert('working'))
 })
 
-$char.onclick = () => {
-  CHARLIST.splice(0)
-  rick()
-}
+$char.onclick = () => morty()
 
 function removeSelec() {
   $li.forEach((x) => {
@@ -80,17 +74,36 @@ $li.forEach((x) =>{
   })
 })
 
-async function rick(){
-  //debugger
-  CHARLIST.splice(0)
-  const prom = await Promise.all([getChar(), getChar(), getChar(), getChar(), getChar()])
+function clearMain(){
+  while (main.firstChild) {
+      main.removeChild(main.firstChild)
+    }
 }
 
 async function morty(){
-  let riky = await rick()
-  CHARLIST.forEach(async (items) =>{
+  const promises = await Promise.all([getChar(DATA.characters, num()), getChar(DATA.characters, num()), getChar(DATA.characters, num()), getChar(DATA.characters, num()), getChar(DATA.characters, num())])
+  promises.forEach(async (items) =>{
     let string = characters(items)
     let g = rendering(string)
+    let limpio = await clearMain()
     main.append(g)
+    main.children[0].style = "z-index: 1;"
+    $li[0].classList.add('selected')
   })
 }
+morty()
+
+//testing area
+function nodos() {
+  for (let i = 0; i < main.children.length; i++) {
+    main.children[i].style = "z-index: 0;"
+  }
+}
+
+$li.forEach((items) => {
+  items.addEventListener('click', (event) => {
+    let N = (event.srcElement.dataset.set)
+    nodos()
+    main.children[N].style = "z-index: 2;"
+  })
+})
