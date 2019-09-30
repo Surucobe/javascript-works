@@ -17,7 +17,7 @@ function rendering(tem) {
 }
 
 function num(){
-  let num = parseInt(Math.random() * 3500 / 100)
+  let num = parseInt(Math.random() * 3200 / 100)
   if(num != 0){
     return num
   }else{
@@ -107,17 +107,16 @@ function clearMain(){
 async function morty(){
   const promises = await getEpisode()
   debugger
-  let charList = await promises.characters.slice(0,4)
-  // let objList = await charList.forEach((items) => getChar(items))
-  let objLi = await getChar(charList[0])
-  objLi.forEach(async (items) =>{
-    let string = characters(items)
+  let charList = await promises.characters.splice(0,5)
+  charList.forEach(async (items) =>{
+    let obj = await getChar(items)
+    let string = characters(obj)
     let ren = rendering(string)
-    let limpio = await clearMain()
     main.append(ren)
-    main.children[0].style = "z-index: 1;"
-    $li[0].classList.add('selected')
   })
+  let limpio = await clearMain()
+  main.children[0].style = "z-index: 1;"
+  $li[0].classList.add('selected')
 }
 morty()
 
@@ -136,7 +135,3 @@ $li.forEach((items) => {
 })
 
 //testing area
-function match(){
-  //funcion que aregara dinamismo y union a la lista y al contenedor
-  //$li debe verificar donde esta main
-}
