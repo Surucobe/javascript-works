@@ -8,6 +8,7 @@ const $char = document.getElementById('char')
 const $li = document.querySelectorAll('li')
 const main = document.getElementById('main_container')
 const head = document.getElementById('header')
+const epi = document.getElementById('episode')
 
 function rendering(tem) {
   const html = document.implementation.createHTMLDocument()
@@ -16,7 +17,12 @@ function rendering(tem) {
 }
 
 function num(){
-  return parseInt(Math.random() * 49000 / 100)
+  let num = parseInt(Math.random() * 3500 / 100)
+  if(num != 0){
+    return num
+  }else{
+    return num += 1
+  }
 }
 
 function characters(obj) {
@@ -45,9 +51,28 @@ function characters(obj) {
   )
 }
 
-async function getChar(url, num){
-  const data = await fetch(`${url}/${num}`)
+function episodes(obj){
+  return(
+    `<div>
+        <h2>${obj.name}</h2>
+        <h2>${obj.episode}</h2>
+        <h2>${obj.air_date}</h2>
+     </div>`
+  )
+}
+
+async function getChar(url){
+  // const data = await fetch(`${url}/${num()}`)
+  const data = await fetch(`${url}`)
   const char = await data.json()
+  console.log(char)
+  return char
+}
+
+async function getEpisode(){
+  const data = await fetch(`${DATA.episodes}/${num()}`)
+  const char = await data.json()
+  console.log(char)
   return char
 }
 
@@ -80,12 +105,16 @@ function clearMain(){
 }
 
 async function morty(){
-  const promises = await Promise.all([getChar(DATA.characters, num()), getChar(DATA.characters, num()), getChar(DATA.characters, num()), getChar(DATA.characters, num()), getChar(DATA.characters, num())])
-  promises.forEach(async (items) =>{
+  const promises = await getEpisode()
+  debugger
+  let charList = await promises.characters.slice(0,4)
+  // let objList = await charList.forEach((items) => getChar(items))
+  let objLi = await getChar(charList[0])
+  objLi.forEach(async (items) =>{
     let string = characters(items)
-    let g = rendering(string)
+    let ren = rendering(string)
     let limpio = await clearMain()
-    main.append(g)
+    main.append(ren)
     main.children[0].style = "z-index: 1;"
     $li[0].classList.add('selected')
   })
