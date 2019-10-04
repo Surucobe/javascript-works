@@ -106,17 +106,20 @@ function clearMain(){
 
 async function morty(){
   const promises = await getEpisode()
-  debugger
+  //debugger
   let charList = await promises.characters.splice(0,5)
   charList.forEach(async (items) =>{
     let obj = await getChar(items)
     let string = characters(obj)
     let ren = rendering(string)
     main.append(ren)
+    const summer = ren.querySelector('img')
+    summer.addEventListener('load', () => {
+      main.children[0].style = "z-index: 1;"
+      $li[0].classList.add('selected')
+    })
   })
-  let limpio = await clearMain()
-  main.children[0].style = "z-index: 1;"
-  $li[0].classList.add('selected')
+  clearMain()
 }
 morty()
 
