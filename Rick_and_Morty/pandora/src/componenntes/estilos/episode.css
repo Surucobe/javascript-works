@@ -1,0 +1,13 @@
+.main_episode-container{
+  border: 1px solid #000;
+  height: 500px;
+  width: 500px;
+}
+
+.main_episode-header{
+  border: 1px solid #000;
+}
+
+.main_episode-personajes{
+  border: 1px solid #000;
+}
