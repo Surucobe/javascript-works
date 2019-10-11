@@ -1,7 +1,8 @@
 .main_episode-container{
   border: 1px solid #000;
-  height: 550px;
+  height: 600px;
   width: 950px;
+  overflow: hidden;
 }
 
 .main_episode-header{
@@ -10,9 +11,26 @@
 }
 
 .main_episode-personajes{
+  overflow: auto;
+  margin: 0;
   border: 1px solid #000;
+  width: 100%;
+  display: grid;
+  grid-template: repeat(auto-fill, 300px)/ repeat(auto-fill, 350px);
+  justify-content: space-evenly;
 }
 
 .main_episode-personajes-div{
-  
+  height: 250px;
+  width: 250px;
+  display: flex;
+}
+
+.main_episode-personaje-img{
+  height: 300px;
+  width: 300px;
+}
+
+.main_episode-personaje-info{
+  display: grid;
 }
