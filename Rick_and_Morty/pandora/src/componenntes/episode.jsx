@@ -6,9 +6,13 @@ class Episode extends React.Component{
   render(){
     return(
       <div className="main_episode-container">
-        <h1 className="main_episode-header">Titulo del Episodio</h1>
+        <div className="main_episode-header">
+          <h1>Titulo del Episodio</h1>
+        </div>
         <div className="main_episode-personajes">
-          <div></div>
+          <div className="main_episode-personajes-div">
+            <img src="" alt=""/>
+          </div>
         </div>
       </div>
     )

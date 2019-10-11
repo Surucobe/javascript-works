@@ -1,13 +1,18 @@
 .main_episode-container{
   border: 1px solid #000;
-  height: 500px;
-  width: 500px;
+  height: 550px;
+  width: 950px;
 }
 
 .main_episode-header{
+  text-align: center;
   border: 1px solid #000;
 }
 
 .main_episode-personajes{
   border: 1px solid #000;
+}
+
+.main_episode-personajes-div{
+  
 }
