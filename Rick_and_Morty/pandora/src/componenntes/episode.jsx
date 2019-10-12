@@ -3,7 +3,23 @@ import React from 'react'
 import proto_logo from '../test_img/wolf.gif'
 import './estilos/episode.css'
 
-const name = "hola"
+const char = {
+  name: 'Suru',
+  Id: '0',
+  Status: 'alive',
+  Location: 'earth',
+  episode: 'secret',
+}
+
+function number(){
+  console.log(parseInt(Math.random() * 3000 / 100))
+}
+
+async function core(){
+  let data = await fetch(`https://rickandmortyapi.com/api/episode/${number()}`)
+  let epis = await data.json()
+  console.log(epis)
+}
 
 class Episode extends React.Component{
   render(){
@@ -16,41 +32,41 @@ class Episode extends React.Component{
           <div className="main_episode-personajes-div">
             <img src={proto_logo} alt="Proto" className="main_episode-personaje-img"/>
             <div className="main_episode-personaje-info">
-              <span><strong>{name}</strong></span>
-              <span><strong>ID</strong></span>
-              <span><strong>Status</strong></span>
-              <span><strong>Location</strong></span>
-              <span><strong>Episode</strong></span>
+              <span><strong>{char.name}</strong></span>
+              <span><strong>{char.Id}</strong></span>
+              <span><strong>{char.Status}</strong></span>
+              <span><strong>{char.Location}</strong></span>
+              <span><strong>{char.episode}</strong></span>
             </div>
           </div>
           <div className="main_episode-personajes-div">
             <img src={proto_logo} alt="Proto" className="main_episode-personaje-img" />
             <div className="main_episode-personaje-info">
-              <span><strong>{name}</strong></span>
-              <span><strong>ID</strong></span>
-              <span><strong>Status</strong></span>
-              <span><strong>Location</strong></span>
-              <span><strong>Episode</strong></span>
+              <span><strong>{char.name}</strong></span>
+              <span><strong>{char.Id}</strong></span>
+              <span><strong>{char.Status}</strong></span>
+              <span><strong>{char.Location}</strong></span>
+              <span><strong>{char.episode}</strong></span>
             </div>
           </div>
           <div className="main_episode-personajes-div">
             <img src={proto_logo} alt="Proto" className="main_episode-personaje-img" />
             <div className="main_episode-personaje-info">
-              <span><strong>{name}</strong></span>
-              <span><strong>ID</strong></span>
-              <span><strong>Status</strong></span>
-              <span><strong>Location</strong></span>
-              <span><strong>Episode</strong></span>
+              <span><strong>{char.name}</strong></span>
+              <span><strong>{char.Id}</strong></span>
+              <span><strong>{char.Status}</strong></span>
+              <span><strong>{char.Location}</strong></span>
+              <span><strong>{char.episode}</strong></span>
             </div>
           </div>
           <div className="main_episode-personajes-div">
             <img src={proto_logo} alt="Proto" className="main_episode-personaje-img" />
             <div className="main_episode-personaje-info">
-              <span><strong>{name}</strong></span>
-              <span><strong>ID</strong></span>
-              <span><strong>Status</strong></span>
-              <span><strong>Location</strong></span>
-              <span><strong>Episode</strong></span>
+              <span><strong>{char.name}</strong></span>
+              <span><strong>{char.Id}</strong></span>
+              <span><strong>{char.Status}</strong></span>
+              <span><strong>{char.Location}</strong></span>
+              <span><strong>{char.episode}</strong></span>
             </div>
           </div>
         </div>
