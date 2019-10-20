@@ -240,7 +240,7 @@ $poke.addEventListener('click', () => {
 })
 
 $bye.addEventListener('click', () => {
-  $box.innerHTML = ''
+  usuario.splice(0)
 })
 
 $agree.addEventListener('click', () => {

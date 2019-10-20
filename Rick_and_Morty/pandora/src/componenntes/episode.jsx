@@ -1,11 +1,11 @@
 import React from 'react'
 
-import proto_logo from '../test_img/wolf.gif'
+import proto_logo from '../test_img/Nero.jpg'
 import './estilos/episode.css'
 
 const char = {
   name: 'Suru',
-  Id: '0',
+  Id: '001',
   Status: 'alive',
   Location: 'earth',
   episode: 'secret',
