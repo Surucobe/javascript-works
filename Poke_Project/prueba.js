@@ -186,6 +186,7 @@ go.addEventListener('click', () =>{
   $national.classList.add('active')
   $library.style.animation = 'modalIn .8s'
 })
+
 $close.addEventListener('click', ()=>{
     $national.classList.remove('active')
     $library.style.animation = 'modalOut .8s forwards'
