@@ -115,16 +115,15 @@ function registrarEquipo(poke) {
 }
 
 function equipoIncompleto(poke){
+  let poke_n = []
+  usuario.forEach((item) =>{
+    poke_n.push('<img src="./img/pokeball.png" alt="" width="25px"></img>')
+  })
   return(
     `<div class="modal-error">
       <h4>Debes tener 6 pokemones en tu equipo</h4>
       <figure>
-      <img src="./img/pokeball.png" alt="" width="25px"></img>
-      <img src="./img/pokeball.png" alt="" width="25px"></img>
-      <img src="./img/pokeball.png" alt="" width="25px"></img>
-      <img src="./img/pokeball.png" alt="" width="25px"></img>
-      <img src="./img/pokeball.png" alt="" width="25px"></img>
-      <img src="./img/pokeball.png" alt="" width="25px"></img>
+        ${poke_n}
       </figure>
       <h4>Tienes: ${poke.length}</h4>
     </div>`
@@ -218,7 +217,7 @@ function clickShiny(elm){
 }
 
 $poke.addEventListener('click', () => {
-  if (usuario.length < 1) {
+  if (usuario.length < 3) {
     const titu = titulo(2)
     $titulo.innerHTML = titu
     const equipoString = equipoIncompleto(usuario)
