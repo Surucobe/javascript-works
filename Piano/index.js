@@ -1,7 +1,32 @@
-const test = document.getElementById('test')
+const $piano = document.getElementById('piano')
 
-window.addEventListener('keyup', (event) =>{
-  if(event.keyCode == 65){
-    test.play()
-  }
+//keyboard listener function, will be added onto the window object so it it triggers every time we hit a certain key
+//still need to add a way to stop the sounds after... or maybe not
+function tileKeySound(e){
+  const $audio = document.querySelector(`audio[data-sound="${e.keyCode}"]`)
+
+  if(!$audio) return
+
+  $audio.currentTime = 0
+  $audio.play()
+  setTimeout(() => {
+    $audio.pause()
+  }, 300)
+
+}
+
+window.addEventListener('keyup', tileKeySound)
+
+//function to make the piao work with the mouse, won't make it into an lone function cause there is no point 
+//(it was tricky you should feel proud of yourself :3)
+$piano.addEventListener('click', (e) =>{
+  const $audio = document.querySelector(`audio[data-sound="${e.path[0].attributes[1].value}"]`)
+  if(!$audio) return
+
+  $audio.currentTime = 0
+  $audio.play()
+  setTimeout(() => {
+    $audio.pause()
+  }, 300)
+
 })
