@@ -11,7 +11,7 @@ function tileKeySound(e){
   $audio.play()
   setTimeout(() => {
     $audio.pause()
-  }, 300)
+  }, 1500)
 
 }
 
@@ -27,6 +27,6 @@ $piano.addEventListener('click', (e) =>{
   $audio.play()
   setTimeout(() => {
     $audio.pause()
-  }, 300)
+  }, 1500)
 
 })
