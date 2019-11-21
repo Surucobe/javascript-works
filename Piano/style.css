@@ -25,10 +25,21 @@ body{
   justify-content: space-evenly;
 }
 .info-tiles{
-  height: 155px;
+  height: auto;
+  width: 160px;
   overflow: auto;
-  width: 150px;
   scroll-behavior: smooth;
+  font-weight: bold;
+}
+.info-tiles ul{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 25px;
+  list-style: none;
+  padding: 0;
+}
+.info-tiles li{
+  text-align: left;
 }
 .info-tiles::-webkit-scrollbar{
   display: none;
