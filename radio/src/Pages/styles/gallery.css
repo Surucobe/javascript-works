@@ -1,0 +1,23 @@
+.gallery-container{
+  width: 800px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 1px solid #000;
+}
+
+.gallery-header{
+  width: 100%;
+  text-align: center;
+
+  border: 1px solid #000;
+}
+
+.gallery{
+  width: 100%;
+  height: auto;
+
+  border: 1px solid #000;
+}

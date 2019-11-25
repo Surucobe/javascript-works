@@ -1,9 +1,18 @@
-import { Component } from 'react'
+import React from 'react'
 
-class Gallery extends Component {
+import './styles/gallery.css'
+
+class Gallery extends React.Component {
   render() {
     return(
-      <p>Gallery</p>
+      <div className="gallery-container">
+        <div className="gallery-header">
+          <p>Music portrait</p>
+        </div>
+        <div className="gallery">
+          {/* component */}
+        </div>
+      </div>
     )
   }
 }
