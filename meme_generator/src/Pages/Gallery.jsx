@@ -1,16 +1,12 @@
 import React, { Component } from 'react'
 
 import Navbar from '../Components/Navbar'
-// import Meme from '../Components/Meme'
+import Meme from '../Components/Meme'
 import MemeSearch from '../Components/MemeSearch'
 import '../global.css'
 import './styles/gallery.css'
 
 class Gallery extends Component {
-
-  state = {
-    memes: []
-  }
 
   render() {
     return(
@@ -21,9 +17,13 @@ class Gallery extends Component {
             <p>Hero section</p>
           </div>
           <div className="gallery">
-            <div>
-              <MemeSearch />
-              <p>Component</p>
+            <MemeSearch />
+            <div className="Gallery-Assambled">
+              <Meme 
+              name="Suru"
+              lastName="Atlas"
+              hobby="Coding"
+              />
             </div>
           </div>
         </div>

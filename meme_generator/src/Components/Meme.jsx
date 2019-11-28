@@ -1,21 +1,23 @@
 import React, { Component } from 'react'
 
-componentDidMount(){
-    fetch('https://api.imgflip.com/get_memes')
-    .then(res => res.json)
-    .then((data) => {
-      this.setState({ array: {
-        name: 'suru'
-      } })
-    })
-  }
+import MemeCard from '../Components/MemeCard'
+
 
 class Meme extends Component{
+  state = {
+    memes: [
+      {},
+    ]
+  }
+  async componentDidMount(){
+    const call = await fetch('https://api.imgflip.com/get_memes')
+    const data = await call.json()
+    this.setState({memes: data.data.memes})
+  }
+
   render(){
     return(
-      <div>
-        <p> { this.props.name } </p>
-      </div>
+      <MemeCard memes={this.state.memes} />
     )
   }
 }

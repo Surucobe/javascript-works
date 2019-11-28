@@ -5,19 +5,32 @@
   flex-direction: column;
   justify-content: center;
 
-  border: 1px solid #000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .gallery-hero{
   width: 100%;
   text-align: center;
 
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
 
 .gallery{
   width: 100%;
   height: auto;
+  display: flex;
+  justify-content: space-evenly;
 
-  border: 1px solid #000;
+  /* border: 1px solid rgb(46, 40, 40); */
+}
+
+.Gallery-Assambled{
+  display: flex;
+  justify-content: center;
+}
+
+.meme-form{
+  display: flex;
+  flex-direction: column;
 }
