@@ -1,0 +1,18 @@
+.page-style{
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+.navbar-container{
+  /* display: flex;
+  align-items: center; */
+  height: 75px;
+  color: #fff;
+  background-color: #234050;
+}
+.navbar-container h2{
+  margin: 0;
+  text-align: center;
+}
