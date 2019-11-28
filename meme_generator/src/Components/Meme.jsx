@@ -1,11 +1,23 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-class Meme extends React.Component{
-  render() {
+componentDidMount(){
+    fetch('https://api.imgflip.com/get_memes')
+    .then(res => res.json)
+    .then((data) => {
+      this.setState({ array: {
+        name: 'suru'
+      } })
+    })
+  }
+
+class Meme extends Component{
+  render(){
     return(
       <div>
-        <p>Cool Meme</p>
+        <p> { this.props.name } </p>
       </div>
     )
   }
 }
+
+export default Meme

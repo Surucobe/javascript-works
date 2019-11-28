@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { Component } from 'react'
 
 import Navbar from '../Components/Navbar'
-import Mem from '../Components/Meme'
+// import Meme from '../Components/Meme'
+import MemeSearch from '../Components/MemeSearch'
 import '../global.css'
 import './styles/gallery.css'
 
-class Gallery extends React.Component {
+class Gallery extends Component {
+
+  state = {
+    memes: []
+  }
+
   render() {
     return(
       <div className="page-style">
@@ -15,8 +21,8 @@ class Gallery extends React.Component {
             <p>Hero section</p>
           </div>
           <div className="gallery">
-              <Meme />
             <div>
+              <MemeSearch />
               <p>Component</p>
             </div>
           </div>
