@@ -11,7 +11,6 @@ class Gallery extends Component {
   render() {
     return(
       <div className="page-style">
-        <Navbar />
         <div className="gallery-container">
           <div className="gallery-hero">
             <p>Hero section</p>
@@ -19,11 +18,7 @@ class Gallery extends Component {
           <div className="gallery">
             <MemeSearch />
             <div className="Gallery-Assambled">
-              <Meme 
-              name="Suru"
-              lastName="Atlas"
-              hobby="Coding"
-              />
+              <Meme />
             </div>
           </div>
         </div>

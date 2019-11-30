@@ -6,7 +6,11 @@ import MemeCard from '../Components/MemeCard'
 class Meme extends Component{
   state = {
     memes: [
-      {},
+      {
+        id: '',
+        name: '',
+        url: '',
+      },
     ]
   }
   async componentDidMount(){

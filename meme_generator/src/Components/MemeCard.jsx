@@ -2,14 +2,14 @@ import React from 'react'
 
 const MemeCard = ({ memes }) =>{
     return(
-        <div>
+        <React.Fragment>
           {memes.map((meme) => (
-            <div id={meme.id}>
-              <p> Name: { meme.name } </p>
-              <img src={meme.url} alt="" width="80px" height="80px" />
+            <div key={meme.id} data-line={meme.box_count} className="Meme-Card">
+              {/* <p> Name: { meme.name } </p> */}
+                <img src={meme.url} alt={ meme.name } />
             </div>
           ))}
-        </div>
+        </ React.Fragment>
       )
     }
 
