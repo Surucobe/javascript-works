@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-import Navbar from '../Components/Navbar'
 import Meme from '../Components/Meme'
-import MemeSearch from '../Components/MemeSearch'
+import Hero from '../Components/Hero'
+// import MemeSearch from '../Components/MemeSearch'
 import '../global.css'
 import './styles/gallery.css'
 
@@ -12,11 +12,8 @@ class Gallery extends Component {
     return(
       <div className="page-style">
         <div className="gallery-container">
-          <div className="gallery-hero">
-            <p>Hero section</p>
-          </div>
           <div className="gallery">
-            <MemeSearch />
+            {/* <MemeSearch /> */}
             <div className="Gallery-Assambled">
               <Meme />
             </div>

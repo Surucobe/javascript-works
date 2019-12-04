@@ -1,16 +1,9 @@
-body::-webkit-scrollbar{
-  display: none;
-}
+
 
 .gallery-container{
   width: 100%;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  display: grid;
 }
 
 .gallery-hero{
@@ -24,18 +17,19 @@ body::-webkit-scrollbar{
 .gallery{
   width: 100%;
   height: 500px;
-  display: grid;
-  grid-template-columns: 250px 1fr;
+  display: flex;
+  /* grid-template-columns: 1fr; */
   justify-content: center;
 }
 
 .Gallery-Assambled{
   scroll-behavior: smooth;
-  width: 100%;
+  width: 80%;
   overflow: auto;
   display: grid;
   grid-gap: 20px;
   grid-template: repeat(auto-fill, 100px) / repeat(auto-fill, 100px);
+  border: 1px solid #000;
 }
 .Gallery-Assambled::-webkit-scrollbar{
   display: none;
@@ -48,11 +42,22 @@ body::-webkit-scrollbar{
   align-items: flex-start;
 }
 .meme-form input{
-  width: 150px;
+  width: 200px;
 }
 
-.Meme-Card img{
+.Meme-Card{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+}
+
+.Actual-Meme{
   cursor: pointer;
-  height: 100%;
-  width: 100%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+.Meme-Card:hover{
+  transform: scale(1.2);
 }

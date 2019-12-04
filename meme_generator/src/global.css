@@ -1,14 +1,15 @@
 .page-style{
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   overflow: auto;
   scroll-behavior: smooth;
 }
+.page-style::-webkit-scrollbar{
+  display: none;
+}
 
 .navbar-container{
-  /* display: flex;
-  align-items: center; */
-  height: 75px;
+  height: 95px;
   color: #fff;
   background-color: #234050;
 }
