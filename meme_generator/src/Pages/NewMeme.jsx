@@ -1,8 +1,17 @@
 import React from 'react'
 
+import './styles/NewMeme.css'
+
 class NewMeme extends React.Component{
   render(){
-    <h1>Here you make new meme</h1>
+    return(
+      <React.Fragment>
+        <div className="NewMeme-Container">
+          <h1>Here you make new meme</h1>
+          <img src="" alt=""/>
+        </div>
+      </React.Fragment>
+    )
   }
 }
 
