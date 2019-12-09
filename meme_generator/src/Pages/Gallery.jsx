@@ -13,7 +13,6 @@ class Gallery extends Component {
       <div className="page-style">
         <div className="gallery-container">
           <div className="gallery">
-            {/* <MemeSearch /> */}
             <div className="Gallery-Assambled">
               <Meme />
             </div>
