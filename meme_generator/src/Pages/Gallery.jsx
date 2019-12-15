@@ -1,11 +1,34 @@
 import React, { Component } from 'react'
 
-import Meme from '../Components/Meme'
+import MemeCard from '../Components/MemeCard'
 
 import '../global.css'
 import './styles/gallery.css'
 
 class Gallery extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      loading: true,
+      memes: [
+      {
+        id: '',
+        name: '',
+        url: '',
+      },
+      ],
+    }
+  }
+
+  async componentDidMount(){
+    try{
+      const call = await fetch('https://api.imgflip.com/get_memes')
+      const data = await call.json()
+      this.setState({loading: false, memes: data.data.memes})
+    }catch(error){
+      console.log(error)
+    }
+  }
 
   render() {
     return(
@@ -13,7 +36,9 @@ class Gallery extends Component {
         <div className="gallery-container">
           <div className="gallery">
             <div className="Gallery-Assambled">
-              <Meme />
+              <MemeCard
+              memes= {this.state.memes}
+              />
             </div>
           </div>
         </div>

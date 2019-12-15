@@ -8,7 +8,7 @@ class NewMeme extends React.Component{
       <React.Fragment>
         <div className="NewMeme-Container">
           <h1>Here you make new meme</h1>
-          <img src={this.state.current_meme.url} alt=""/>
+          <img src={this.state.current_meme.url} alt={this.state.current_meme.name} />
         </div>
       </React.Fragment>
     )
