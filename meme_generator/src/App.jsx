@@ -12,7 +12,7 @@ function App(){
       <Layout>
         <Switch>
           <Route exact path="/" component={ Gallery } />
-          <Route exact path="/NewMeme" component={ NewMeme } />
+          <Route exact path="/:Id/NewMeme" component={ NewMeme } />
         </Switch>
       </Layout>
     </BrowserRouter>

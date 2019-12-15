@@ -14,7 +14,7 @@ class Meme extends Component{
         name: '',
         url: '',
       },
-      ]
+      ],
     }
   }
 
