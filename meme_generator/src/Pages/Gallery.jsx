@@ -11,14 +11,25 @@ class Gallery extends Component {
     this.state = {
       loading: true,
       memes: [
-      {
+        {
+          id: '',
+          name: '',
+          url: '',
+        },
+      ],
+      currentMeme: {
         id: '',
         name: '',
         url: '',
       },
-      ],
     }
   }
+
+  sendData = e =>{
+      console.log(e.target.alt)
+      this.current = this.props.memes.filter(meme => meme === e.target.alt)
+      console.log(this.current)
+    }
 
   async componentDidMount(){
     try{
