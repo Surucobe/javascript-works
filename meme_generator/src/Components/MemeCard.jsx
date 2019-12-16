@@ -5,11 +5,15 @@ import { Link } from 'react-router-dom'
     render(){
       return(
         <React.Fragment>
-          {this.props.memes.map((meme) => (
-            <Link onClick={ this.sendData } key={ meme.id } data-line={ meme.box_count } className="Meme-Card" to={`/${meme.id}/NewMeme`}>
-              <img className="Actual-Meme" key={ meme.id } src={ meme.url } alt={ meme.name } />
-            </Link>
-          ))}
+          <ul className="meme-lister">
+            {this.props.memes.map((meme) => (
+              <li key={ meme.id }>
+                <Link className="Actual-Meme" data-line={ meme.box_count } to={`/${meme.id}/NewMeme`}>
+                  <img className="Meme-Card" src={ meme.url } alt={ meme.name } />
+                </Link>
+              </li>
+            ))}
+          </ul>
         </ React.Fragment>
       )
     }

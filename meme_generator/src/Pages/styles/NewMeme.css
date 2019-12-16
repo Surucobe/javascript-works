@@ -1,4 +1,34 @@
 .NewMeme-Container{
-  display: flex;
+  margin: 4em auto;
+  width: 800px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   border: 1px solid black;
+}
+
+.NewMeme-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NewMeme-Form{
+  display: grid;
+  grid-row-gap: 10px;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: repeat(5, 50px);
+  align-items: center;
+  text-align: center;
+}
+
+.edit-meme-container{
+  position: relative;
+  width: 170px;
+  height: 300px;
+}
+.edit-text{
+  /* color: #fff; */
+  font-weight: 600;
+  z-index: 2;
 }

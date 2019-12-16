@@ -17,11 +17,6 @@ class Gallery extends Component {
           url: '',
         },
       ],
-      currentMeme: {
-        id: '',
-        name: '',
-        url: '',
-      },
     }
   }
 

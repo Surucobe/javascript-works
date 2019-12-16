@@ -1,5 +1,3 @@
-
-
 .gallery-container{
   width: 100%;
   margin: 0;
@@ -8,17 +6,15 @@
 
 .gallery-hero{
   width: 100%;
-  height: 200px;
+  height: 150px;
   text-align: center;
-
-  /* border: 1px solid #000; */
+  border-bottom: #000 1px solid;
 }
 
 .gallery{
   width: 100%;
   height: 500px;
   display: flex;
-  /* grid-template-columns: 1fr; */
   justify-content: center;
 }
 
@@ -26,9 +22,6 @@
   scroll-behavior: smooth;
   width: 80%;
   overflow: auto;
-  display: grid;
-  grid-gap: 20px;
-  grid-template: repeat(auto-fill, 100px) / repeat(auto-fill, 100px);
   border: 1px solid #000;
 }
 .Gallery-Assambled::-webkit-scrollbar{
@@ -50,6 +43,13 @@
   justify-content: center;
   height: 100px;
   width: 100px;
+}
+
+.meme-lister{
+  list-style: none;
+  display: grid;
+  grid-gap: 20px;
+  grid-template: repeat(auto-fill, 100px) / repeat(auto-fill, 100px);
 }
 
 .Actual-Meme{
