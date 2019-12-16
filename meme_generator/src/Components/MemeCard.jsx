@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
       return(
         <React.Fragment>
           {this.props.memes.map((meme) => (
-            <Link onClick={ this.sendData } key={ meme.id } data-line={ meme.box_count } className="Meme-Card" to="">
+            <Link onClick={ this.sendData } key={ meme.id } data-line={ meme.box_count } className="Meme-Card" to={`/${meme.id}/NewMeme`}>
               <img className="Actual-Meme" key={ meme.id } src={ meme.url } alt={ meme.name } />
             </Link>
           ))}
