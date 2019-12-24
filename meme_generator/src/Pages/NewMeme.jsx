@@ -8,7 +8,7 @@ class NewMeme extends React.Component{
       currentMeme: {
         id: '',
         name: '',
-        url: 'https://media.discordapp.net/attachments/404764129895907338/649805823203082260/bm71hbw74qw31.png?width=166&height=300',
+        url: '',
       },
     }
 
