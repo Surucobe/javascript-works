@@ -28,7 +28,7 @@ function createTemplate(string){
 
 function yaRegistrado(obj){
   const dato = pokebox.includes(obj.id)
-  if(dato == false){
+  if(!dato){
     pokebox.push(obj.id)
     usuario.push(obj)
   }
@@ -36,10 +36,10 @@ function yaRegistrado(obj){
 
 
 async function whoIsPoke(i) {
-  const brook = await fetch(new Request(`${POKE_URL_REAL}${i}/`, { method: 'GET', type: 'cors', crossDomain: true }))
-  const cook = await brook.json()
-  if (cook.sprites.front_default){
-    return cook
+  const request = await fetch(new Request(`${POKE_URL_REAL}${i}/`, { method: 'GET', type: 'cors', crossDomain: true }))
+  const data = await request.json()
+  if (data.sprites.front_default){
+    return data
   }
   throw new Error('No pokemon')
 }
