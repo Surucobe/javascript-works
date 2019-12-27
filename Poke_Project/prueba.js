@@ -3,6 +3,19 @@ const mensaje = ['¡Felicidades!', 'Busca a tu pokemon <br> por nombre o ID', 'E
 const usuario = []
 const pokebox = []
 
+const regionCount = {
+  regiones: [
+    151, //kanto 151
+    251, //johto 100
+    386, //hoen 135
+    493, //sinnoh 107
+    649, //teselia 156
+    721, //kalos 72
+    809,//alola 88
+  ],
+  aura: '', //falta la nueva region
+}
+
 const go = document.getElementById('pokedex')
 const $poke = document.getElementById('poke_all')
 const $box = document.getElementById('poke_box')
@@ -15,6 +28,7 @@ const $titulo = document.getElementById('titulo')
 const $intel = document.querySelector('form')
 const $national = document.getElementById('national')
 const $library = document.getElementById('library')
+const $regions = $library.querySelectorAll('ul')
 const $close = document.getElementById('close')
 const $sub = document.getElementById('sub-modal')
 const test = $sub.querySelector('i');
@@ -284,16 +298,35 @@ test.addEventListener('click', async () =>{
 });
 
 //ten cuidado al intereactuar con esto
-(async function createLibrary(){
-  const series = 802
-  for(let i = 1; i <= series; i++){
+
+createLibrary(0)
+
+async function createLibrary(indice){
+  const max = 809
+
+  for(let i = 1; i <= max; i++){
     const a = await whoIsPoke(i)
     const str = nationalPokedex(a)
     const tem = createTemplate(str)
-    $library.append(tem)
-    clickMaster(tem)
-    tem.addEventListener('load', () => {
+
+    let pkmRegion = regionCount.regiones[indice]
+    let cr = indice //currentRegion
+
+    if(i == pkmRegion){
+
+      indice++
+
+      $regions[cr].append(tem)
+      clickMaster(tem)
+      tem.addEventListener('load', () => {
       tem.classList.add('fadeIn')
-    })
+      })
+    } else {
+      $regions[cr].append(tem)
+      clickMaster(tem)
+      tem.addEventListener('load', () => {
+      tem.classList.add('fadeIn')
+      })
+    }
   }
-})()
+}

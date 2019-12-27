@@ -13,6 +13,10 @@ body{
   width: 100vw;
 }
 
+.region{
+ border: 1px solid #000; 
+}
+
 .pad{
   display: grid;
   align-items: center;
@@ -214,11 +218,11 @@ body{
   border-radius: 6px;
   height: 600px;
   width: 800px;
-  padding: 10px 15px;
+  /* padding: 10px 15px; */
   position: relative;
   display: grid;
-  grid-gap: 15px;
-  grid-template: repeat(auto-fill, 75px)/repeat(auto-fill, 75px);
+  grid-gap: 5px;
+  /* grid-template: repeat(auto-fill, 75px)/repeat(auto-fill, 75px); */
   justify-content: center;
   scroll-behavior: smooth;
   scroll-behavior: unset;
