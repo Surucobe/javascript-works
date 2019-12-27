@@ -29,6 +29,7 @@ const $intel = document.querySelector('form')
 const $national = document.getElementById('national')
 const $library = document.getElementById('library')
 const $regions = $library.querySelectorAll('ul')
+const $list = $library.querySelectorAll('details')
 const $close = document.getElementById('close')
 const $sub = document.getElementById('sub-modal')
 const test = $sub.querySelector('i');
@@ -50,7 +51,7 @@ function yaRegistrado(obj){
 
 
 async function whoIsPoke(i) {
-  const request = await fetch(new Request(`${POKE_URL_REAL}${i}/`, { method: 'GET', type: 'cors', crossDomain: true }))
+  const request = await fetch(new Request(`${POKE_URL_REAL}${i}/`))
   const data = await request.json()
   if (data.sprites.front_default){
     return data
@@ -297,12 +298,22 @@ test.addEventListener('click', async () =>{
   })
 });
 
-//ten cuidado al intereactuar con esto
+//ten cuidado al intereactuar con esto, zona experimental
 
 createLibrary(0)
 
+$list.forEach((region) => {
+  region.querySelector('summary').addEventListener('click', expand)
+})
+
+function expand(){
+  $list.forEach((item) =>{
+    item.removeAttribute('open')
+  })
+}
+
 async function createLibrary(indice){
-  const max = 809
+  const max = 802
 
   for(let i = 1; i <= max; i++){
     const a = await whoIsPoke(i)
@@ -313,7 +324,6 @@ async function createLibrary(indice){
     let cr = indice //currentRegion
 
     if(i == pkmRegion){
-
       indice++
 
       $regions[cr].append(tem)
