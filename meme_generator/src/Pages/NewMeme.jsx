@@ -4,12 +4,16 @@ import { Link } from 'react-router-dom'
 import './styles/NewMeme.css'
 
 class NewMeme extends React.Component{
-  state = {
-      currentMeme: {
-        id: '',
-        name: '',
-        url: '',
-      },
+    constructor(props){
+      super(props)
+      this.state = {
+        myConf: {
+          method: 'GET',
+          mode: 'cors',
+          cache: 'default',
+          crossDomain: true,
+        },
+      }
     }
 
     componentDidMount(){
@@ -18,9 +22,11 @@ class NewMeme extends React.Component{
     }
 
     async getMeme(id){
-      const data = await fetch(` https://api.imgflip.com/${id}`)
+
+      const data = await fetch(`https://api.imgflip.com/get_memes`, this.state.myConf)
       const obj = data.json()
-      this.setState({currentMeme: obj})
+      // this.setState({currentMeme: obj})
+      console.log(obj)
     }
 
     handleSubmit = e =>{
@@ -45,7 +51,7 @@ class NewMeme extends React.Component{
           </form>
           <div className="NewMeme-img">
             <figure className="edit-meme-container">
-              <img className="edit-meme" src={ this.state.currentMeme.url } alt={this.state.currentMeme.name} />
+              <img className="edit-meme" src="" alt="" />
               <span className="edit-text">Hola</span>
               <span className="edit-text">que hay?</span>
             </figure>
