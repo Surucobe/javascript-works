@@ -218,11 +218,9 @@ body{
   border-radius: 6px;
   height: 600px;
   width: 800px;
-  /* padding: 10px 15px; */
   position: relative;
   display: grid;
   grid-gap: 5px;
-  /* grid-template: repeat(auto-fill, 75px)/repeat(auto-fill, 75px); */
   justify-content: center;
   scroll-behavior: smooth;
   scroll-behavior: unset;
@@ -359,7 +357,7 @@ i{
 
 @media (max-width: 800px){
   .title{
-    font-size: 5px;
+    font-size: 25px;
   }
 }
 

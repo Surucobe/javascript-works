@@ -51,7 +51,11 @@ function yaRegistrado(obj){
 
 
 async function whoIsPoke(i) {
+  debugger
   const request = await fetch(new Request(`${POKE_URL_REAL}${i}/`))
+  if(request.status === 404){
+    throw new Error('No pokemon')
+  }
   const data = await request.json()
   if (data.sprites.front_default){
     return data
@@ -172,6 +176,7 @@ function registroPokemon() {
   $overlay.classList.add('active')
 }
 
+//funcion principal encargada de busca y renderizar a los pokemones buscados dentro del input
 async function misty(dato) {
   $intel.blur()
   const a = await oak(dato)
