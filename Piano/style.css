@@ -1,15 +1,15 @@
-*{
+* {
   margin: 0;
 }
-body{
+body {
   height: 100vh;
   display: grid;
   justify-content: center;
+  align-items: center;
   grid-row-gap: 15px;
 }
 
-
-.piano{
+.piano {
   width: 1000px;
   height: 65vh;
   display: grid;
@@ -20,41 +20,49 @@ body{
   border-radius: 5px;
   overflow: hidden;
 }
-.info{
+.info {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 999;
+  width: 600px;
+  visibility: hidden;
   display: flex;
   justify-content: space-evenly;
+  color: #fff;
+  background-color: #000;
 }
-.info-tiles{
+.info-tiles {
   height: auto;
   width: 160px;
   overflow: auto;
   scroll-behavior: smooth;
   font-weight: bold;
 }
-.info-tiles ul{
+.info-tiles ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 25px;
   list-style: none;
   padding: 0;
 }
-.info-tiles li{
+.info-tiles li {
   text-align: left;
 }
-.info-tiles::-webkit-scrollbar{
+.info-tiles::-webkit-scrollbar {
   display: none;
 }
-.instr{
+.instr {
   /* border: 1px solid #000; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.instr h3{
+.instr h3 {
   text-align: center;
 }
 
-.tile-case{
+.tile-case {
   position: relative;
   width: 100%;
   display: grid;
@@ -64,7 +72,7 @@ body{
   border: 1px solid #000;
 }
 
-.tile-case-extra{
+.tile-case-extra {
   position: relative;
   width: 100%;
   display: grid;
@@ -73,51 +81,51 @@ body{
   background-color: #fff;
 }
 
-.tile{
+.tile {
   border: 1px solid #000;
   display: flex;
   align-items: flex-end;
   justify-content: center;
 }
-.tile span{
+.tile span {
   font-size: 2em;
   font-weight: 600;
 }
 
-.black-tile-case{
+.black-tile-case {
   position: absolute;
   right: 0;
   left: 0;
   top: -15px;
-  bottom:45%;
+  bottom: 45%;
   display: grid;
   grid-template-columns: repeat(2, 60px);
   justify-content: space-evenly;
 }
-.black-tile-case-extra{
+.black-tile-case-extra {
   position: absolute;
   right: 0;
   left: 0;
   top: -15px;
-  bottom:45%;
+  bottom: 45%;
   display: grid;
   grid-template-columns: repeat(3, 60px);
   justify-content: space-evenly;
 }
 
-.black-tiles{
+.black-tiles {
   background-color: #000;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   color: #fff;
 }
-.black-tiles span{
+.black-tiles span {
   font-size: 2em;
   font-weight: 600;
 }
 
-.black-tiles:active{
+.black-tiles:active {
   transform: scale(0.9);
   transition-duration: 0.08s;
 }
