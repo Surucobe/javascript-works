@@ -7,7 +7,7 @@ body {
 }
 
 .piano {
-  width: 100%;
+  max-width: 850px;
   height: 65vh;
   display: grid;
   grid-column-gap: 5px;
@@ -15,6 +15,8 @@ body {
   box-shadow: 10px 5px 5px black;
   border-radius: 5px;
   overflow: hidden;
+  margin: 0 auto;
+  margin-top: 5px;
 }
 .info {
   position: fixed;
@@ -97,10 +99,10 @@ body {
 }
 
 .extra-tiles {
-  height: 15%;
+  max-height: 15%;
   display: grid;
   justify-content: space-evenly;
-  grid-template-columns: repeat(9, 60px);
+  grid-template-columns: repeat(8, 60px);
   grid-template-rows: 15em;
 }
 
@@ -128,18 +130,17 @@ body {
   }
   .piano {
     transform: rotate(90deg);
-    width: 60%;
   }
   .black-tiles-case {
     height: 3em;
   }
   .extra-tiles {
-    grid-template-columns: repeat(9, 2em);
+    grid-template-columns: repeat(8, 2em);
   }
 }
 
 @media screen and (max-width: 480px) {
   .extra-tiles {
-    grid-template-columns: repeat(9, 2em);
+    grid-template-columns: repeat(8, 2em);
   }
 }
