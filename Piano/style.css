@@ -103,7 +103,7 @@ body {
   display: grid;
   justify-content: space-evenly;
   grid-template-columns: repeat(8, 60px);
-  grid-template-rows: 15em;
+  grid-template-rows: minmax(7em 15em);
 }
 
 .black-tiles-case {
