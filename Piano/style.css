@@ -53,6 +53,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    transform: rotate(90deg);
+    background-image: url("./query_hall.jpg");
+  }
+
   .white {
     --width: 60px;
   }
