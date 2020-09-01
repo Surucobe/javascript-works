@@ -6,9 +6,16 @@ keys.forEach(key => {
   key.addEventListener('click', () => playNote(key));
 })
 
+//Event listener for the the keyboard
 window.addEventListener('keydown', e => {
+  //Prevents repetion of the event by holding the key
+  if (e.repeat) return
+  //Takes the event and search for the audio suing the event and the dataset property
   let audio = document.querySelector(`audio[data-sound="${e.keyCode}"]`);
-  console.log(e.keyCode);
+  //In case there's no audio the function will return and end right away
+  if (!audio) return;
+
+  //Better explain ahead
   audio.currentTime = 0;
   audio.play();
 })

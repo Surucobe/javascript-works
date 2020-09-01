@@ -47,3 +47,27 @@ body {
 .black:active {
   background-color: #333;
 }
+
+/* Media querys */
+@media screen and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 768px) {
+  .white {
+    --width: 60px;
+  }
+
+  .black {
+    --width: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .white {
+    --width: 40px;
+  }
+
+  .black {
+    --width: 20px;
+  }
+}
