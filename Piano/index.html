@@ -1,99 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>JS Piano</title>
-    <link rel="icon" href="./pianito.png">
-    <link rel="stylesheet" href="./style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <div class="info">
-      <div class="info-tiles">
-        <ul>
-          <li>A = A4</li>
-          <li>S = AB4</li>
-          <li>D = B4</li>
-          <li>Q = Bb4</li>
-          <li>W = C4</li>
-          <li>F = C5</li>
-          <li>G = D4</li>
-          <li>H = D5</li>
-          <li>J = Db4</li>
-          <li>R = Db5</li>
-          <li>T = E4</li>
-          <li>Y = E5</li>
-          <li>K = Eb4</li>
-          <li>L = Eb5</li>
-          <li>Ñ = F4</li>
-          <li>I = G4</li>
-          <li>O = Gb4</li>
-        </ul>
-      </div>
-      <div class="instr">
-        <p>
-          <h3>Intrucciones</h3>
-          <p>You can use your mouse or keyboar to play the piano <br> If you are in a mobile device just use your fingers</p>
-        </p>
-      </div>
-    </div>
-    <div class="piano" id="piano">
-          <div class="tile-case">
-            <div class="black-tiles-case">
-              <!-- Teclas negras -->
-              <div class="extra-tiles">
-                  <div class="black-tiles" data-key="81"></div> 
-                  <div class="black-tiles" data-key="87"></div>
-                  <div class="black-tiles" data-key="82"></div>
-                  <div class="black-tiles" data-key="84"></div>
-                  <div class="black-tiles" data-key="89"></div>
-                  <div class="black-tiles" data-key="73"></div>
-                  <div class="black-tiles" data-key="79"></div>
-                  <div class="black-tiles" data-key="79"></div>
-                  <div class="black-tiles" data-key="79"></div>
-              </div>
-            </div>
-              <!-- Teclas blancas -->
-            <div class="tile" data-key="65"></div>
-            <div class="tile" data-key="83"></div>
-            <div class="tile" data-key="68"></div>
-            <div class="tile" data-key="70"></div>
-            <div class="tile" data-key="71"></div>
-            <div class="tile" data-key="72"></div>
-            <div class="tile" data-key="74"></div>
-            <div class="tile" data-key="75"></div>
-            <div class="tile" data-key="76"></div>
-            <div class="tile" data-key="192"></div>
-          </div>
+    <link rel="icon" href="./pianito.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="piano">
+      <!-- Decidi dividir las teclas con comentarios para tenerlas agrupadas -->
+      <!-- Primeras cinco teclas -->
+      <div data-key="C4" class="key white"></div>
+      <div data-key="Db4" class="key black"></div>
+      <div data-key="D4" class="key white"></div>
+      <div data-key="Eb4" class="key black"></div>
+      <div data-key="E4" class="key white"></div>
+      <!-- Siete teclas -->
+      <div data-key="F4" class="key white"></div>
+      <div data-key="Gb4" class="key black"></div>
+      <div data-key="G4" class="key white"></div>
+      <div data-key="Ab4" class="key black"></div>
+      <div data-key="A4" class="key white"></div>
+      <div data-key="Bb4" class="key black"></div>
+      <div data-key="B4" class="key white"></div>
+      <!-- Cinco teclas -->
+      <div data-key="C5" class="key white"></div>
+      <div data-key="Db5" class="key black"></div>
+      <div data-key="D5" class="key white"></div>
+      <div data-key="Eb5" class="key black"></div>
+      <div data-key="E5" class="key white"></div>
     </div>
 
     <!-- El orden de las teclas es de izquierda a derecha -->
 
     <!-- Teclas blancas -->
-    <audio data-sound="65" src="sound/C4.mp3"></audio>
-    <audio data-sound="83" src="sound/D4.mp3"></audio>
-    <audio data-sound="68" src="sound/E4.mp3"></audio>
+    <audio id="C4" src="sound/C4.mp3"></audio>
+    <audio id="D4" src="sound/D4.mp3"></audio>
+    <audio id="E4" src="sound/E4.mp3"></audio>
 
-    <audio data-sound="70" src="sound/F4.mp3"></audio>
-    <audio data-sound="71" src="sound/G4.mp3"></audio>
-    <audio data-sound="72" src="sound/A4.mp3"></audio>
-    <audio data-sound="74" src="sound/B4.mp3"></audio>
+    <audio id="F4" src="sound/F4.mp3"></audio>
+    <audio id="G4" src="sound/G4.mp3"></audio>
+    <audio id="A4" src="sound/A4.mp3"></audio>
+    <audio id="B4" src="sound/B4.mp3"></audio>
 
-    <audio data-sound="75" src="sound/C5.mp3"></audio>
-    <audio data-sound="76" src="sound/D5.mp3"></audio>
-    <audio data-sound="192" src="sound/E5.mp3"></audio>
+    <audio id="C5" src="sound/C5.mp3"></audio>
+    <audio id="D5" src="sound/D5.mp3"></audio>
+    <audio id="E5" src="sound/E5.mp3"></audio>
 
     <!-- Teclas negras -->
-    <audio data-sound="81" src="sound/Db4.mp3"></audio>
-    <audio data-sound="87" src="sound/Eb4.mp3"></audio>
+    <audio id="Db4" src="sound/Db4.mp3"></audio>
+    <audio id="Eb4" src="sound/Eb4.mp3"></audio>
 
-    <audio data-sound="82" src="sound/Gb4.mp3"></audio>
-    <audio data-sound="84" src="sound/Ab4.mp3"></audio>
-    <audio data-sound="89" src="sound/Bb4.mp3"></audio>
+    <audio id="Gb4" src="sound/Gb4.mp3"></audio>
+    <audio id="Ab4" src="sound/Ab4.mp3"></audio>
+    <audio id="Bb4" src="sound/Bb4.mp3"></audio>
 
-    <audio data-sound="73" src="sound/Db5.mp3"></audio>
-    <audio data-sound="79" src="sound/Eb5.mp3"></audio>
+    <audio id="Db5" src="sound/Db5.mp3"></audio>
+    <audio id="Eb5" src="sound/Eb5.mp3"></audio>
 
-<script src="./index.js"></script>
-</body>
+    <script src="./index.js"></script>
+  </body>
 </html>
