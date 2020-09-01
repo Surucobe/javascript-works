@@ -1,29 +1,30 @@
-const $piano = document.getElementById('piano');
+//Used querySelectorAll to get all the elements with a ".key" class
+const keys = document.querySelectorAll('.key');
 
-//keyboard listener function, will be added onto the window object so it it triggers every time we hit a certain key
-//still need to add a way to stop the sounds after... or maybe not
-function tileKeySound(e) {
-  const $audio = document.querySelector(`audio[data-sound="${e.keyCode}"]`);
-  //la linea de abajo esta destinada a manejar una transicion
-  const $tile = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-
-  if (!$audio) return;
-
-  $audio.currentTime = 0;
-  $audio.play();
-}
-
-window.addEventListener('keyup', tileKeySound);
-
-//function to make the piano work with the mouse, won't make it into a lone function cause there is no point 
-//(it was tricky you should feel proud of yourself :3)
-$piano.addEventListener('click', (e) => {
-  const $audio = document.querySelector(`audio[data-sound="${e.path[0].attributes[1].value}"]`);
-  //la linea de abajo esta destinada a manejar una transicion
-  const $tile = document.querySelector(`div[data-key="${e.path[0].attributes[1].value}"]`);
-
-  if (!$audio) return;
-
-  $audio.currentTime = 0;
-  $audio.play();
+//Iterate through every key inside the array to add an event listener along with the function
+keys.forEach(key => {
+  key.addEventListener('click', () => playNote(key));
 })
+
+window.addEventListener('keydown', e => {
+  let audio = document.querySelector(`audio[data-sound="${e.keyCode}"]`);
+  console.log(e.keyCode);
+  audio.currentTime = 0;
+  audio.play();
+})
+
+//Function to play the audio by clicking
+function playNote(key) {
+  //Get the key using the data set in order for it to play
+  const audio = document.getElementById(key.dataset.key);
+  //Prevents the audio from going on and on by reseting the audio time to 0 and then playing from the beginning
+  audio.currentTime = 0;
+  //Adds a class to the key to highlight the key we just played
+  audio.classList.add('active')
+  //Plays the audio
+  audio.play();
+  //With this listener the function will fire off as soon as the audio finishes
+  audio.addEventListener('ended', () => {
+    audio.classList.remove('active');
+  })
+}
