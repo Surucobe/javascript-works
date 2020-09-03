@@ -8,10 +8,10 @@ body {
   background-image: url("./hall.jpg");
   background-position: center;
   margin: 0;
-  min-height: 100vh;
+  max-height: 100vh;
+  max-width: 100vw;
   display: flex;
   justify-content: center;
-  /* align-content: center; */
 }
 
 /*Piano css rules*/
@@ -23,6 +23,11 @@ body {
 .key {
   height: calc(var(--width) * 4);
   width: var(--width);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .white {
@@ -37,6 +42,7 @@ body {
   border: 1px solid #333;
   margin: 0 calc(var(--width) / -2);
   z-index: 999;
+  color: #fff;
 }
 
 /* Animations */
@@ -48,22 +54,45 @@ body {
   background-color: #333;
 }
 
+/* css rules for the info div */
+.info {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  color: #fff;
+  z-index: 1000;
+  visibility: hidden;
+  background-color: #000;
+  border: 1px solid black;
+}
+
 /* Media querys */
 @media screen and (max-width: 1023px) {
 }
 
 @media screen and (max-width: 768px) {
   body {
-    transform: rotate(90deg);
     background-image: url("./query_hall.jpg");
+    position: relative;
+  }
+
+  .piano {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 145px;
+    right: -117px;
+  }
+
+  .key {
+    font-size: 20px;
   }
 
   .white {
-    --width: 60px;
+    --width: 50px;
   }
 
   .black {
-    --width: 40px;
+    --width: 30px;
   }
 }
 
@@ -73,6 +102,6 @@ body {
   }
 
   .black {
-    --width: 20px;
+    --width: 30px;
   }
 }
