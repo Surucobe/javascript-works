@@ -1,5 +1,7 @@
 //Used querySelectorAll to get all the elements with a ".key" class
 const keys = document.querySelectorAll('.key');
+//Const to get the container for the renderNote function
+const $history = document.getElementById('history')
 
 //Iterate through every key inside the array to add an event listener along with the function
 keys.forEach(key => {
@@ -18,6 +20,8 @@ window.addEventListener('keydown', e => {
   //Better explain ahead
   audio.currentTime = 0;
   audio.play();
+
+  renderNote(audio.id);
 })
 
 //Function to play the audio by clicking
@@ -34,4 +38,15 @@ function playNote(key) {
   audio.addEventListener('ended', () => {
     audio.classList.remove('active');
   })
+  renderNote(key.dataset.key);
+}
+
+//Function to render inside the history container the note that was just played
+function renderNote(note) {
+  //Creating a html element
+  const tag = document.createElement('li')
+  //Filling the text inside the tag
+  tag.textContent = note;
+
+  $history.append(tag);
 }
