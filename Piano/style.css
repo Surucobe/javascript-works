@@ -110,6 +110,16 @@ span {
     right: -117px;
   }
 
+  .history {
+    background-image: url("./pentagrama_query.png");
+    top: 3px;
+    bottom: 3px;
+    left: 2px;
+  }
+  .history ul li {
+    transform: rotate(90deg);
+  }
+
   .key {
     font-size: 20px;
   }
