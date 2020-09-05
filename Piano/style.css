@@ -93,6 +93,13 @@ span {
   font-weight: bold;
 }
 
+.note_1 {
+  align-self: flex-end;
+}
+.note_3 {
+  align-self: flex-start;
+}
+
 /* Media querys */
 @media screen and (max-width: 1023px) {
 }

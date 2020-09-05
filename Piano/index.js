@@ -1,3 +1,5 @@
+//Variable to work with the elements render ahead, may replaced the way to do this
+let test = 1;
 //Used querySelectorAll to get all the elements with a ".key" class
 const keys = document.querySelectorAll('.key');
 //Const to get the container for the renderNote function
@@ -43,10 +45,21 @@ function playNote(key) {
 
 //Function to render inside the history container the note that was just played
 function renderNote(note) {
+  if ($history.childNodes.length > 35) {
+    $history.removeChild($history.childNodes[0]);
+  }
+  //condition to iterate the classes
+  if (test > 3) {
+    test = 1;
+  }
   //Creating a html element
-  const tag = document.createElement('li')
+  const tag = document.createElement('li');
+  //Add class and the name of the class
+  tag.setAttribute(`class`, `note_${test}`);
   //Filling the text inside the tag
   tag.textContent = note;
 
+  test++;
+  //Append the element inside the history container
   $history.append(tag);
 }
