@@ -94,6 +94,30 @@ span {
   font-weight: bold;
 }
 
+.history_responsive {
+  position: fixed;
+  display: block;
+  width: 55px;
+  top: 10px;
+  left: 15px;
+  bottom: 10px;
+  background-image: url("./pentagrama_query.png");
+  background-size: contain;
+  background-color: rgba(255, 255, 255, 0.8);
+  visibility: hidden;
+}
+.history_responsive ul {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: block;
+  row-gap: 4px;
+  list-style: none;
+  font-weight: bold;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fill, 20px);
+}
+
 .note_1 {
   align-self: flex-end;
 }
@@ -119,12 +143,21 @@ span {
   }
 
   .history {
-    background-image: url("./pentagrama.png");
-    bottom: -30px;
-    top: 180px;
-    left: -240px;
+    visibility: hidden;
   }
 
+  .history_responsive {
+    visibility: visible;
+  }
+  .history_responsive .note_1 {
+    text-align: start;
+  }
+  .history_responsive .note_2 {
+    text-align: center;
+  }
+  .history_responsive .note_3 {
+    text-align: end;
+  }
   .note_1,
   .note_2,
   .note_3 {

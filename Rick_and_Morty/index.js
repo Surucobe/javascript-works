@@ -16,9 +16,9 @@ function rendering(tem) {
   return html.body.children[0]
 }
 
-function num(){
+function num() {
   let num = parseInt(Math.random() * 3200 / 100)
-  if(num == 0){
+  if (num == 0) {
     return num + 1
   }
   return num
@@ -52,8 +52,8 @@ function characters(obj) {
   )
 }
 
-function episodes(obj){
-  return(
+function episodes(obj) {
+  return (
     `<div>
         <h2>${obj.name}</h2>
         <h2>${obj.episode}</h2>
@@ -62,14 +62,14 @@ function episodes(obj){
   )
 }
 
-async function getChar(url){
+async function getChar(url) {
   const data = await fetch(`${url}`)
   const char = await data.json()
   console.log(char)
   return char
 }
 
-async function getEpisode(){
+async function getEpisode() {
   const data = await fetch(`${DATA.episodes}/${num()}`)
   const epi = await data.json()
   console.log(epi)
@@ -77,11 +77,12 @@ async function getEpisode(){
 }
 
 const option = head.querySelectorAll('div')
+
 option.forEach((x) => {
   x.addEventListener('click', () => alert('working'))
 })
 
-$char.onclick = () =>{
+$char.onclick = () => {
   // removeSelec()
   morty()
 }
@@ -101,16 +102,16 @@ $char.onclick = () =>{
 //   })
 // })
 
-function clearMain(){
+function clearMain() {
   while (main.firstChild) {
-      main.removeChild(main.firstChild)
-    }
+    main.removeChild(main.firstChild)
+  }
 }
 
-async function morty(){
+async function morty() {
   const promises = await getEpisode()
-  let charList = await promises.characters.splice(0,5)
-  charList.forEach(async (items) =>{
+  let charList = await promises.characters.splice(0, 5)
+  charList.forEach(async (items) => {
     let obj = await getChar(items)
     let string = characters(obj)
     let ren = rendering(string)

@@ -1,9 +1,12 @@
 //Variable to work with the elements render ahead, may replaced the way to do this
 let test = 1;
+let res_test = 1;
 //Used querySelectorAll to get all the elements with a ".key" class
 const keys = document.querySelectorAll('.key');
 //Const to get the container for the renderNote function
-const $history = document.getElementById('history')
+const $history = document.getElementById('history');
+//Const for the responsive container 
+const $hist_respn = document.getElementById('hist_respn');
 
 //Iterate through every key inside the array to add an event listener along with the function
 keys.forEach(key => {
@@ -24,6 +27,7 @@ window.addEventListener('keydown', e => {
   audio.play();
 
   renderNote(audio.id);
+  renderResnp(audio.id);
 })
 
 //Function to play the audio by clicking
@@ -41,6 +45,7 @@ function playNote(key) {
     audio.classList.remove('active');
   })
   renderNote(key.dataset.key);
+  renderResnp(key.dataset.key);
 }
 
 //Function to render inside the history container the note that was just played
@@ -62,4 +67,24 @@ function renderNote(note) {
   test++;
   //Append the element inside the history container
   $history.append(tag);
+}
+//Function to render notes in the responsive container
+function renderResnp(note) {
+  if ($hist_respn.childNodes.length > 28) {
+    $hist_respn.removeChild($hist_respn.childNodes[0]);
+  }
+  //condition to iterate the classes
+  if (res_test > 3) {
+    res_test = 1;
+  }
+  //Creating an empty html element
+  const tag = document.createElement('li');
+  //Add class and the name of the class
+  tag.setAttribute(`class`, `note_${res_test}`);
+  //Filling the text inside the tag
+  tag.innerHTML = `<span>${note}</span>`;
+
+  //Append the element inside the history container
+  $hist_respn.append(tag);
+  res_test++;
 }
